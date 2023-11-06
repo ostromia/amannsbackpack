@@ -4,6 +4,35 @@
     import "$lib/tf2build.css";
 
     let searchQuery: string = "";
+
+    let filter_class = {
+        "scout": false,
+        "soldier": false,
+        "pyro": false,
+        "demoman": false,
+        "heavy": false,
+        "engineer": false,
+        "medic": false,
+        "spy": false,
+        "sniper": false
+    }
+
+    let _filters = {
+        class: []
+    };
+
+    function onChange(classes) {
+        // add selected classes to _filters.class
+        _filters.class = [];
+        for (const [key, value] of Object.entries(filter_class)) {
+            if (value == true) {
+                _filters.class.push( key.charAt(0).toUpperCase() + key.slice(1) );
+            }
+        }
+    }
+
+    $: onChange(filter_class)
+
 </script>
 
 <svelte:head>
@@ -12,15 +41,66 @@
 
 <div class="filters-wrapper">
     <input bind:value={searchQuery} type="text" id="searchbar" placeholder="Search for items..">
+
+    <div class="class-filter-wrapper">
+        <div class="checkbox-wrapper">
+            <label for="Scout">Scout</label>
+            <input type="checkbox" id="Scout" name="Scout" bind:checked={filter_class.scout}>
+        </div>
+
+        <div class="checkbox-wrapper">
+            <label for="Soldier">Soldier</label>
+            <input type="checkbox" id="Soldier" name="Soldier" bind:checked={filter_class.soldier}>
+        </div>
+
+        <div class="checkbox-wrapper">
+            <label for="Pyro">Pyro</label>
+            <input type="checkbox" id="Pyro" name="Pyro" bind:checked={filter_class.pyro}>
+        </div>
+
+        <div class="checkbox-wrapper">
+            <label for="Demoman">Demoman</label>
+            <input type="checkbox" id="Demoman" name="Demoman" bind:checked={filter_class.demoman}>
+        </div>
+
+        <div class="checkbox-wrapper">
+            <label for="Heavy">Heavy</label>
+            <input type="checkbox" id="Heavy" name="Heavy" bind:checked={filter_class.heavy}>
+        </div>
+
+        <div class="checkbox-wrapper">
+            <label for="Engineer">Engineer</label>
+            <input type="checkbox" id="Engineer" name="Engineer" bind:checked={filter_class.engineer}>
+        </div>
+
+        <div class="checkbox-wrapper">
+            <label for="Medic">Medic</label>
+            <input type="checkbox" id="Medic" name="Medic" bind:checked={filter_class.medic}>
+        </div>
+
+        <div class="checkbox-wrapper">
+            <label for="Spy">Spy</label>
+            <input type="checkbox" id="Spy" name="Spy" bind:checked={filter_class.spy}>
+        </div>
+
+        <div class="checkbox-wrapper">
+            <label for="Sniper">Sniper</label>
+            <input type="checkbox" id="Sniper" name="Sniper" bind:checked={filter_class.sniper}>
+        </div>
+    </div>
 </div>
+
+
 
 <section id="table">
     {#each cosmeticsJSON as item}
         { #if searchQuery.trim() == "" || item.name.toLowerCase().includes(searchQuery.trim()) }
+        { #if _filters.class.length == 0 || _filters.class.some(i => item.class.includes(i)) }
             <div class="item-wrapper" id="{item.name}">
                 <img alt="{item.name}" class="item-image" src="{item.src}">
                 <div class="underline" style="background-color:{gradeColors[item.grade]}"></div>
             </div>
+        {/if}
         {/if}
     {/each}
 </section>
@@ -40,8 +120,27 @@
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
-        padding: 1rem 2rem;
+        padding: 0.5rem;
         box-sizing: border-box;
+    }
+
+    .class-filter-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .class-filter-wrapper .checkbox-wrapper {
+        padding-right: 1.5rem;
+    }
+
+    .class-filter-wrapper .checkbox-wrapper > * {
+        vertical-align: middle;
+    }
+
+    .class-filter-wrapper label {
+        font-family: "tf2build";
+        color: white;
     }
 
     #searchbar {
