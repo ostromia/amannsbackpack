@@ -17,6 +17,32 @@
         "sniper": false
     }
 
+    function sortCosmeticsChronologically(cosmeticsJSON: any) {
+        let cosmetics = cosmeticsJSON;
+        // convert date into epoch timestamp
+        for (let i = 0; i < cosmetics.length; i++) {
+            let item = cosmetics[i];
+            const d = new Date(item.date.toString().replace(" Patch", ""));
+            item.date = d.getTime();
+        }
+        // get array of epoch timestamps sorted numerically
+        const DATES = Array.from(new Set(cosmetics.map(i => i.date))).sort();
+        // sort cosmetics in chronological order
+        let cosmetics_sorted = [];
+        for (let i = 0; i < DATES.length; i++) {
+            let date = DATES[i];
+            for (let j = 0; j < cosmetics.length; j++) {
+                let item = cosmetics[j];
+                if (item.date == date) {
+                    cosmetics_sorted.push(item);
+                }
+            }
+        }
+        return cosmetics_sorted;
+    }
+
+    let cosmetics = sortCosmeticsChronologically(cosmeticsJSON);
+
     let _filters = {
         class: []
     };
@@ -31,8 +57,14 @@
         }
     }
 
-    $: onChange(filter_class)
+    let dateReleased: HTMLButtonElement;
+    function dR_B() {
+        cosmetics = cosmetics.reverse();
+        dateReleased.innerHTML = "Date Released " + (dateReleased.innerHTML.includes("(Newest)") ? "(Oldest)" : "(Newest)");
+    }
 
+    $: cosmetics
+    $: onChange(filter_class)
 </script>
 
 <svelte:head>
@@ -41,6 +73,10 @@
 
 <div class="filters-wrapper">
     <input bind:value={searchQuery} type="text" id="searchbar" placeholder="Search for items..">
+
+    <button bind:this={dateReleased} type="button" id="date-released-button" on:click={dR_B}>
+        Date Released (Oldest)
+    </button>
 
     <div class="class-filter-wrapper">
         <div class="checkbox-wrapper">
@@ -90,10 +126,8 @@
     </div>
 </div>
 
-
-
 <section id="table">
-    {#each cosmeticsJSON as item}
+    {#each cosmetics as item}
         { #if searchQuery.trim() == "" || item.name.toLowerCase().includes(searchQuery.trim()) }
         { #if _filters.class.length == 0 || _filters.class.some(i => item.class.includes(i)) }
             <div class="item-wrapper" id="{item.name}">
@@ -114,6 +148,11 @@
     }
     :global(body) {
         margin: 0;
+    }
+
+    #date-released-button {
+        font-family: "tf2build";
+        border-width: 3px;
     }
 
     .filters-wrapper {
