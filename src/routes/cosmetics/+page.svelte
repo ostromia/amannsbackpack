@@ -93,7 +93,9 @@
         { #if filters.class.length == 0 || filters.class.some(i => item.class.includes(i)) }
         { #if filters.grade.length == 0 || filters.grade.some(i => item.grade.includes(i)) }
             <div class="item-wrapper" id="{item.name}">
-                <img alt="{item.name}" class="item-image" src="{item.src}">
+                <a href={item.wiki}>
+                    <img alt="{item.name}" class="item-image" src="{item.src}">
+                </a>
                 <div class="underline" style="background-color:{item.color}"></div>
             </div>
         {/if}
