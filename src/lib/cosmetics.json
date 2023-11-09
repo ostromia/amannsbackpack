@@ -585,9 +585,13 @@
     {
         "name": "Mutton Mann",
         "class": [
-            "Classes",
-            "Pyro",
-            "Spy"
+            "Scout",
+            "Soldier",
+            "Demoman",
+            "Heavy",
+            "Engineer",
+            "Medic",
+            "Sniper"
         ],
         "grade": "qua_unique",
         "update": "Mecha Update",
@@ -796,8 +800,14 @@
     {
         "name": "Macho Mann",
         "class": [
-            "Classes",
-            "Pyro"
+            "Scout",
+            "Soldier",
+            "Demoman",
+            "Heavy",
+            "Engineer",
+            "Medic",
+            "Sniper",
+            "Spy"
         ],
         "grade": "qua_unique",
         "update": "Summer Event 2013",
@@ -1416,9 +1426,13 @@
     {
         "name": "Buttler",
         "class": [
-            "Classes",
-            "Demoman",
-            "Sniper"
+            "Scout",
+            "Soldier",
+            "Pyro",
+            "Heavy",
+            "Engineer",
+            "Medic",
+            "Spy"
         ],
         "grade": "qua_unique",
         "update": "Promotional",
@@ -1454,8 +1468,14 @@
     {
         "name": "Teufort Knight",
         "class": [
-            "Classes",
-            "Pyro"
+            "Scout",
+            "Soldier",
+            "Demoman",
+            "Heavy",
+            "Engineer",
+            "Medic",
+            "Sniper",
+            "Spy"
         ],
         "grade": "qua_unique",
         "update": "Promotional",
@@ -1578,9 +1598,13 @@
     {
         "name": "Reader's Choice",
         "class": [
-            "Classes",
-            "Medic",
-            "Sniper"
+            "Scout",
+            "Soldier",
+            "Pyro",
+            "Demoman",
+            "Heavy",
+            "Engineer",
+            "Spy"
         ],
         "grade": "grade_mercenary",
         "update": "Smissmas 2016",
@@ -2000,8 +2024,14 @@
     {
         "name": "Particulate Protector",
         "class": [
-            "Classes",
-            "Pyro"
+            "Scout",
+            "Soldier",
+            "Demoman",
+            "Heavy",
+            "Engineer",
+            "Medic",
+            "Sniper",
+            "Spy"
         ],
         "grade": "grade_mercenary",
         "update": "Smissmas 2020",
@@ -2676,22 +2706,6 @@
         "src": "https://wiki.teamfortress.com/w/images/3/3b/Backpack_Conquistador.png"
     },
     {
-        "name": "Teufort Tooth Kicker",
-        "class": [
-            "Scout",
-            "Soldier",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "March 1, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Teufort_Tooth_Kicker",
-        "src": "https://wiki.teamfortress.com/w/images/c/cc/Backpack_Teufort_Tooth_Kicker.png"
-    },
-    {
         "name": "Cross-Comm Crash Helmet",
         "class": [
             "Soldier"
@@ -2764,22 +2778,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Tin_Pot",
         "src": "https://wiki.teamfortress.com/w/images/8/80/Backpack_Tin_Pot.png"
-    },
-    {
-        "name": "Crafty Hair",
-        "class": [
-            "Scout",
-            "Soldier",
-            "Medic",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "September 4, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Crafty_Hair",
-        "src": "https://wiki.teamfortress.com/w/images/8/81/Backpack_Crafty_Hair.png"
     },
     {
         "name": "War Pig",
@@ -2898,20 +2896,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Soldier%27s_Slope_Scopers",
         "src": "https://wiki.teamfortress.com/w/images/7/7a/Backpack_Soldier%27s_Slope_Scopers.png"
-    },
-    {
-        "name": "Mutton Mann",
-        "class": [
-            "Classes",
-            "Pyro",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2012 Patch",
-        "update": "Mecha Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Mutton_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/2/2d/Backpack_Mutton_Mann.png"
     },
     {
         "name": "Doe-Boy",
@@ -3130,19 +3114,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Whirly_Warrior",
         "src": "https://wiki.teamfortress.com/w/images/1/19/Backpack_Whirly_Warrior.png"
-    },
-    {
-        "name": "Macho Mann",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "July 10, 2013 Patch",
-        "update": "Summer Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Macho_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/f/f9/Backpack_Macho_Mann.png"
     },
     {
         "name": "Cuban Bristle Crisis",
@@ -3657,20 +3628,6 @@
         "src": "https://wiki.teamfortress.com/w/images/0/0e/Backpack_Hellmet.png"
     },
     {
-        "name": "Buttler",
-        "class": [
-            "Classes",
-            "Demoman",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Buttler",
-        "src": "https://wiki.teamfortress.com/w/images/8/81/Backpack_Buttler.png"
-    },
-    {
         "name": "Caped Crusader",
         "class": [
             "Soldier"
@@ -3681,19 +3638,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Caped_Crusader",
         "src": "https://wiki.teamfortress.com/w/images/9/92/Backpack_Caped_Crusader.png"
-    },
-    {
-        "name": "Teufort Knight",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Teufort_Knight",
-        "src": "https://wiki.teamfortress.com/w/images/0/07/Backpack_Teufort_Knight.png"
     },
     {
         "name": "Diplomat",
@@ -3733,21 +3677,6 @@
         "src": "https://wiki.teamfortress.com/w/images/b/b0/Backpack_Patriot%27s_Pouches.png"
     },
     {
-        "name": "Pestering Jester",
-        "class": [
-            "Scout",
-            "Soldier",
-            "Pyro",
-            "Heavy"
-        ],
-        "grade": "grade_assassin",
-        "date": "October 21, 2016 Patch",
-        "update": "Scream Fortress VIII",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Pestering_Jester",
-        "src": "https://wiki.teamfortress.com/w/images/4/4f/Backpack_Pestering_Jester.png"
-    },
-    {
         "name": "Handy Canes",
         "class": [
             "Soldier",
@@ -3760,20 +3689,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Handy_Canes",
         "src": "https://wiki.teamfortress.com/w/images/a/a4/Backpack_Handy_Canes.png"
-    },
-    {
-        "name": "Reader's Choice",
-        "class": [
-            "Classes",
-            "Medic",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 21, 2016 Patch",
-        "update": "Smissmas 2016",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Reader%27s_Choice",
-        "src": "https://wiki.teamfortress.com/w/images/c/cb/Backpack_Reader%27s_Choice.png"
     },
     {
         "name": "Socked and Loaded",
@@ -4182,19 +4097,6 @@
         "restriction": "Halloween",
         "wiki": "https://wiki.teamfortress.com/wiki/War_Blunder",
         "src": "https://wiki.teamfortress.com/w/images/2/25/Backpack_War_Blunder.png"
-    },
-    {
-        "name": "Particulate Protector",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 3, 2020 Patch",
-        "update": "Smissmas 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Particulate_Protector",
-        "src": "https://wiki.teamfortress.com/w/images/6/62/Backpack_Particulate_Protector.png"
     },
     {
         "name": "Panisher",
@@ -4799,20 +4701,6 @@
         "src": "https://wiki.teamfortress.com/w/images/4/43/Backpack_Moonman_Backpack.png"
     },
     {
-        "name": "Ornament Armament",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "December 15, 2011 Patch",
-        "update": "Australian Christmas 2011",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Ornament_Armament",
-        "src": "https://wiki.teamfortress.com/w/images/e/e5/Backpack_Ornament_Armament.png"
-    },
-    {
         "name": "Waxy Wayfinder",
         "class": [
             "Pyro"
@@ -4848,20 +4736,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Triclops",
         "src": "https://wiki.teamfortress.com/w/images/4/4a/Backpack_Triclops.png"
-    },
-    {
-        "name": "Professor's Pineapple",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "May 31, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Professor%27s_Pineapple",
-        "src": "https://wiki.teamfortress.com/w/images/3/3e/Backpack_Professor%27s_Pineapple.png"
     },
     {
         "name": "Burning Bongos",
@@ -4973,21 +4847,6 @@
         "src": "https://wiki.teamfortress.com/w/images/2/29/Backpack_Coffin_Kit.png"
     },
     {
-        "name": "Exorcizor",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Medic",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "October 26, 2012 Patch",
-        "update": "Spectral Halloween Special",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Exorcizor",
-        "src": "https://wiki.teamfortress.com/w/images/c/c2/Backpack_Exorcizor.png"
-    },
-    {
         "name": "Plutonidome",
         "class": [
             "Pyro"
@@ -5022,36 +4881,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Wraith_Wrap",
         "src": "https://wiki.teamfortress.com/w/images/2/2c/Backpack_Wraith_Wrap.png"
-    },
-    {
-        "name": "Bonedolier",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "October 26, 2012 Patch",
-        "update": "Spectral Halloween Special",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bonedolier",
-        "src": "https://wiki.teamfortress.com/w/images/9/98/Backpack_Bonedolier.png"
-    },
-    {
-        "name": "Deadliest Duckling",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "November 16, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Deadliest_Duckling",
-        "src": "https://wiki.teamfortress.com/w/images/3/3f/Backpack_Deadliest_Duckling.png"
     },
     {
         "name": "DethKapp",
@@ -5388,20 +5217,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Air_Raider",
         "src": "https://wiki.teamfortress.com/w/images/f/f1/Backpack_Air_Raider.png"
-    },
-    {
-        "name": "Beep Boy",
-        "class": [
-            "Scout",
-            "Pyro",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Beep_Boy",
-        "src": "https://wiki.teamfortress.com/w/images/1/16/Backpack_Beep_Boy.png"
     },
     {
         "name": "Bone Dome",
@@ -5787,33 +5602,6 @@
         "restriction": "Halloween",
         "wiki": "https://wiki.teamfortress.com/wiki/Vicious_Visage",
         "src": "https://wiki.teamfortress.com/w/images/b/bc/Backpack_Vicious_Visage.png"
-    },
-    {
-        "name": "Candleer",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2013 Patch",
-        "update": "Scream Fortress V",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Candleer",
-        "src": "https://wiki.teamfortress.com/w/images/c/c7/Backpack_Candleer.png"
-    },
-    {
-        "name": "Pin Pals",
-        "class": [
-            "Soldier",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2013 Patch",
-        "update": "Scream Fortress V",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Pin_Pals",
-        "src": "https://wiki.teamfortress.com/w/images/d/d8/Backpack_Pin_Pals.png"
     },
     {
         "name": "Snaggletoothed Stetson",
@@ -6288,20 +6076,6 @@
         "src": "https://wiki.teamfortress.com/w/images/d/df/Backpack_Neptune%27s_Nightmare.png"
     },
     {
-        "name": "Buttler",
-        "class": [
-            "Classes",
-            "Demoman",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Buttler",
-        "src": "https://wiki.teamfortress.com/w/images/8/81/Backpack_Buttler.png"
-    },
-    {
         "name": "Fear Monger",
         "class": [
             "Pyro"
@@ -6362,21 +6136,6 @@
         "src": "https://wiki.teamfortress.com/w/images/3/35/Backpack_Hovering_Hotshot.png"
     },
     {
-        "name": "Pestering Jester",
-        "class": [
-            "Scout",
-            "Soldier",
-            "Pyro",
-            "Heavy"
-        ],
-        "grade": "grade_assassin",
-        "date": "October 21, 2016 Patch",
-        "update": "Scream Fortress VIII",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Pestering_Jester",
-        "src": "https://wiki.teamfortress.com/w/images/4/4f/Backpack_Pestering_Jester.png"
-    },
-    {
         "name": "Flammable Favor",
         "class": [
             "Pyro"
@@ -6389,34 +6148,6 @@
         "src": "https://wiki.teamfortress.com/w/images/2/25/Backpack_Flammable_Favor.png"
     },
     {
-        "name": "Socked and Loaded",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "grade_commando",
-        "date": "December 21, 2016 Patch",
-        "update": "Smissmas 2016",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Socked_and_Loaded",
-        "src": "https://wiki.teamfortress.com/w/images/d/d7/Backpack_Socked_and_Loaded.png"
-    },
-    {
-        "name": "Handy Canes",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 21, 2016 Patch",
-        "update": "Smissmas 2016",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Handy_Canes",
-        "src": "https://wiki.teamfortress.com/w/images/a/a4/Backpack_Handy_Canes.png"
-    },
-    {
         "name": "Pyro the Flamedeer",
         "class": [
             "Pyro"
@@ -6427,20 +6158,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Pyro_the_Flamedeer",
         "src": "https://wiki.teamfortress.com/w/images/a/a6/Backpack_Pyro_the_Flamedeer.png"
-    },
-    {
-        "name": "Reader's Choice",
-        "class": [
-            "Classes",
-            "Medic",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 21, 2016 Patch",
-        "update": "Smissmas 2016",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Reader%27s_Choice",
-        "src": "https://wiki.teamfortress.com/w/images/c/cb/Backpack_Reader%27s_Choice.png"
     },
     {
         "name": "Sweet Smissmas Sweater",
@@ -6465,20 +6182,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Airtight_Arsonist",
         "src": "https://wiki.teamfortress.com/w/images/5/52/Backpack_Airtight_Arsonist.png"
-    },
-    {
-        "name": "Bananades",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "grade_assassin",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bananades",
-        "src": "https://wiki.teamfortress.com/w/images/5/57/Backpack_Bananades.png"
     },
     {
         "name": "Deity's Dress",
@@ -6820,22 +6523,6 @@
         "src": "https://wiki.teamfortress.com/w/images/7/71/Backpack_Flamehawk.png"
     },
     {
-        "name": "Boom Boxers",
-        "class": [
-            "Scout",
-            "Pyro",
-            "Demoman",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 1, 2020 Patch",
-        "update": "Scream Fortress 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Boom_Boxers",
-        "src": "https://wiki.teamfortress.com/w/images/1/1c/Backpack_Boom_Boxers.png"
-    },
-    {
         "name": "Fire Tooth",
         "class": [
             "Pyro"
@@ -6966,20 +6653,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Smiling_Somen",
         "src": "https://wiki.teamfortress.com/w/images/f/f9/Backpack_Smiling_Somen.png"
-    },
-    {
-        "name": "Trickster's Treats",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 5, 2021 Patch",
-        "update": "Scream Fortress 2021",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Trickster%27s_Treats",
-        "src": "https://wiki.teamfortress.com/w/images/7/7e/Backpack_Trickster%27s_Treats.png"
     },
     {
         "name": "Wandering Wraith",
@@ -7392,21 +7065,6 @@
         "src": "https://wiki.teamfortress.com/w/images/2/24/Backpack_Buccaneer%27s_Bicorne.png"
     },
     {
-        "name": "Hat With No Name",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 13, 2011 Patch",
-        "update": "Manniversary Update & Sale",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Hat_With_No_Name",
-        "src": "https://wiki.teamfortress.com/w/images/0/05/Backpack_Hat_With_No_Name.png"
-    },
-    {
         "name": "Tavish DeGroot Experience",
         "class": [
             "Demoman"
@@ -7455,37 +7113,6 @@
         "src": "https://wiki.teamfortress.com/w/images/8/88/Backpack_Scottish_Snarl.png"
     },
     {
-        "name": "All-Father",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Medic",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 15, 2011 Patch",
-        "update": "Australian Christmas 2011",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/All-Father",
-        "src": "https://wiki.teamfortress.com/w/images/6/6e/Backpack_All-Father.png"
-    },
-    {
-        "name": "Ornament Armament",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "December 15, 2011 Patch",
-        "update": "Australian Christmas 2011",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Ornament_Armament",
-        "src": "https://wiki.teamfortress.com/w/images/e/e5/Backpack_Ornament_Armament.png"
-    },
-    {
         "name": "Bolgan",
         "class": [
             "Demoman"
@@ -7520,36 +7147,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Snapped_Pupil",
         "src": "https://wiki.teamfortress.com/w/images/d/d6/Backpack_Snapped_Pupil.png"
-    },
-    {
-        "name": "Teufort Tooth Kicker",
-        "class": [
-            "Scout",
-            "Soldier",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "March 1, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Teufort_Tooth_Kicker",
-        "src": "https://wiki.teamfortress.com/w/images/c/cc/Backpack_Teufort_Tooth_Kicker.png"
-    },
-    {
-        "name": "Professor's Pineapple",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "May 31, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Professor%27s_Pineapple",
-        "src": "https://wiki.teamfortress.com/w/images/3/3e/Backpack_Professor%27s_Pineapple.png"
     },
     {
         "name": "Liquor Locker",
@@ -7637,49 +7234,6 @@
         "src": "https://wiki.teamfortress.com/w/images/2/25/Backpack_King_of_Scotland_Cape.png"
     },
     {
-        "name": "Menpo",
-        "class": [
-            "Soldier",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "September 27, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Menpo",
-        "src": "https://wiki.teamfortress.com/w/images/0/0d/Backpack_Menpo.png"
-    },
-    {
-        "name": "Bonedolier",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "October 26, 2012 Patch",
-        "update": "Spectral Halloween Special",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bonedolier",
-        "src": "https://wiki.teamfortress.com/w/images/9/98/Backpack_Bonedolier.png"
-    },
-    {
-        "name": "Spooky Sleeves",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 26, 2012 Patch",
-        "update": "Spectral Halloween Special",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Spooky_Sleeves",
-        "src": "https://wiki.teamfortress.com/w/images/d/d5/Backpack_Spooky_Sleeves.png"
-    },
-    {
         "name": "Voodoo JuJu (Slight Return)",
         "class": [
             "Demoman"
@@ -7704,22 +7258,6 @@
         "src": "https://wiki.teamfortress.com/w/images/3/33/Backpack_Voodoo-Cursed_Demoman_Soul.png"
     },
     {
-        "name": "Deadliest Duckling",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "November 16, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Deadliest_Duckling",
-        "src": "https://wiki.teamfortress.com/w/images/3/3f/Backpack_Deadliest_Duckling.png"
-    },
-    {
         "name": "Cool Breeze",
         "class": [
             "Demoman"
@@ -7730,49 +7268,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Cool_Breeze",
         "src": "https://wiki.teamfortress.com/w/images/0/06/Backpack_Cool_Breeze.png"
-    },
-    {
-        "name": "Mutton Mann",
-        "class": [
-            "Classes",
-            "Pyro",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2012 Patch",
-        "update": "Mecha Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Mutton_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/2/2d/Backpack_Mutton_Mann.png"
-    },
-    {
-        "name": "Wilson Weave",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Medic"
-        ],
-        "grade": "qua_unique",
-        "date": "March 12, 2013 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Wilson_Weave",
-        "src": "https://wiki.teamfortress.com/w/images/7/72/Backpack_Wilson_Weave.png"
-    },
-    {
-        "name": "Buck Turner All-Stars",
-        "class": [
-            "Scout",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "February 15, 2013 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Buck_Turner_All-Stars",
-        "src": "https://wiki.teamfortress.com/w/images/6/68/Backpack_Buck_Turner_All-Stars.png"
     },
     {
         "name": "Blind Justice",
@@ -7979,19 +7474,6 @@
         "src": "https://wiki.teamfortress.com/w/images/0/0f/Backpack_Glasgow_Great_Helm.png"
     },
     {
-        "name": "Macho Mann",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "July 10, 2013 Patch",
-        "update": "Summer Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Macho_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/f/f9/Backpack_Macho_Mann.png"
-    },
-    {
         "name": "Stormin' Norman",
         "class": [
             "Demoman"
@@ -8050,47 +7532,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Pirate_Bandana",
         "src": "https://wiki.teamfortress.com/w/images/7/7a/Backpack_Pirate_Bandana.png"
-    },
-    {
-        "name": "Weight Room Warmer",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Heavy"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Weight_Room_Warmer",
-        "src": "https://wiki.teamfortress.com/w/images/4/4f/Backpack_Weight_Room_Warmer.png"
-    },
-    {
-        "name": "Baphomet Trotters",
-        "class": [
-            "Scout",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2013 Patch",
-        "update": "Scream Fortress V",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Baphomet_Trotters",
-        "src": "https://wiki.teamfortress.com/w/images/5/55/Backpack_Baphomet_Trotters.png"
-    },
-    {
-        "name": "Candleer",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2013 Patch",
-        "update": "Scream Fortress V",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Candleer",
-        "src": "https://wiki.teamfortress.com/w/images/c/c7/Backpack_Candleer.png"
     },
     {
         "name": "Cap'n Calamari",
@@ -8238,19 +7679,6 @@
         "src": "https://wiki.teamfortress.com/w/images/7/7a/Backpack_Tartan_Tyrolean.png"
     },
     {
-        "name": "Sub Zero Suit",
-        "class": [
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2013 Patch",
-        "update": "Smissmas 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Sub_Zero_Suit",
-        "src": "https://wiki.teamfortress.com/w/images/c/c0/Backpack_Sub_Zero_Suit.png"
-    },
-    {
         "name": "Bushi-Dou",
         "class": [
             "Demoman"
@@ -8285,19 +7713,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Sangu_Sleeves",
         "src": "https://wiki.teamfortress.com/w/images/e/e5/Backpack_Sangu_Sleeves.png"
-    },
-    {
-        "name": "Sole Saviors",
-        "class": [
-            "Scout",
-            "Demoman"
-        ],
-        "grade": "qua_unique",
-        "date": "February 7, 2014 Patch",
-        "update": "Strongbox Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Sole_Saviors",
-        "src": "https://wiki.teamfortress.com/w/images/5/5d/Backpack_Sole_Saviors.png"
     },
     {
         "name": "Stylish DeGroot",
@@ -8567,19 +7982,6 @@
         "src": "https://wiki.teamfortress.com/w/images/e/e9/Backpack_Hood_of_Sorrows.png"
     },
     {
-        "name": "Teufort Knight",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Teufort_Knight",
-        "src": "https://wiki.teamfortress.com/w/images/0/07/Backpack_Teufort_Knight.png"
-    },
-    {
         "name": "Shin Shredders",
         "class": [
             "Demoman"
@@ -8676,48 +8078,6 @@
         "src": "https://wiki.teamfortress.com/w/images/5/50/Backpack_Elf_Esteem.png"
     },
     {
-        "name": "Socked and Loaded",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "grade_commando",
-        "date": "December 21, 2016 Patch",
-        "update": "Smissmas 2016",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Socked_and_Loaded",
-        "src": "https://wiki.teamfortress.com/w/images/d/d7/Backpack_Socked_and_Loaded.png"
-    },
-    {
-        "name": "Handy Canes",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 21, 2016 Patch",
-        "update": "Smissmas 2016",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Handy_Canes",
-        "src": "https://wiki.teamfortress.com/w/images/a/a4/Backpack_Handy_Canes.png"
-    },
-    {
-        "name": "Reader's Choice",
-        "class": [
-            "Classes",
-            "Medic",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 21, 2016 Patch",
-        "update": "Smissmas 2016",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Reader%27s_Choice",
-        "src": "https://wiki.teamfortress.com/w/images/c/cb/Backpack_Reader%27s_Choice.png"
-    },
-    {
         "name": "Blast Defense",
         "class": [
             "Demoman"
@@ -8728,34 +8088,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Blast_Defense",
         "src": "https://wiki.teamfortress.com/w/images/5/58/Backpack_Blast_Defense.png"
-    },
-    {
-        "name": "Bananades",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "grade_assassin",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bananades",
-        "src": "https://wiki.teamfortress.com/w/images/5/57/Backpack_Bananades.png"
-    },
-    {
-        "name": "War Eagle",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Heavy"
-        ],
-        "grade": "grade_elite",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/War_Eagle",
-        "src": "https://wiki.teamfortress.com/w/images/c/c0/Backpack_War_Eagle.png"
     },
     {
         "name": "Blast Blocker",
@@ -8792,21 +8124,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Melody_Of_Misery",
         "src": "https://wiki.teamfortress.com/w/images/4/4b/Backpack_Melody_of_Misery.png"
-    },
-    {
-        "name": "Antarctic Eyewear",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "March 28, 2018 Patch",
-        "update": "Blue Moon Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Antarctic_Eyewear",
-        "src": "https://wiki.teamfortress.com/w/images/c/cc/Backpack_Antarctic_Eyewear.png"
     },
     {
         "name": "Frag Proof Fragger",
@@ -8857,19 +8174,6 @@
         "src": "https://wiki.teamfortress.com/w/images/c/c2/Backpack_Backbreaker%27s_Skullcracker.png"
     },
     {
-        "name": "Bobby Bonnet",
-        "class": [
-            "Soldier",
-            "Demoman"
-        ],
-        "grade": "grade_assassin",
-        "date": "July 25, 2019 Patch",
-        "update": "Summer 2019 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bobby_Bonnet",
-        "src": "https://wiki.teamfortress.com/w/images/8/8f/Backpack_Bobby_Bonnet.png"
-    },
-    {
         "name": "Dynamite Abs",
         "class": [
             "Demoman"
@@ -8918,37 +8222,6 @@
         "src": "https://wiki.teamfortress.com/w/images/a/a6/Backpack_Hazard_Headgear.png"
     },
     {
-        "name": "Sophisticated Smoker",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "grade_mercenary",
-        "date": "August 21, 2020 Patch",
-        "update": "Summer 2020 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Sophisticated_Smoker",
-        "src": "https://wiki.teamfortress.com/w/images/5/50/Backpack_Sophisticated_Smoker.png"
-    },
-    {
-        "name": "Boom Boxers",
-        "class": [
-            "Scout",
-            "Pyro",
-            "Demoman",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 1, 2020 Patch",
-        "update": "Scream Fortress 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Boom_Boxers",
-        "src": "https://wiki.teamfortress.com/w/images/1/1c/Backpack_Boom_Boxers.png"
-    },
-    {
         "name": "Helm Helm",
         "class": [
             "Demoman"
@@ -8961,19 +8234,6 @@
         "src": "https://wiki.teamfortress.com/w/images/6/61/Backpack_Helm_Helm.png"
     },
     {
-        "name": "Particulate Protector",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 3, 2020 Patch",
-        "update": "Smissmas 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Particulate_Protector",
-        "src": "https://wiki.teamfortress.com/w/images/6/62/Backpack_Particulate_Protector.png"
-    },
-    {
         "name": "Death Stare",
         "class": [
             "Demoman"
@@ -8984,20 +8244,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Death_Stare",
         "src": "https://wiki.teamfortress.com/w/images/5/56/Backpack_Death_Stare.png"
-    },
-    {
-        "name": "Trickster's Treats",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 5, 2021 Patch",
-        "update": "Scream Fortress 2021",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Trickster%27s_Treats",
-        "src": "https://wiki.teamfortress.com/w/images/7/7e/Backpack_Trickster%27s_Treats.png"
     },
     {
         "name": "Barefoot Brawler",
@@ -9336,20 +8582,6 @@
         "src": "https://wiki.teamfortress.com/w/images/0/0b/Backpack_Large_Luchadore.png"
     },
     {
-        "name": "Team Captain",
-        "class": [
-            "Soldier",
-            "Heavy",
-            "Medic"
-        ],
-        "grade": "qua_unique",
-        "date": "May 5, 2011 Patch",
-        "update": "Replay Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Team_Captain",
-        "src": "https://wiki.teamfortress.com/w/images/b/b1/Backpack_Team_Captain.png"
-    },
-    {
         "name": "Capo's Capper",
         "class": [
             "Heavy"
@@ -9360,19 +8592,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Capo%27s_Capper",
         "src": "https://wiki.teamfortress.com/w/images/c/c6/Backpack_Capo%27s_Capper.png"
-    },
-    {
-        "name": "Pocket Medic",
-        "class": [
-            "Soldier",
-            "Heavy"
-        ],
-        "grade": "qua_unique",
-        "date": "June 23, 2011 Patch",
-        "update": "\u00dcber Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Pocket_Medic",
-        "src": "https://wiki.teamfortress.com/w/images/c/ca/Backpack_Pocket_Medic.png"
     },
     {
         "name": "Big Steel Jaw of Summer Fun",
@@ -9567,23 +8786,6 @@
         "src": "https://wiki.teamfortress.com/w/images/d/dd/Backpack_Sandvich_Safe.png"
     },
     {
-        "name": "All-Father",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Medic",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 15, 2011 Patch",
-        "update": "Australian Christmas 2011",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/All-Father",
-        "src": "https://wiki.teamfortress.com/w/images/6/6e/Backpack_All-Father.png"
-    },
-    {
         "name": "Toss-Proof Towel",
         "class": [
             "Heavy"
@@ -9606,37 +8808,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Apparatchik%27s_Apparel",
         "src": "https://wiki.teamfortress.com/w/images/5/5e/Backpack_Apparatchik%27s_Apparel.png"
-    },
-    {
-        "name": "Champ Stamp",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "August 2, 2012 Patch",
-        "update": "Triad Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Champ_Stamp",
-        "src": "https://wiki.teamfortress.com/w/images/f/f2/Backpack_Champ_Stamp.png"
-    },
-    {
-        "name": "Triad Trinket",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Engineer",
-            "Sniper",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "August 2, 2012 Patch",
-        "update": "Triad Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Triad_Trinket",
-        "src": "https://wiki.teamfortress.com/w/images/a/a9/Backpack_Triad_Trinket.png"
     },
     {
         "name": "U-clank-a",
@@ -9663,22 +8834,6 @@
         "src": "https://wiki.teamfortress.com/w/images/1/1a/Backpack_Voodoo-Cursed_Heavy_Soul.png"
     },
     {
-        "name": "Crafty Hair",
-        "class": [
-            "Scout",
-            "Soldier",
-            "Medic",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "September 4, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Crafty_Hair",
-        "src": "https://wiki.teamfortress.com/w/images/8/81/Backpack_Crafty_Hair.png"
-    },
-    {
         "name": "Soviet Gentleman",
         "class": [
             "Heavy"
@@ -9701,19 +8856,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Heavy_Artillery_Officer%27s_Cap",
         "src": "https://wiki.teamfortress.com/w/images/5/50/Backpack_Heavy_Artillery_Officer%27s_Cap.png"
-    },
-    {
-        "name": "K-9 Mane",
-        "class": [
-            "Demoman",
-            "Heavy"
-        ],
-        "grade": "qua_unique",
-        "date": "September 27, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/K-9_Mane",
-        "src": "https://wiki.teamfortress.com/w/images/a/a9/Backpack_K-9_Mane.png"
     },
     {
         "name": "Grand Duchess Fairy Wings",
@@ -9750,22 +8892,6 @@
         "restriction": "Halloween",
         "wiki": "https://wiki.teamfortress.com/wiki/Grand_Duchess_Tutu",
         "src": "https://wiki.teamfortress.com/w/images/2/22/Backpack_Grand_Duchess_Tutu.png"
-    },
-    {
-        "name": "Spooky Sleeves",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 26, 2012 Patch",
-        "update": "Spectral Halloween Special",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Spooky_Sleeves",
-        "src": "https://wiki.teamfortress.com/w/images/d/d5/Backpack_Spooky_Sleeves.png"
     },
     {
         "name": "Siberian Sophisticate",
@@ -9840,20 +8966,6 @@
         "src": "https://wiki.teamfortress.com/w/images/d/d7/Backpack_Hunger_Force.png"
     },
     {
-        "name": "Mutton Mann",
-        "class": [
-            "Classes",
-            "Pyro",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2012 Patch",
-        "update": "Mecha Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Mutton_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/2/2d/Backpack_Mutton_Mann.png"
-    },
-    {
         "name": "Pounding Father",
         "class": [
             "Heavy"
@@ -9876,22 +8988,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Samson_Skewer",
         "src": "https://wiki.teamfortress.com/w/images/2/2d/Backpack_Samson_Skewer.png"
-    },
-    {
-        "name": "Wilson Weave",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Medic"
-        ],
-        "grade": "qua_unique",
-        "date": "March 12, 2013 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Wilson_Weave",
-        "src": "https://wiki.teamfortress.com/w/images/7/72/Backpack_Wilson_Weave.png"
     },
     {
         "name": "Bunsen Brave",
@@ -10048,61 +9144,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Tsarboosh",
         "src": "https://wiki.teamfortress.com/w/images/6/68/Backpack_Tsarboosh.png"
-    },
-    {
-        "name": "Macho Mann",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "July 10, 2013 Patch",
-        "update": "Summer Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Macho_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/f/f9/Backpack_Macho_Mann.png"
-    },
-    {
-        "name": "Cuban Bristle Crisis",
-        "class": [
-            "Soldier",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Cuban_Bristle_Crisis",
-        "src": "https://wiki.teamfortress.com/w/images/4/4b/Backpack_Cuban_Bristle_Crisis.png"
-    },
-    {
-        "name": "Weight Room Warmer",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Heavy"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Weight_Room_Warmer",
-        "src": "https://wiki.teamfortress.com/w/images/4/4f/Backpack_Weight_Room_Warmer.png"
-    },
-    {
-        "name": "Viking Braider",
-        "class": [
-            "Soldier",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Viking_Braider",
-        "src": "https://wiki.teamfortress.com/w/images/7/73/Backpack_Viking_Braider.png"
     },
     {
         "name": "Chicken Kiev",
@@ -10477,20 +9518,6 @@
         "src": "https://wiki.teamfortress.com/w/images/8/84/Backpack_Sleeveless_in_Siberia.png"
     },
     {
-        "name": "Snow Sleeves",
-        "class": [
-            "Demoman",
-            "Heavy",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 8, 2014 Patch",
-        "update": "End of the Line Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Snow_Sleeves",
-        "src": "https://wiki.teamfortress.com/w/images/8/82/Backpack_Snow_Sleeves.png"
-    },
-    {
         "name": "Old Man Frost",
         "class": [
             "Heavy"
@@ -10563,33 +9590,6 @@
         "src": "https://wiki.teamfortress.com/w/images/9/92/Backpack_Sucker_Slug.png"
     },
     {
-        "name": "Buttler",
-        "class": [
-            "Classes",
-            "Demoman",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Buttler",
-        "src": "https://wiki.teamfortress.com/w/images/8/81/Backpack_Buttler.png"
-    },
-    {
-        "name": "Teufort Knight",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Teufort_Knight",
-        "src": "https://wiki.teamfortress.com/w/images/0/07/Backpack_Teufort_Knight.png"
-    },
-    {
         "name": "Siberian Sweater",
         "class": [
             "Heavy"
@@ -10600,19 +9600,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Siberian_Sweater",
         "src": "https://wiki.teamfortress.com/w/images/8/85/Backpack_Siberian_Sweater.png"
-    },
-    {
-        "name": "Gift Bringer",
-        "class": [
-            "Soldier",
-            "Heavy"
-        ],
-        "grade": "grade_commando",
-        "date": "December 17, 2015 Patch",
-        "update": "Tough Break Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Gift_Bringer",
-        "src": "https://wiki.teamfortress.com/w/images/4/44/Backpack_Gift_Bringer.png"
     },
     {
         "name": "Heavy Tourism",
@@ -10649,49 +9636,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Mo%27Horn",
         "src": "https://wiki.teamfortress.com/w/images/5/58/Backpack_Mo%27Horn.png"
-    },
-    {
-        "name": "Pestering Jester",
-        "class": [
-            "Scout",
-            "Soldier",
-            "Pyro",
-            "Heavy"
-        ],
-        "grade": "grade_assassin",
-        "date": "October 21, 2016 Patch",
-        "update": "Scream Fortress VIII",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Pestering_Jester",
-        "src": "https://wiki.teamfortress.com/w/images/4/4f/Backpack_Pestering_Jester.png"
-    },
-    {
-        "name": "Reader's Choice",
-        "class": [
-            "Classes",
-            "Medic",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 21, 2016 Patch",
-        "update": "Smissmas 2016",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Reader%27s_Choice",
-        "src": "https://wiki.teamfortress.com/w/images/c/cb/Backpack_Reader%27s_Choice.png"
-    },
-    {
-        "name": "Airborne Attire",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "May 15, 2017 Patch",
-        "update": "Rainy Day Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Airborne_Attire",
-        "src": "https://wiki.teamfortress.com/w/images/6/68/Backpack_Airborne_Attire.png"
     },
     {
         "name": "Warhood",
@@ -10790,19 +9734,6 @@
         "src": "https://wiki.teamfortress.com/w/images/c/ca/Backpack_Kathman-Hairdo.png"
     },
     {
-        "name": "Nuke",
-        "class": [
-            "Soldier",
-            "Heavy"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Nuke",
-        "src": "https://wiki.teamfortress.com/w/images/a/a7/Backpack_Nuke.png"
-    },
-    {
         "name": "Siberian Tigerstripe",
         "class": [
             "Heavy"
@@ -10813,20 +9744,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Siberian_Tigerstripe",
         "src": "https://wiki.teamfortress.com/w/images/7/70/Backpack_Siberian_Tigerstripe.png"
-    },
-    {
-        "name": "War Eagle",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Heavy"
-        ],
-        "grade": "grade_elite",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/War_Eagle",
-        "src": "https://wiki.teamfortress.com/w/images/c/c0/Backpack_War_Eagle.png"
     },
     {
         "name": "Sinner's Shade",
@@ -10985,37 +9902,6 @@
         "src": "https://wiki.teamfortress.com/w/images/4/4a/Backpack_Momma_Kiev.png"
     },
     {
-        "name": "Sophisticated Smoker",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "grade_mercenary",
-        "date": "August 21, 2020 Patch",
-        "update": "Summer 2020 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Sophisticated_Smoker",
-        "src": "https://wiki.teamfortress.com/w/images/5/50/Backpack_Sophisticated_Smoker.png"
-    },
-    {
-        "name": "Boom Boxers",
-        "class": [
-            "Scout",
-            "Pyro",
-            "Demoman",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 1, 2020 Patch",
-        "update": "Scream Fortress 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Boom_Boxers",
-        "src": "https://wiki.teamfortress.com/w/images/1/1c/Backpack_Boom_Boxers.png"
-    },
-    {
         "name": "Mannvich",
         "class": [
             "Heavy"
@@ -11052,19 +9938,6 @@
         "src": "https://wiki.teamfortress.com/w/images/2/29/Backpack_BedBug_Protection.png"
     },
     {
-        "name": "Particulate Protector",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 3, 2020 Patch",
-        "update": "Smissmas 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Particulate_Protector",
-        "src": "https://wiki.teamfortress.com/w/images/6/62/Backpack_Particulate_Protector.png"
-    },
-    {
         "name": "SandMann's Brush",
         "class": [
             "Heavy"
@@ -11099,22 +9972,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Two_Punch_Mann",
         "src": "https://wiki.teamfortress.com/w/images/1/12/Backpack_Two_Punch_Mann.png"
-    },
-    {
-        "name": "Computron 5000",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Engineer",
-            "Medic",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "October 5, 2021 Patch",
-        "update": "Scream Fortress XIII",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Computron_5000",
-        "src": "https://wiki.teamfortress.com/w/images/c/c0/Backpack_Computron_5000.png"
     },
     {
         "name": "Mooshanka",
@@ -11525,21 +10382,6 @@
         "src": "https://wiki.teamfortress.com/w/images/a/a7/Backpack_Builder%27s_Blueprints.png"
     },
     {
-        "name": "Hat With No Name",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 13, 2011 Patch",
-        "update": "Manniversary Update & Sale",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Hat_With_No_Name",
-        "src": "https://wiki.teamfortress.com/w/images/0/05/Backpack_Hat_With_No_Name.png"
-    },
-    {
         "name": "Pencil Pusher",
         "class": [
             "Engineer"
@@ -11613,23 +10455,6 @@
         "src": "https://wiki.teamfortress.com/w/images/3/3f/Backpack_Itsy_Bitsy_Spyer.png"
     },
     {
-        "name": "All-Father",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Medic",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 15, 2011 Patch",
-        "update": "Australian Christmas 2011",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/All-Father",
-        "src": "https://wiki.teamfortress.com/w/images/6/6e/Backpack_All-Father.png"
-    },
-    {
         "name": "Brainiac Goggles",
         "class": [
             "Engineer"
@@ -11666,22 +10491,6 @@
         "src": "https://wiki.teamfortress.com/w/images/8/89/Backpack_Stocking_Stuffer.png"
     },
     {
-        "name": "Teufort Tooth Kicker",
-        "class": [
-            "Scout",
-            "Soldier",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "March 1, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Teufort_Tooth_Kicker",
-        "src": "https://wiki.teamfortress.com/w/images/c/cc/Backpack_Teufort_Tooth_Kicker.png"
-    },
-    {
         "name": "Texas Half-Pants",
         "class": [
             "Engineer"
@@ -11706,37 +10515,6 @@
         "src": "https://wiki.teamfortress.com/w/images/8/84/Backpack_Idea_Tube.png"
     },
     {
-        "name": "Champ Stamp",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "August 2, 2012 Patch",
-        "update": "Triad Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Champ_Stamp",
-        "src": "https://wiki.teamfortress.com/w/images/f/f2/Backpack_Champ_Stamp.png"
-    },
-    {
-        "name": "Triad Trinket",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Engineer",
-            "Sniper",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "August 2, 2012 Patch",
-        "update": "Triad Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Triad_Trinket",
-        "src": "https://wiki.teamfortress.com/w/images/a/a9/Backpack_Triad_Trinket.png"
-    },
-    {
         "name": "Tin-1000",
         "class": [
             "Engineer"
@@ -11747,22 +10525,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Tin-1000",
         "src": "https://wiki.teamfortress.com/w/images/5/58/Backpack_Tin-1000.png"
-    },
-    {
-        "name": "Crafty Hair",
-        "class": [
-            "Scout",
-            "Soldier",
-            "Medic",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "September 4, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Crafty_Hair",
-        "src": "https://wiki.teamfortress.com/w/images/8/81/Backpack_Crafty_Hair.png"
     },
     {
         "name": "Pocket Purrer",
@@ -11789,22 +10551,6 @@
         "src": "https://wiki.teamfortress.com/w/images/4/48/Backpack_Master_Mind.png"
     },
     {
-        "name": "Spooky Sleeves",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 26, 2012 Patch",
-        "update": "Spectral Halloween Special",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Spooky_Sleeves",
-        "src": "https://wiki.teamfortress.com/w/images/d/d5/Backpack_Spooky_Sleeves.png"
-    },
-    {
         "name": "Voodoo-Cursed Engineer Soul",
         "class": [
             "Engineer"
@@ -11817,22 +10563,6 @@
         "src": "https://wiki.teamfortress.com/w/images/4/4a/Backpack_Voodoo-Cursed_Engineer_Soul.png"
     },
     {
-        "name": "Deadliest Duckling",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "November 16, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Deadliest_Duckling",
-        "src": "https://wiki.teamfortress.com/w/images/3/3f/Backpack_Deadliest_Duckling.png"
-    },
-    {
         "name": "Barnstormer",
         "class": [
             "Engineer"
@@ -11843,20 +10573,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Barnstormer",
         "src": "https://wiki.teamfortress.com/w/images/a/ac/Backpack_Barnstormer.png"
-    },
-    {
-        "name": "Mutton Mann",
-        "class": [
-            "Classes",
-            "Pyro",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2012 Patch",
-        "update": "Mecha Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Mutton_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/2/2d/Backpack_Mutton_Mann.png"
     },
     {
         "name": "Grizzled Growth",
@@ -11905,22 +10621,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Vox_Diabolus",
         "src": "https://wiki.teamfortress.com/w/images/b/b9/Backpack_Vox_Diabolus.png"
-    },
-    {
-        "name": "Wilson Weave",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Medic"
-        ],
-        "grade": "qua_unique",
-        "date": "March 12, 2013 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Wilson_Weave",
-        "src": "https://wiki.teamfortress.com/w/images/7/72/Backpack_Wilson_Weave.png"
     },
     {
         "name": "Data Mining Light",
@@ -12056,47 +10756,6 @@
         "src": "https://wiki.teamfortress.com/w/images/d/d6/Backpack_Trash_Toter.png"
     },
     {
-        "name": "Macho Mann",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "July 10, 2013 Patch",
-        "update": "Summer Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Macho_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/f/f9/Backpack_Macho_Mann.png"
-    },
-    {
-        "name": "Beep Boy",
-        "class": [
-            "Scout",
-            "Pyro",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Beep_Boy",
-        "src": "https://wiki.teamfortress.com/w/images/1/16/Backpack_Beep_Boy.png"
-    },
-    {
-        "name": "Cuban Bristle Crisis",
-        "class": [
-            "Soldier",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Cuban_Bristle_Crisis",
-        "src": "https://wiki.teamfortress.com/w/images/4/4b/Backpack_Cuban_Bristle_Crisis.png"
-    },
-    {
         "name": "Gold Digger",
         "class": [
             "Engineer"
@@ -12109,33 +10768,6 @@
         "src": "https://wiki.teamfortress.com/w/images/8/8d/Backpack_Gold_Digger.png"
     },
     {
-        "name": "Special Eyes",
-        "class": [
-            "Pyro",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Special_Eyes",
-        "src": "https://wiki.teamfortress.com/w/images/8/89/Backpack_Special_Eyes.png"
-    },
-    {
-        "name": "Viking Braider",
-        "class": [
-            "Soldier",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Viking_Braider",
-        "src": "https://wiki.teamfortress.com/w/images/7/73/Backpack_Viking_Braider.png"
-    },
-    {
         "name": "Grease Monkey",
         "class": [
             "Engineer"
@@ -12146,20 +10778,6 @@
         "restriction": "Halloween",
         "wiki": "https://wiki.teamfortress.com/wiki/Grease_Monkey",
         "src": "https://wiki.teamfortress.com/w/images/4/46/Backpack_Grease_Monkey.png"
-    },
-    {
-        "name": "Snaggletoothed Stetson",
-        "class": [
-            "Pyro",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2013 Patch",
-        "update": "Scream Fortress V",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Snaggletoothed_Stetson",
-        "src": "https://wiki.teamfortress.com/w/images/1/10/Backpack_Snaggletoothed_Stetson.png"
     },
     {
         "name": "Dogfighter",
@@ -12196,19 +10814,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Antarctic_Researcher",
         "src": "https://wiki.teamfortress.com/w/images/1/11/Backpack_Antarctic_Researcher.png"
-    },
-    {
-        "name": "Cute Suit",
-        "class": [
-            "Pyro",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "February 7, 2014 Patch",
-        "update": "Strongbox Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Cute_Suit",
-        "src": "https://wiki.teamfortress.com/w/images/4/4a/Backpack_Cute_Suit.png"
     },
     {
         "name": "Ein",
@@ -12657,33 +11262,6 @@
         "src": "https://wiki.teamfortress.com/w/images/f/f2/Backpack_Smokey_Sombrero.png"
     },
     {
-        "name": "Buttler",
-        "class": [
-            "Classes",
-            "Demoman",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Buttler",
-        "src": "https://wiki.teamfortress.com/w/images/8/81/Backpack_Buttler.png"
-    },
-    {
-        "name": "Teufort Knight",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Teufort_Knight",
-        "src": "https://wiki.teamfortress.com/w/images/0/07/Backpack_Teufort_Knight.png"
-    },
-    {
         "name": "Winter Backup",
         "class": [
             "Engineer"
@@ -12768,20 +11346,6 @@
         "src": "https://wiki.teamfortress.com/w/images/2/2f/Backpack_Packable_Provisions.png"
     },
     {
-        "name": "Reader's Choice",
-        "class": [
-            "Classes",
-            "Medic",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 21, 2016 Patch",
-        "update": "Smissmas 2016",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Reader%27s_Choice",
-        "src": "https://wiki.teamfortress.com/w/images/c/cb/Backpack_Reader%27s_Choice.png"
-    },
-    {
         "name": "Flash of Inspiration",
         "class": [
             "Engineer"
@@ -12818,20 +11382,6 @@
         "src": "https://wiki.teamfortress.com/w/images/2/26/Backpack_Plumber%27s_Cap.png"
     },
     {
-        "name": "Aloha Apparel",
-        "class": [
-            "Scout",
-            "Engineer",
-            "Spy"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Aloha_Apparel",
-        "src": "https://wiki.teamfortress.com/w/images/2/25/Backpack_Aloha_Apparel.png"
-    },
-    {
         "name": "Conaghers' Utility Idol",
         "class": [
             "Engineer"
@@ -12854,34 +11404,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Tropical_Toad",
         "src": "https://wiki.teamfortress.com/w/images/e/ef/Backpack_Tropical_Toad.png"
-    },
-    {
-        "name": "Trucker's Topper",
-        "class": [
-            "Scout",
-            "Engineer"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 21, 2017 Patch",
-        "update": "Smissmas 2017",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Trucker%27s_Topper",
-        "src": "https://wiki.teamfortress.com/w/images/d/de/Backpack_Trucker%27s_Topper.png"
-    },
-    {
-        "name": "Antarctic Eyewear",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "March 28, 2018 Patch",
-        "update": "Blue Moon Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Antarctic_Eyewear",
-        "src": "https://wiki.teamfortress.com/w/images/c/cc/Backpack_Antarctic_Eyewear.png"
     },
     {
         "name": "Cold Case",
@@ -13028,19 +11550,6 @@
         "src": "https://wiki.teamfortress.com/w/images/e/e7/Backpack_El_Mostacho.png"
     },
     {
-        "name": "Trick Stabber",
-        "class": [
-            "Pyro",
-            "Engineer"
-        ],
-        "grade": "grade_assassin",
-        "date": "October 10, 2019 Patch",
-        "update": "Scream Fortress 2019",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Trick_Stabber",
-        "src": "https://wiki.teamfortress.com/w/images/2/25/Backpack_Trick_Stabber.png"
-    },
-    {
         "name": "Provisions Cap",
         "class": [
             "Engineer"
@@ -13065,20 +11574,6 @@
         "src": "https://wiki.teamfortress.com/w/images/5/50/Backpack_Telefragger_Toque.png"
     },
     {
-        "name": "Winter Wrap Up",
-        "class": [
-            "Pyro",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "December 16, 2019 Patch",
-        "update": "Smissmas 2019",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Winter_Wrap_Up",
-        "src": "https://wiki.teamfortress.com/w/images/5/56/Backpack_Winter_Wrap_Up.png"
-    },
-    {
         "name": "Head of Defense",
         "class": [
             "Engineer"
@@ -13089,37 +11584,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Head_Of_Defense",
         "src": "https://wiki.teamfortress.com/w/images/6/6c/Backpack_Head_of_Defense.png"
-    },
-    {
-        "name": "Sophisticated Smoker",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "grade_mercenary",
-        "date": "August 21, 2020 Patch",
-        "update": "Summer 2020 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Sophisticated_Smoker",
-        "src": "https://wiki.teamfortress.com/w/images/5/50/Backpack_Sophisticated_Smoker.png"
-    },
-    {
-        "name": "Boom Boxers",
-        "class": [
-            "Scout",
-            "Pyro",
-            "Demoman",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 1, 2020 Patch",
-        "update": "Scream Fortress 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Boom_Boxers",
-        "src": "https://wiki.teamfortress.com/w/images/1/1c/Backpack_Boom_Boxers.png"
     },
     {
         "name": "Ghoul Box",
@@ -13182,19 +11646,6 @@
         "src": "https://wiki.teamfortress.com/w/images/0/03/Backpack_Blitzen_Bowl.png"
     },
     {
-        "name": "Particulate Protector",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 3, 2020 Patch",
-        "update": "Smissmas 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Particulate_Protector",
-        "src": "https://wiki.teamfortress.com/w/images/6/62/Backpack_Particulate_Protector.png"
-    },
-    {
         "name": "Sightliner",
         "class": [
             "Engineer"
@@ -13205,22 +11656,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Sightliner",
         "src": "https://wiki.teamfortress.com/w/images/2/22/Backpack_Sightliner.png"
-    },
-    {
-        "name": "Computron 5000",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Engineer",
-            "Medic",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "October 5, 2021 Patch",
-        "update": "Scream Fortress XIII",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Computron_5000",
-        "src": "https://wiki.teamfortress.com/w/images/c/c0/Backpack_Computron_5000.png"
     },
     {
         "name": "Hook, Line, and Thinker",
@@ -13571,20 +12006,6 @@
         "src": "https://wiki.teamfortress.com/w/images/2/24/Backpack_Medic%27s_Mountain_Cap.png"
     },
     {
-        "name": "Private Eye",
-        "class": [
-            "Demoman",
-            "Medic",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "April 7, 2011 Patch",
-        "update": "Third Community Contribution Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Private_Eye",
-        "src": "https://wiki.teamfortress.com/w/images/b/bc/Backpack_Private_Eye.png"
-    },
-    {
         "name": "Doctor's Sack",
         "class": [
             "Medic"
@@ -13595,20 +12016,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Doctor%27s_Sack",
         "src": "https://wiki.teamfortress.com/w/images/0/08/Backpack_Doctor%27s_Sack.png"
-    },
-    {
-        "name": "Team Captain",
-        "class": [
-            "Soldier",
-            "Heavy",
-            "Medic"
-        ],
-        "grade": "qua_unique",
-        "date": "May 5, 2011 Patch",
-        "update": "Replay Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Team_Captain",
-        "src": "https://wiki.teamfortress.com/w/images/b/b1/Backpack_Team_Captain.png"
     },
     {
         "name": "Planeswalker Helm",
@@ -13708,23 +12115,6 @@
         "src": "https://wiki.teamfortress.com/w/images/9/95/Backpack_Dr._Whoa.png"
     },
     {
-        "name": "All-Father",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Medic",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 15, 2011 Patch",
-        "update": "Australian Christmas 2011",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/All-Father",
-        "src": "https://wiki.teamfortress.com/w/images/6/6e/Backpack_All-Father.png"
-    },
-    {
         "name": "Nine-Pipe Problem",
         "class": [
             "Medic"
@@ -13735,19 +12125,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Nine-Pipe_Problem",
         "src": "https://wiki.teamfortress.com/w/images/5/57/Backpack_Nine-Pipe_Problem.png"
-    },
-    {
-        "name": "Scrap Pack",
-        "class": [
-            "Pyro",
-            "Medic"
-        ],
-        "grade": "qua_unique",
-        "date": "March 22, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Scrap_Pack",
-        "src": "https://wiki.teamfortress.com/w/images/1/1c/Backpack_Scrap_Pack.png"
     },
     {
         "name": "Quadwrangler",
@@ -13808,22 +12185,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Medic_Mech-Bag",
         "src": "https://wiki.teamfortress.com/w/images/d/d8/Backpack_Medic_Mech-Bag.png"
-    },
-    {
-        "name": "Crafty Hair",
-        "class": [
-            "Scout",
-            "Soldier",
-            "Medic",
-            "Heavy",
-            "Engineer"
-        ],
-        "grade": "qua_unique",
-        "date": "September 4, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Crafty_Hair",
-        "src": "https://wiki.teamfortress.com/w/images/8/81/Backpack_Crafty_Hair.png"
     },
     {
         "name": "Medi-Mask",
@@ -13896,36 +12257,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Doc%27s_Holiday",
         "src": "https://wiki.teamfortress.com/w/images/2/2b/Backpack_Doc%27s_Holiday.png"
-    },
-    {
-        "name": "Mutton Mann",
-        "class": [
-            "Classes",
-            "Pyro",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2012 Patch",
-        "update": "Mecha Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Mutton_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/2/2d/Backpack_Mutton_Mann.png"
-    },
-    {
-        "name": "Wilson Weave",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Medic"
-        ],
-        "grade": "qua_unique",
-        "date": "March 12, 2013 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Wilson_Weave",
-        "src": "https://wiki.teamfortress.com/w/images/7/72/Backpack_Wilson_Weave.png"
     },
     {
         "name": "Byte'd Beak",
@@ -14036,20 +12367,6 @@
         "src": "https://wiki.teamfortress.com/w/images/b/bb/Backpack_Weather_Master.png"
     },
     {
-        "name": "Powdered Practitioner",
-        "class": [
-            "Soldier",
-            "Medic",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "June 13, 2013 Patch",
-        "update": "Second Workshop Content Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Powdered_Practitioner",
-        "src": "https://wiki.teamfortress.com/w/images/0/0c/Backpack_Powdered_Practitioner.png"
-    },
-    {
         "name": "Baron von Havenaplane",
         "class": [
             "Medic"
@@ -14156,19 +12473,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Das_Ubersternmann",
         "src": "https://wiki.teamfortress.com/w/images/1/17/Backpack_Das_Ubersternmann.png"
-    },
-    {
-        "name": "Macho Mann",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "July 10, 2013 Patch",
-        "update": "Summer Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Macho_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/f/f9/Backpack_Macho_Mann.png"
     },
     {
         "name": "A Brush with Death",
@@ -14687,33 +12991,6 @@
         "src": "https://wiki.teamfortress.com/w/images/5/58/Backpack_Vascular_Vestment.png"
     },
     {
-        "name": "Buttler",
-        "class": [
-            "Classes",
-            "Demoman",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Buttler",
-        "src": "https://wiki.teamfortress.com/w/images/8/81/Backpack_Buttler.png"
-    },
-    {
-        "name": "Teufort Knight",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Teufort_Knight",
-        "src": "https://wiki.teamfortress.com/w/images/0/07/Backpack_Teufort_Knight.png"
-    },
-    {
         "name": "Berlin Brain Bowl",
         "class": [
             "Medic"
@@ -15039,35 +13316,6 @@
         "src": "https://wiki.teamfortress.com/w/images/1/1f/Backpack_Night_Ward.png"
     },
     {
-        "name": "Particulate Protector",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 3, 2020 Patch",
-        "update": "Smissmas 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Particulate_Protector",
-        "src": "https://wiki.teamfortress.com/w/images/6/62/Backpack_Particulate_Protector.png"
-    },
-    {
-        "name": "Computron 5000",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Engineer",
-            "Medic",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "October 5, 2021 Patch",
-        "update": "Scream Fortress XIII",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Computron_5000",
-        "src": "https://wiki.teamfortress.com/w/images/c/c0/Backpack_Computron_5000.png"
-    },
-    {
         "name": "Optic Nerve",
         "class": [
             "Medic"
@@ -15212,6 +13460,1362 @@
         "src": "https://wiki.teamfortress.com/w/images/1/17/Backpack_Power_Spike.png"
     },
     {
+        "name": "Trophy Belt",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "May 21, 2009 Patch",
+        "update": "Sniper vs. Spy Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Trophy_Belt",
+        "src": "https://wiki.teamfortress.com/w/images/1/1b/Backpack_Trophy_Belt.png"
+    },
+    {
+        "name": "Master's Yellow Belt",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "August 13, 2009 Patch",
+        "update": "Classless Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Master%27s_Yellow_Belt",
+        "src": "https://wiki.teamfortress.com/w/images/6/62/Backpack_Master%27s_Yellow_Belt.png"
+    },
+    {
+        "name": "Professional's Panama",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "August 13, 2009 Patch",
+        "update": "Classless Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Professional%27s_Panama",
+        "src": "https://wiki.teamfortress.com/w/images/2/24/Backpack_Professional%27s_Panama.png"
+    },
+    {
+        "name": "Ritzy Rick's Hair Fixative",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "August 13, 2009 Patch",
+        "update": "Classless Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Ritzy_Rick%27s_Hair_Fixative",
+        "src": "https://wiki.teamfortress.com/w/images/4/42/Backpack_Ritzy_Rick%27s_Hair_Fixative.png"
+    },
+    {
+        "name": "Shooter's Sola Topi",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "March 18, 2010 Patch",
+        "update": "First Community Contribution Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Shooter%27s_Sola_Topi",
+        "src": "https://wiki.teamfortress.com/w/images/b/bc/Backpack_Shooter%27s_Sola_Topi.png"
+    },
+    {
+        "name": "Bloke's Bucket Hat",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "May 20, 2010 Patch",
+        "update": "Second Community Contribution Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Bloke%27s_Bucket_Hat",
+        "src": "https://wiki.teamfortress.com/w/images/0/03/Backpack_Bloke%27s_Bucket_Hat.png"
+    },
+    {
+        "name": "Ol' Snaggletooth",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "September 30, 2010 Patch",
+        "update": "Mann-Conomy Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Ol%27_Snaggletooth",
+        "src": "https://wiki.teamfortress.com/w/images/3/3b/Backpack_Ol%27_Snaggletooth.png"
+    },
+    {
+        "name": "Larrikin Robin",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 17, 2010 Patch",
+        "update": "Australian Christmas",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Larrikin_Robin",
+        "src": "https://wiki.teamfortress.com/w/images/1/10/Backpack_Larrikin_Robin.png"
+    },
+    {
+        "name": "Crocleather Slouch",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "May 5, 2011 Patch",
+        "update": "Replay Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Crocleather_Slouch",
+        "src": "https://wiki.teamfortress.com/w/images/a/a1/Backpack_Crocleather_Slouch.png"
+    },
+    {
+        "name": "Villain's Veil",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "May 5, 2011 Patch",
+        "update": "Replay Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Villain%27s_Veil",
+        "src": "https://wiki.teamfortress.com/w/images/1/1c/Backpack_Villain%27s_Veil.png"
+    },
+    {
+        "name": "Desert Marauder",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "June 23, 2011 Patch",
+        "update": "\u00dcber Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Desert_Marauder",
+        "src": "https://wiki.teamfortress.com/w/images/9/99/Backpack_Desert_Marauder.png"
+    },
+    {
+        "name": "Anger",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "August 3, 2011 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Anger",
+        "src": "https://wiki.teamfortress.com/w/images/1/1b/Backpack_Anger.png"
+    },
+    {
+        "name": "Sniper's Snipin' Glass",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "August 18, 2011 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Sniper%27s_Snipin%27_Glass",
+        "src": "https://wiki.teamfortress.com/w/images/5/55/Backpack_Sniper%27s_Snipin%27_Glass.png"
+    },
+    {
+        "name": "Crocodile Smile",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 13, 2011 Patch",
+        "update": "Manniversary Update & Sale",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Crocodile_Smile",
+        "src": "https://wiki.teamfortress.com/w/images/4/4d/Backpack_Crocodile_Smile.png"
+    },
+    {
+        "name": "Swagman's Swatter",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 13, 2011 Patch",
+        "update": "Manniversary Update & Sale",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Swagman%27s_Swatter",
+        "src": "https://wiki.teamfortress.com/w/images/6/64/Backpack_Swagman%27s_Swatter.png"
+    },
+    {
+        "name": "Your Worst Nightmare",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 13, 2011 Patch",
+        "update": "Manniversary Update & Sale",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Your_Worst_Nightmare",
+        "src": "https://wiki.teamfortress.com/w/images/2/2e/Backpack_Your_Worst_Nightmare.png"
+    },
+    {
+        "name": "Garlic Flank Stake",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 27, 2011 Patch",
+        "update": "Very Scary Halloween Special",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Garlic_Flank_Stake",
+        "src": "https://wiki.teamfortress.com/w/images/a/a0/Backpack_Garlic_Flank_Stake.png"
+    },
+    {
+        "name": "Holy Hunter",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 27, 2011 Patch",
+        "update": "Very Scary Halloween Special",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Holy_Hunter",
+        "src": "https://wiki.teamfortress.com/w/images/b/b2/Backpack_Holy_Hunter.png"
+    },
+    {
+        "name": "Silver Bullets",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 27, 2011 Patch",
+        "update": "Very Scary Halloween Special",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Silver_Bullets",
+        "src": "https://wiki.teamfortress.com/w/images/4/4c/Backpack_Silver_Bullets.png"
+    },
+    {
+        "name": "Outback Intellectual",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 15, 2011 Patch",
+        "update": "Australian Christmas 2011",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Outback_Intellectual",
+        "src": "https://wiki.teamfortress.com/w/images/e/e6/Backpack_Outback_Intellectual.png"
+    },
+    {
+        "name": "Bushman's Boonie",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "February 2, 2012 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Bushman%27s_Boonie",
+        "src": "https://wiki.teamfortress.com/w/images/6/68/Backpack_Bushman%27s_Boonie.png"
+    },
+    {
+        "name": "Fruit Shoot",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "May 3, 2012 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Fruit_Shoot",
+        "src": "https://wiki.teamfortress.com/w/images/0/09/Backpack_Fruit_Shoot.png"
+    },
+    {
+        "name": "Flamingo Kid",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "May 10, 2012 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Flamingo_Kid",
+        "src": "https://wiki.teamfortress.com/w/images/b/bf/Backpack_Flamingo_Kid.png"
+    },
+    {
+        "name": "Liquidator's Lid",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "June 27, 2012 Patch",
+        "update": "Pyromania Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Liquidator%27s_Lid",
+        "src": "https://wiki.teamfortress.com/w/images/0/06/Backpack_Liquidator%27s_Lid.png"
+    },
+    {
+        "name": "Lone Star",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "August 2, 2012 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Lone_Star",
+        "src": "https://wiki.teamfortress.com/w/images/5/54/Backpack_Lone_Star.png"
+    },
+    {
+        "name": "Bolted Bushman",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "August 15, 2012 Patch",
+        "update": "Mann vs. Machine Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Bolted_Bushman",
+        "src": "https://wiki.teamfortress.com/w/images/e/ef/Backpack_Bolted_Bushman.png"
+    },
+    {
+        "name": "Koala Compact",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "September 6, 2012 Patch",
+        "update": "First Workshop Content Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Koala_Compact",
+        "src": "https://wiki.teamfortress.com/w/images/7/72/Backpack_Koala_Compact.png"
+    },
+    {
+        "name": "Stovepipe Sniper Shako",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "September 27, 2012 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Stovepipe_Sniper_Shako",
+        "src": "https://wiki.teamfortress.com/w/images/f/f6/Backpack_Stovepipe_Sniper_Shako.png"
+    },
+    {
+        "name": "Sir Hootsalot",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 26, 2012 Patch",
+        "update": "Spectral Halloween Special",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Sir_Hootsalot",
+        "src": "https://wiki.teamfortress.com/w/images/f/f0/Backpack_Sir_Hootsalot.png"
+    },
+    {
+        "name": "Voodoo-Cursed Sniper Soul",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 26, 2012 Patch",
+        "update": "Spectral Halloween Special",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Voodoo-Cursed_Sniper_Soul",
+        "src": "https://wiki.teamfortress.com/w/images/0/0e/Backpack_Voodoo-Cursed_Sniper_Soul.png"
+    },
+    {
+        "name": "Cold Killer",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 20, 2012 Patch",
+        "update": "Mecha Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Cold_Killer",
+        "src": "https://wiki.teamfortress.com/w/images/1/15/Backpack_Cold_Killer.png"
+    },
+    {
+        "name": "Steel Songbird",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "February 22, 2013 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Steel_Songbird",
+        "src": "https://wiki.teamfortress.com/w/images/c/c9/Backpack_Steel_Songbird.png"
+    },
+    {
+        "name": "Sydney Straw Boat",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "February 22, 2013 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Sydney_Straw_Boat",
+        "src": "https://wiki.teamfortress.com/w/images/9/96/Backpack_Sydney_Straw_Boat.png"
+    },
+    {
+        "name": "Letch's LED",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "May 17, 2013 Patch",
+        "update": "Robotic Boogaloo",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Letch%27s_LED",
+        "src": "https://wiki.teamfortress.com/w/images/1/1a/Backpack_Letch%27s_LED.png"
+    },
+    {
+        "name": "Shooter's Tin Topi",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "May 17, 2013 Patch",
+        "update": "Robotic Boogaloo",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Shooter%27s_Tin_Topi",
+        "src": "https://wiki.teamfortress.com/w/images/8/88/Backpack_Shooter%27s_Tin_Topi.png"
+    },
+    {
+        "name": "Soldered Sensei",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "May 17, 2013 Patch",
+        "update": "Robotic Boogaloo",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Soldered_Sensei",
+        "src": "https://wiki.teamfortress.com/w/images/7/70/Backpack_Soldered_Sensei.png"
+    },
+    {
+        "name": "Birdman of Australiacatraz",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "July 10, 2013 Patch",
+        "update": "Summer Event 2013",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Birdman_of_Australiacatraz",
+        "src": "https://wiki.teamfortress.com/w/images/e/e7/Backpack_Birdman_of_Australiacatraz.png"
+    },
+    {
+        "name": "Cobber Chameleon",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "July 10, 2013 Patch",
+        "update": "Summer Event 2013",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Cobber_Chameleon",
+        "src": "https://wiki.teamfortress.com/w/images/c/c9/Backpack_Cobber_Chameleon.png"
+    },
+    {
+        "name": "Falconer",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "July 10, 2013 Patch",
+        "update": "Summer Event 2013",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Falconer",
+        "src": "https://wiki.teamfortress.com/w/images/7/75/Backpack_Falconer.png"
+    },
+    {
+        "name": "Wet Works",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "July 10, 2013 Patch",
+        "update": "Summer Event 2013",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Wet_Works",
+        "src": "https://wiki.teamfortress.com/w/images/a/a2/Backpack_Wet_Works.png"
+    },
+    {
+        "name": "Brim-Full of Bullets",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 10, 2013 Patch",
+        "update": "Fall Event 2013",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Brim-Full_Of_Bullets",
+        "src": "https://wiki.teamfortress.com/w/images/6/60/Backpack_Brim-Full_Of_Bullets.png"
+    },
+    {
+        "name": "Chronomancer",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 10, 2013 Patch",
+        "update": "Fall Event 2013",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Chronomancer",
+        "src": "https://wiki.teamfortress.com/w/images/a/a2/Backpack_Chronomancer.png"
+    },
+    {
+        "name": "Li'l Snaggletooth",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 10, 2013 Patch",
+        "update": "Fall Event 2013",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Li%27l_Snaggletooth",
+        "src": "https://wiki.teamfortress.com/w/images/e/e0/Backpack_Li%27l_Snaggletooth.png"
+    },
+    {
+        "name": "Carious Chameleon",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 29, 2013 Patch",
+        "update": "Scream Fortress V",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Carious_Chameleon",
+        "src": "https://wiki.teamfortress.com/w/images/a/a5/Backpack_Carious_Chameleon.png"
+    },
+    {
+        "name": "Hallowed Headcase",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 29, 2013 Patch",
+        "update": "Scream Fortress V",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Hallowed_Headcase",
+        "src": "https://wiki.teamfortress.com/w/images/f/f9/Backpack_Hallowed_Headcase.png"
+    },
+    {
+        "name": "Sir Shootsalot",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 29, 2013 Patch",
+        "update": "Scream Fortress V",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Sir_Shootsalot",
+        "src": "https://wiki.teamfortress.com/w/images/a/ad/Backpack_Sir_Shootsalot.png"
+    },
+    {
+        "name": "Randolph the Blood-Nosed Caribou",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 18, 2013 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Randolph_the_Blood-Nosed_Caribou",
+        "src": "https://wiki.teamfortress.com/w/images/c/c5/Backpack_Randolph_the_Blood-Nosed_Caribou.png"
+    },
+    {
+        "name": "Smissmas Caribou",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 18, 2013 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Smissmas_Caribou",
+        "src": "https://wiki.teamfortress.com/w/images/5/53/Backpack_Smissmas_Caribou.png"
+    },
+    {
+        "name": "Extra Layer",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 20, 2013 Patch",
+        "update": "Smissmas 2013",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Extra_Layer",
+        "src": "https://wiki.teamfortress.com/w/images/7/75/Backpack_Extra_Layer.png"
+    },
+    {
+        "name": "Five-Month Shadow",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 20, 2013 Patch",
+        "update": "Smissmas 2013",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Five-Month_Shadow",
+        "src": "https://wiki.teamfortress.com/w/images/7/7f/Backpack_Five-Month_Shadow.png"
+    },
+    {
+        "name": "Golden Garment",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 20, 2013 Patch",
+        "update": "Smissmas 2013",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Golden_Garment",
+        "src": "https://wiki.teamfortress.com/w/images/3/32/Backpack_Golden_Garment.png"
+    },
+    {
+        "name": "Snow Scoper",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 20, 2013 Patch",
+        "update": "Smissmas 2013",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Snow_Scoper",
+        "src": "https://wiki.teamfortress.com/w/images/0/01/Backpack_Snow_Scoper.png"
+    },
+    {
+        "name": "Archer's Groundings",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "February 7, 2014 Patch",
+        "update": "Strongbox Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Archer%27s_Groundings",
+        "src": "https://wiki.teamfortress.com/w/images/6/65/Backpack_Archers_Groundings.png"
+    },
+    {
+        "name": "Huntsman's Essentials",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "February 7, 2014 Patch",
+        "update": "Strongbox Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Huntsman%27s_Essentials",
+        "src": "https://wiki.teamfortress.com/w/images/d/dd/Backpack_Huntsman%27s_Essentials.png"
+    },
+    {
+        "name": "Criminal Cloak",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "February 19, 2014 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Criminal_Cloak",
+        "src": "https://wiki.teamfortress.com/w/images/a/a2/Backpack_Criminal_Cloak.png"
+    },
+    {
+        "name": "Dread Hiding Hood",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "February 19, 2014 Patch",
+        "update": "Promotional",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Dread_Hiding_Hood",
+        "src": "https://wiki.teamfortress.com/w/images/6/6f/Backpack_Dread_Hiding_Hood.png"
+    },
+    {
+        "name": "Scoper's Smoke",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "June 18, 2014 Patch",
+        "update": "Love & War Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Scoper%27s_Smoke",
+        "src": "https://wiki.teamfortress.com/w/images/6/67/Backpack_Scoper%27s_Smoke.png"
+    },
+    {
+        "name": "Triggerman's Tacticals",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "June 18, 2014 Patch",
+        "update": "Love & War Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Triggerman%27s_Tacticals",
+        "src": "https://wiki.teamfortress.com/w/images/9/9f/Backpack_Triggerman%27s_Tacticals.png"
+    },
+    {
+        "name": "Poacher's Safari Jacket",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "September 25, 2014 Patch",
+        "update": "Limited Late Summer Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Poacher%27s_Safari_Jacket",
+        "src": "https://wiki.teamfortress.com/w/images/b/b5/Backpack_Poacher%27s_Safari_Jacket.png"
+    },
+    {
+        "name": "Cranial Conspiracy",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 29, 2014 Patch",
+        "update": "Scream Fortress VI",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Cranial_Conspiracy",
+        "src": "https://wiki.teamfortress.com/w/images/c/c0/Backpack_Cranial_Conspiracy.png"
+    },
+    {
+        "name": "Kanga Kickers",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 29, 2014 Patch",
+        "update": "Scream Fortress VI",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Kanga_Kickers",
+        "src": "https://wiki.teamfortress.com/w/images/8/8c/Backpack_Kanga_Kickers.png"
+    },
+    {
+        "name": "Marsupial Man",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 29, 2014 Patch",
+        "update": "Scream Fortress VI",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Marsupial_Man",
+        "src": "https://wiki.teamfortress.com/w/images/b/bf/Backpack_Marsupial_Man.png"
+    },
+    {
+        "name": "Marsupial Muzzle",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 29, 2014 Patch",
+        "update": "Scream Fortress VI",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Marsupial_Muzzle",
+        "src": "https://wiki.teamfortress.com/w/images/6/6e/Backpack_Marsupial_Muzzle.png"
+    },
+    {
+        "name": "Mr. Mundee's Wild Ride",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 29, 2014 Patch",
+        "update": "Scream Fortress VI",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Mr._Mundee%27s_Wild_Ride",
+        "src": "https://wiki.teamfortress.com/w/images/4/43/Backpack_Mr._Mundee%27s_Wild_Ride.png"
+    },
+    {
+        "name": "Roo Rippers",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 29, 2014 Patch",
+        "update": "Scream Fortress VI",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Roo_Rippers",
+        "src": "https://wiki.teamfortress.com/w/images/1/1d/Backpack_Roo_Rippers.png"
+    },
+    {
+        "name": "Scaly Scrapers",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 29, 2014 Patch",
+        "update": "Scream Fortress VI",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Scaly_Scrapers",
+        "src": "https://wiki.teamfortress.com/w/images/7/74/Backpack_Scaly_Scrapers.png"
+    },
+    {
+        "name": "Bushman's Bristles",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 22, 2014 Patch",
+        "update": "Smissmas 2014",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Bushman%27s_Bristles",
+        "src": "https://wiki.teamfortress.com/w/images/2/20/Backpack_Bushman%27s_Bristles.png"
+    },
+    {
+        "name": "Marksman's Mohair",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 22, 2014 Patch",
+        "update": "Smissmas 2014",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Marksman%27s_Mohair",
+        "src": "https://wiki.teamfortress.com/w/images/3/3e/Backpack_Marksman%27s_Mohair.png"
+    },
+    {
+        "name": "Professional's Ushanka",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 22, 2014 Patch",
+        "update": "Smissmas 2014",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Professional%27s_Ushanka",
+        "src": "https://wiki.teamfortress.com/w/images/4/48/Backpack_Professional%27s_Ushanka.png"
+    },
+    {
+        "name": "Wally Pocket",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "December 22, 2014 Patch",
+        "update": "Smissmas 2014",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Wally_Pocket",
+        "src": "https://wiki.teamfortress.com/w/images/b/bb/Backpack_Wally_Pocket.png"
+    },
+    {
+        "name": "Corona Australis",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_elite",
+        "date": "October 6, 2015 Patch",
+        "update": "Invasion Community Update\u200e",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Corona_Australis",
+        "src": "https://wiki.teamfortress.com/w/images/e/ea/Backpack_Corona_Australis.png"
+    },
+    {
+        "name": "Final Frontiersman",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "October 6, 2015 Patch",
+        "update": "Invasion Community Update\u200e",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Final_Frontiersman",
+        "src": "https://wiki.teamfortress.com/w/images/0/0a/Backpack_Final_Frontiersman.png"
+    },
+    {
+        "name": "Starduster",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_assassin",
+        "date": "October 6, 2015 Patch",
+        "update": "Invasion Community Update\u200e",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Starduster",
+        "src": "https://wiki.teamfortress.com/w/images/a/a9/Backpack_Starduster.png"
+    },
+    {
+        "name": "Scoped Spartan",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "May 11, 2016 Patch",
+        "update": "Mayflower Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Scoped_Spartan",
+        "src": "https://wiki.teamfortress.com/w/images/d/d8/Backpack_Scoped_Spartan.png"
+    },
+    {
+        "name": "Archer's Sterling",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "May 15, 2017 Patch",
+        "update": "Rainy Day Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Archer%27s_Sterling",
+        "src": "https://wiki.teamfortress.com/w/images/8/8c/Backpack_Archer%27s_Sterling.png"
+    },
+    {
+        "name": "Down Under Duster",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "May 15, 2017 Patch",
+        "update": "Rainy Day Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Down_Under_Duster",
+        "src": "https://wiki.teamfortress.com/w/images/6/6c/Backpack_Down_Under_Duster.png"
+    },
+    {
+        "name": "Guilden Guardian",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_assassin",
+        "date": "May 15, 2017 Patch",
+        "update": "Rainy Day Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Guilden_Guardian",
+        "src": "https://wiki.teamfortress.com/w/images/1/1e/Backpack_Guilden_Guardian.png"
+    },
+    {
+        "name": "Hawk-Eyed Hunter",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "May 15, 2017 Patch",
+        "update": "Rainy Day Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Hawk-Eyed_Hunter",
+        "src": "https://wiki.teamfortress.com/w/images/1/1a/Backpack_Hawk-Eyed_Hunter.png"
+    },
+    {
+        "name": "Bait and Bite",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "October 20, 2017 Patch",
+        "update": "Jungle Inferno Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Bait_and_Bite",
+        "src": "https://wiki.teamfortress.com/w/images/d/d9/Backpack_Bait_and_Bite.png"
+    },
+    {
+        "name": "Cammy Jammies",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "October 20, 2017 Patch",
+        "update": "Jungle Inferno Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Cammy_Jammies",
+        "src": "https://wiki.teamfortress.com/w/images/e/e4/Backpack_Cammy_Jammies.png"
+    },
+    {
+        "name": "Classy Capper",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "October 20, 2017 Patch",
+        "update": "Jungle Inferno Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Classy_Capper",
+        "src": "https://wiki.teamfortress.com/w/images/f/f6/Backpack_Classy_Capper.png"
+    },
+    {
+        "name": "Conspicuous Camouflage",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "October 20, 2017 Patch",
+        "update": "Jungle Inferno Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Conspicuous_Camouflage",
+        "src": "https://wiki.teamfortress.com/w/images/8/8b/Backpack_Conspicuous_Camouflage.png"
+    },
+    {
+        "name": "Most Dangerous Mane",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "October 20, 2017 Patch",
+        "update": "Jungle Inferno Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Most_Dangerous_Mane",
+        "src": "https://wiki.teamfortress.com/w/images/c/ca/Backpack_Most_Dangerous_Mane.png"
+    },
+    {
+        "name": "Rifleman's Regalia",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "October 20, 2017 Patch",
+        "update": "Jungle Inferno Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Rifleman%27s_Regalia",
+        "src": "https://wiki.teamfortress.com/w/images/f/fe/Backpack_Rifleman%27s_Regalia.png"
+    },
+    {
+        "name": "Handsome Hitman",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_assassin",
+        "date": "December 21, 2017 Patch",
+        "update": "Smissmas 2017",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Handsome_Hitman",
+        "src": "https://wiki.teamfortress.com/w/images/7/71/Backpack_Handsome_Hitman.png"
+    },
+    {
+        "name": "Puffy Polar Cap",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "December 21, 2017 Patch",
+        "update": "Smissmas 2017",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Puffy_Polar_Cap",
+        "src": "https://wiki.teamfortress.com/w/images/9/96/Backpack_Puffy_Polar_Cap.png"
+    },
+    {
+        "name": "Down Tundra Coat",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "December 21, 2017 Patch",
+        "update": "Smissmas 2017",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Down_Tundra_Coat",
+        "src": "https://wiki.teamfortress.com/w/images/4/4e/Backpack_Down_Tundra_Coat.png"
+    },
+    {
+        "name": "Crocodile Mun-Dee",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 19, 2018 Patch",
+        "update": "Scream Fortress X",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Crocodile_Mun-Dee",
+        "src": "https://wiki.teamfortress.com/w/images/a/a1/Backpack_Crocodile_Mun-Dee.png"
+    },
+    {
+        "name": "Highway Star",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "October 19, 2018 Patch",
+        "update": "Scream Fortress 2018",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Highway_Star",
+        "src": "https://wiki.teamfortress.com/w/images/d/d7/Backpack_Highway_Star.png"
+    },
+    {
+        "name": "Scoper's Scales",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 19, 2018 Patch",
+        "update": "Scream Fortress X",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Scoper%27s_Scales",
+        "src": "https://wiki.teamfortress.com/w/images/c/c8/Backpack_Scoper%27s_Scales.png"
+    },
+    {
+        "name": "Bare Necessities",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_assassin",
+        "date": "July 25, 2019 Patch",
+        "update": "Summer 2019 Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Bare_Necessities",
+        "src": "https://wiki.teamfortress.com/w/images/a/a4/Backpack_Bare_Necessities.png"
+    },
+    {
+        "name": "Wagga Wagga Wear",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "July 25, 2019 Patch",
+        "update": "Summer 2019 Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Wagga_Wagga_Wear",
+        "src": "https://wiki.teamfortress.com/w/images/a/aa/Backpack_Wagga_Wagga_Wear.png"
+    },
+    {
+        "name": "Elizabeth the Third",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_assassin",
+        "date": "October 10, 2019 Patch",
+        "update": "Scream Fortress 2019",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Elizabeth_the_Third",
+        "src": "https://wiki.teamfortress.com/w/images/3/37/Backpack_Elizabeth_the_Third.png"
+    },
+    {
+        "name": "Mislaid Sweater",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "December 16, 2019 Patch",
+        "update": "Smissmas 2019",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Mislaid_Sweater",
+        "src": "https://wiki.teamfortress.com/w/images/b/b1/Backpack_Mislaid_Sweater.png"
+    },
+    {
+        "name": "Missing Piece",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "December 16, 2019 Patch",
+        "update": "Smissmas 2019",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Missing_Piece",
+        "src": "https://wiki.teamfortress.com/w/images/f/fa/Backpack_Missing_Piece.png"
+    },
+    {
+        "name": "Jarmaments",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "August 21, 2020 Patch",
+        "update": "Summer 2020 Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Jarmaments",
+        "src": "https://wiki.teamfortress.com/w/images/2/20/Backpack_Jarmaments.png"
+    },
+    {
+        "name": "Glow from Below",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "October 1, 2020 Patch",
+        "update": "Scream Fortress XII",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Glow_from_Below",
+        "src": "https://wiki.teamfortress.com/w/images/d/df/Backpack_Glow_from_Below.png"
+    },
+    {
+        "name": "Killing Tree",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "December 3, 2020 Patch",
+        "update": "Smissmas 2020",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Killing_Tree",
+        "src": "https://wiki.teamfortress.com/w/images/b/bc/Backpack_Killing_Tree.png"
+    },
+    {
+        "name": "Crocodile Dandy",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "June 22, 2021 Patch",
+        "update": "Summer 2021 Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Crocodile_Dandy",
+        "src": "https://wiki.teamfortress.com/w/images/8/82/Backpack_Crocodile_Dandy.png"
+    },
+    {
+        "name": "Wild Brim Slouch",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "June 22, 2021 Patch",
+        "update": "Summer 2021 Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Wild_Brim_Slouch",
+        "src": "https://wiki.teamfortress.com/w/images/8/85/Backpack_Wild_Brim_Slouch.png"
+    },
+    {
+        "name": "Hawaiian Hunter",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "July 29, 2022 Patch",
+        "update": "Summer 2022 Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Hawaiian_Hunter",
+        "src": "https://wiki.teamfortress.com/w/images/5/59/Backpack_Hawaiian_Hunter.png"
+    },
+    {
+        "name": "Rocko",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_elite",
+        "date": "July 29, 2022 Patch",
+        "update": "Summer 2022 Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Rocko",
+        "src": "https://wiki.teamfortress.com/w/images/5/56/Backpack_Rocko.png"
+    },
+    {
+        "name": "Tropical Camo",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "July 29, 2022 Patch",
+        "update": "Summer 2022 Pack",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Tropical_Camo",
+        "src": "https://wiki.teamfortress.com/w/images/0/02/Backpack_Tropical_Camo.png"
+    },
+    {
+        "name": "Headhunter's Brim",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "October 5, 2022 Patch",
+        "update": "Scream Fortress XIV",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Headhunter%27s_Brim",
+        "src": "https://wiki.teamfortress.com/w/images/4/42/Backpack_Headhunter%27s_Brim.png"
+    },
+    {
+        "name": "Hunting Cloak",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "October 5, 2022 Patch",
+        "update": "Scream Fortress XIV",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Hunting_Cloak",
+        "src": "https://wiki.teamfortress.com/w/images/7/78/Backpack_Hunting_Cloak.png"
+    },
+    {
+        "name": "Crosshair Cardigan",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "December 5, 2022 Patch",
+        "update": "Smissmas 2022",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Crosshair_Cardigan",
+        "src": "https://wiki.teamfortress.com/w/images/0/06/Backpack_Crosshair_Cardigan.png"
+    },
+    {
+        "name": "Bushman",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_mercenary",
+        "date": "July 12, 2023 Patch",
+        "update": "Summer 2023 Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Bushman",
+        "src": "https://wiki.teamfortress.com/w/images/5/56/Backpack_Bushman.png"
+    },
+    {
+        "name": "Preventative Measure",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "July 12, 2023 Patch",
+        "update": "Summer 2023 Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Preventative_Measure",
+        "src": "https://wiki.teamfortress.com/w/images/d/db/Backpack_Preventative_Measure.png"
+    },
+    {
+        "name": "Cranium Cover",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_assassin",
+        "date": "July 12, 2023 Patch",
+        "update": "Summer 2023 Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Cranium_Cover",
+        "src": "https://wiki.teamfortress.com/w/images/1/12/Backpack_Cranium_Cover.png"
+    },
+    {
+        "name": "Glorious Gambeson",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_assassin",
+        "date": "July 12, 2023 Patch",
+        "update": "Summer 2023 Update",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Glorious_Gambeson",
+        "src": "https://wiki.teamfortress.com/w/images/5/50/Backpack_Glorious_Gambeson.png"
+    },
+    {
+        "name": "Carry-Van",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "qua_unique",
+        "date": "October 9, 2023 Patch",
+        "update": "Scream Fortress XV",
+        "restriction": "Halloween",
+        "wiki": "https://wiki.teamfortress.com/wiki/Carry-Van",
+        "src": "https://wiki.teamfortress.com/w/images/a/af/Backpack_Carry-Van.png"
+    },
+    {
+        "name": "Sharpshooter's Shroud",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_commando",
+        "date": "October 9, 2023 Patch",
+        "update": "Scream Fortress XV",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Sharpshooter%27s_Shroud",
+        "src": "https://wiki.teamfortress.com/w/images/e/e3/Backpack_Sharpshooter%27s_Shroud.png"
+    },
+    {
+        "name": "Sightseer",
+        "class": [
+            "Sniper"
+        ],
+        "grade": "grade_assassin",
+        "date": "October 9, 2023 Patch",
+        "update": "Scream Fortress XV",
+        "restriction": "None",
+        "wiki": "https://wiki.teamfortress.com/wiki/Sightseer",
+        "src": "https://wiki.teamfortress.com/w/images/a/a3/Backpack_Sightseer.png"
+    },
+    {
         "name": "Fancy Fedora",
         "class": [
             "Spy"
@@ -15330,20 +14934,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Charmer%27s_Chapeau",
         "src": "https://wiki.teamfortress.com/w/images/f/fa/Backpack_Charmer%27s_Chapeau.png"
-    },
-    {
-        "name": "Private Eye",
-        "class": [
-            "Demoman",
-            "Medic",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "April 7, 2011 Patch",
-        "update": "Third Community Contribution Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Private_Eye",
-        "src": "https://wiki.teamfortress.com/w/images/b/bc/Backpack_Private_Eye.png"
     },
     {
         "name": "Janissary Ketche",
@@ -15478,19 +15068,6 @@
         "src": "https://wiki.teamfortress.com/w/images/3/3d/Backpack_Under_Cover.png"
     },
     {
-        "name": "Dr. Whoa",
-        "class": [
-            "Medic",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "November 22, 2011 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Dr._Whoa",
-        "src": "https://wiki.teamfortress.com/w/images/9/95/Backpack_Dr._Whoa.png"
-    },
-    {
         "name": "Dashin' Hashshashin",
         "class": [
             "Spy"
@@ -15538,22 +15115,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Business_Casual",
         "src": "https://wiki.teamfortress.com/w/images/3/32/Backpack_Business_Casual.png"
-    },
-    {
-        "name": "Triad Trinket",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Engineer",
-            "Sniper",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "August 2, 2012 Patch",
-        "update": "Triad Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Triad_Trinket",
-        "src": "https://wiki.teamfortress.com/w/images/a/a9/Backpack_Triad_Trinket.png"
     },
     {
         "name": "Ninja Cowl",
@@ -15614,21 +15175,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Lacking_Moral_Fiber_Mask",
         "src": "https://wiki.teamfortress.com/w/images/7/76/Backpack_Lacking_Moral_Fiber_Mask.png"
-    },
-    {
-        "name": "Exorcizor",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Medic",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "October 26, 2012 Patch",
-        "update": "Spectral Halloween Special",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Exorcizor",
-        "src": "https://wiki.teamfortress.com/w/images/c/c2/Backpack_Exorcizor.png"
     },
     {
         "name": "Scarecrow",
@@ -15740,20 +15286,6 @@
         "src": "https://wiki.teamfortress.com/w/images/3/38/Backpack_Pom-Pommed_Provocateur.png"
     },
     {
-        "name": "Powdered Practitioner",
-        "class": [
-            "Soldier",
-            "Medic",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "June 13, 2013 Patch",
-        "update": "Second Workshop Content Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Powdered_Practitioner",
-        "src": "https://wiki.teamfortress.com/w/images/0/0c/Backpack_Powdered_Practitioner.png"
-    },
-    {
         "name": "After Dark",
         "class": [
             "Spy"
@@ -15814,19 +15346,6 @@
         "src": "https://wiki.teamfortress.com/w/images/c/ce/Backpack_Rogue%27s_Brogues.png"
     },
     {
-        "name": "Macho Mann",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "July 10, 2013 Patch",
-        "update": "Summer Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Macho_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/f/f9/Backpack_Macho_Mann.png"
-    },
-    {
         "name": "Escapist",
         "class": [
             "Spy"
@@ -15837,19 +15356,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Escapist",
         "src": "https://wiki.teamfortress.com/w/images/3/37/Backpack_Escapist.png"
-    },
-    {
-        "name": "Frenchman's Formals",
-        "class": [
-            "Scout",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Frenchman%27s_Formals",
-        "src": "https://wiki.teamfortress.com/w/images/7/73/Backpack_Frenchman%27s_Formals.png"
     },
     {
         "name": "L'homme Burglerre",
@@ -15922,19 +15428,6 @@
         "restriction": "Halloween",
         "wiki": "https://wiki.teamfortress.com/wiki/Hyperbaric_Bowler",
         "src": "https://wiki.teamfortress.com/w/images/d/d0/Backpack_Hyperbaric_Bowler.png"
-    },
-    {
-        "name": "Ethereal Hood",
-        "class": [
-            "Demoman",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2013 Patch",
-        "update": "Scream Fortress V",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Ethereal_Hood",
-        "src": "https://wiki.teamfortress.com/w/images/c/ca/Backpack_Ethereal_Hood.png"
     },
     {
         "name": "Backstabber's Boomslang",
@@ -16154,33 +15647,6 @@
         "src": "https://wiki.teamfortress.com/w/images/c/c0/Backpack_Graylien.png"
     },
     {
-        "name": "Buttler",
-        "class": [
-            "Classes",
-            "Demoman",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Buttler",
-        "src": "https://wiki.teamfortress.com/w/images/8/81/Backpack_Buttler.png"
-    },
-    {
-        "name": "Teufort Knight",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Teufort_Knight",
-        "src": "https://wiki.teamfortress.com/w/images/0/07/Backpack_Teufort_Knight.png"
-    },
-    {
         "name": "A Hat to Kill For",
         "class": [
             "Spy"
@@ -16265,20 +15731,6 @@
         "src": "https://wiki.teamfortress.com/w/images/c/cd/Backpack_Brain-Warming_Wear.png"
     },
     {
-        "name": "Reader's Choice",
-        "class": [
-            "Classes",
-            "Medic",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 21, 2016 Patch",
-        "update": "Smissmas 2016",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Reader%27s_Choice",
-        "src": "https://wiki.teamfortress.com/w/images/c/cb/Backpack_Reader%27s_Choice.png"
-    },
-    {
         "name": "Upgrade",
         "class": [
             "Spy"
@@ -16289,20 +15741,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Upgrade",
         "src": "https://wiki.teamfortress.com/w/images/a/a4/Backpack_Upgrade.png"
-    },
-    {
-        "name": "Aloha Apparel",
-        "class": [
-            "Scout",
-            "Engineer",
-            "Spy"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Aloha_Apparel",
-        "src": "https://wiki.teamfortress.com/w/images/2/25/Backpack_Aloha_Apparel.png"
     },
     {
         "name": "Aristotle",
@@ -16363,19 +15801,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Murderer%27s_Motif",
         "src": "https://wiki.teamfortress.com/w/images/6/6e/Backpack_Murderer%27s_Motif.png"
-    },
-    {
-        "name": "Harry",
-        "class": [
-            "Medic",
-            "Spy"
-        ],
-        "grade": "grade_commando",
-        "date": "December 19, 2018 Patch",
-        "update": "Smissmas 2018",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Harry",
-        "src": "https://wiki.teamfortress.com/w/images/b/b8/Backpack_Harry.png"
     },
     {
         "name": "Shutterbug",
@@ -16450,19 +15875,6 @@
         "src": "https://wiki.teamfortress.com/w/images/5/5a/Backpack_Smoking_Jacket.png"
     },
     {
-        "name": "Particulate Protector",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 3, 2020 Patch",
-        "update": "Smissmas 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Particulate_Protector",
-        "src": "https://wiki.teamfortress.com/w/images/6/62/Backpack_Particulate_Protector.png"
-    },
-    {
         "name": "Crustaceous Cowl",
         "class": [
             "Spy"
@@ -16473,22 +15885,6 @@
         "restriction": "None",
         "wiki": "https://wiki.teamfortress.com/wiki/Crustaceous_Cowl",
         "src": "https://wiki.teamfortress.com/w/images/3/32/Backpack_Crustaceous_Cowl.png"
-    },
-    {
-        "name": "Computron 5000",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Engineer",
-            "Medic",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "October 5, 2021 Patch",
-        "update": "Scream Fortress XIII",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Computron_5000",
-        "src": "https://wiki.teamfortress.com/w/images/c/c0/Backpack_Computron_5000.png"
     },
     {
         "name": "Gruesome Gourd",
@@ -16669,1739 +16065,5 @@
         "restriction": "Halloween",
         "wiki": "https://wiki.teamfortress.com/wiki/Spyder",
         "src": "https://wiki.teamfortress.com/w/images/7/7d/Backpack_Spyder.png"
-    },
-    {
-        "name": "Trophy Belt",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "May 21, 2009 Patch",
-        "update": "Sniper vs. Spy Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Trophy_Belt",
-        "src": "https://wiki.teamfortress.com/w/images/1/1b/Backpack_Trophy_Belt.png"
-    },
-    {
-        "name": "Master's Yellow Belt",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "August 13, 2009 Patch",
-        "update": "Classless Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Master%27s_Yellow_Belt",
-        "src": "https://wiki.teamfortress.com/w/images/6/62/Backpack_Master%27s_Yellow_Belt.png"
-    },
-    {
-        "name": "Professional's Panama",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "August 13, 2009 Patch",
-        "update": "Classless Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Professional%27s_Panama",
-        "src": "https://wiki.teamfortress.com/w/images/2/24/Backpack_Professional%27s_Panama.png"
-    },
-    {
-        "name": "Ritzy Rick's Hair Fixative",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "August 13, 2009 Patch",
-        "update": "Classless Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Ritzy_Rick%27s_Hair_Fixative",
-        "src": "https://wiki.teamfortress.com/w/images/4/42/Backpack_Ritzy_Rick%27s_Hair_Fixative.png"
-    },
-    {
-        "name": "Shooter's Sola Topi",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "March 18, 2010 Patch",
-        "update": "First Community Contribution Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Shooter%27s_Sola_Topi",
-        "src": "https://wiki.teamfortress.com/w/images/b/bc/Backpack_Shooter%27s_Sola_Topi.png"
-    },
-    {
-        "name": "Bloke's Bucket Hat",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "May 20, 2010 Patch",
-        "update": "Second Community Contribution Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bloke%27s_Bucket_Hat",
-        "src": "https://wiki.teamfortress.com/w/images/0/03/Backpack_Bloke%27s_Bucket_Hat.png"
-    },
-    {
-        "name": "Ol' Snaggletooth",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "September 30, 2010 Patch",
-        "update": "Mann-Conomy Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Ol%27_Snaggletooth",
-        "src": "https://wiki.teamfortress.com/w/images/3/3b/Backpack_Ol%27_Snaggletooth.png"
-    },
-    {
-        "name": "Larrikin Robin",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 17, 2010 Patch",
-        "update": "Australian Christmas",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Larrikin_Robin",
-        "src": "https://wiki.teamfortress.com/w/images/1/10/Backpack_Larrikin_Robin.png"
-    },
-    {
-        "name": "Crocleather Slouch",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "May 5, 2011 Patch",
-        "update": "Replay Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Crocleather_Slouch",
-        "src": "https://wiki.teamfortress.com/w/images/a/a1/Backpack_Crocleather_Slouch.png"
-    },
-    {
-        "name": "Villain's Veil",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "May 5, 2011 Patch",
-        "update": "Replay Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Villain%27s_Veil",
-        "src": "https://wiki.teamfortress.com/w/images/1/1c/Backpack_Villain%27s_Veil.png"
-    },
-    {
-        "name": "Desert Marauder",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "June 23, 2011 Patch",
-        "update": "\u00dcber Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Desert_Marauder",
-        "src": "https://wiki.teamfortress.com/w/images/9/99/Backpack_Desert_Marauder.png"
-    },
-    {
-        "name": "Anger",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "August 3, 2011 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Anger",
-        "src": "https://wiki.teamfortress.com/w/images/1/1b/Backpack_Anger.png"
-    },
-    {
-        "name": "Sniper's Snipin' Glass",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "August 18, 2011 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Sniper%27s_Snipin%27_Glass",
-        "src": "https://wiki.teamfortress.com/w/images/5/55/Backpack_Sniper%27s_Snipin%27_Glass.png"
-    },
-    {
-        "name": "Crocodile Smile",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 13, 2011 Patch",
-        "update": "Manniversary Update & Sale",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Crocodile_Smile",
-        "src": "https://wiki.teamfortress.com/w/images/4/4d/Backpack_Crocodile_Smile.png"
-    },
-    {
-        "name": "Hat With No Name",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 13, 2011 Patch",
-        "update": "Manniversary Update & Sale",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Hat_With_No_Name",
-        "src": "https://wiki.teamfortress.com/w/images/0/05/Backpack_Hat_With_No_Name.png"
-    },
-    {
-        "name": "Swagman's Swatter",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 13, 2011 Patch",
-        "update": "Manniversary Update & Sale",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Swagman%27s_Swatter",
-        "src": "https://wiki.teamfortress.com/w/images/6/64/Backpack_Swagman%27s_Swatter.png"
-    },
-    {
-        "name": "Your Worst Nightmare",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 13, 2011 Patch",
-        "update": "Manniversary Update & Sale",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Your_Worst_Nightmare",
-        "src": "https://wiki.teamfortress.com/w/images/2/2e/Backpack_Your_Worst_Nightmare.png"
-    },
-    {
-        "name": "Garlic Flank Stake",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 27, 2011 Patch",
-        "update": "Very Scary Halloween Special",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Garlic_Flank_Stake",
-        "src": "https://wiki.teamfortress.com/w/images/a/a0/Backpack_Garlic_Flank_Stake.png"
-    },
-    {
-        "name": "Holy Hunter",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 27, 2011 Patch",
-        "update": "Very Scary Halloween Special",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Holy_Hunter",
-        "src": "https://wiki.teamfortress.com/w/images/b/b2/Backpack_Holy_Hunter.png"
-    },
-    {
-        "name": "Silver Bullets",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 27, 2011 Patch",
-        "update": "Very Scary Halloween Special",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Silver_Bullets",
-        "src": "https://wiki.teamfortress.com/w/images/4/4c/Backpack_Silver_Bullets.png"
-    },
-    {
-        "name": "Itsy Bitsy Spyer",
-        "class": [
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 1, 2011 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Itsy_Bitsy_Spyer",
-        "src": "https://wiki.teamfortress.com/w/images/3/3f/Backpack_Itsy_Bitsy_Spyer.png"
-    },
-    {
-        "name": "All-Father",
-        "class": [
-            "Soldier",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Medic",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 15, 2011 Patch",
-        "update": "Australian Christmas 2011",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/All-Father",
-        "src": "https://wiki.teamfortress.com/w/images/6/6e/Backpack_All-Father.png"
-    },
-    {
-        "name": "Outback Intellectual",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 15, 2011 Patch",
-        "update": "Australian Christmas 2011",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Outback_Intellectual",
-        "src": "https://wiki.teamfortress.com/w/images/e/e6/Backpack_Outback_Intellectual.png"
-    },
-    {
-        "name": "Bushman's Boonie",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "February 2, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bushman%27s_Boonie",
-        "src": "https://wiki.teamfortress.com/w/images/6/68/Backpack_Bushman%27s_Boonie.png"
-    },
-    {
-        "name": "Teufort Tooth Kicker",
-        "class": [
-            "Scout",
-            "Soldier",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "March 1, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Teufort_Tooth_Kicker",
-        "src": "https://wiki.teamfortress.com/w/images/c/cc/Backpack_Teufort_Tooth_Kicker.png"
-    },
-    {
-        "name": "Fruit Shoot",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "May 3, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Fruit_Shoot",
-        "src": "https://wiki.teamfortress.com/w/images/0/09/Backpack_Fruit_Shoot.png"
-    },
-    {
-        "name": "Flamingo Kid",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "May 10, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Flamingo_Kid",
-        "src": "https://wiki.teamfortress.com/w/images/b/bf/Backpack_Flamingo_Kid.png"
-    },
-    {
-        "name": "Doublecross-Comm",
-        "class": [
-            "Sniper",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "May 17, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Doublecross-Comm",
-        "src": "https://wiki.teamfortress.com/w/images/8/8e/Backpack_Doublecross-Comm.png"
-    },
-    {
-        "name": "HazMat Headcase",
-        "class": [
-            "Pyro",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "June 27, 2012 Patch",
-        "update": "Pyromania Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/HazMat_Headcase",
-        "src": "https://wiki.teamfortress.com/w/images/2/2d/Backpack_HazMat_Headcase.png"
-    },
-    {
-        "name": "Liquidator's Lid",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "June 27, 2012 Patch",
-        "update": "Pyromania Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Liquidator%27s_Lid",
-        "src": "https://wiki.teamfortress.com/w/images/0/06/Backpack_Liquidator%27s_Lid.png"
-    },
-    {
-        "name": "Lone Star",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "August 2, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Lone_Star",
-        "src": "https://wiki.teamfortress.com/w/images/5/54/Backpack_Lone_Star.png"
-    },
-    {
-        "name": "Champ Stamp",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "August 2, 2012 Patch",
-        "update": "Triad Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Champ_Stamp",
-        "src": "https://wiki.teamfortress.com/w/images/f/f2/Backpack_Champ_Stamp.png"
-    },
-    {
-        "name": "Triad Trinket",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Engineer",
-            "Sniper",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "August 2, 2012 Patch",
-        "update": "Triad Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Triad_Trinket",
-        "src": "https://wiki.teamfortress.com/w/images/a/a9/Backpack_Triad_Trinket.png"
-    },
-    {
-        "name": "Bolted Bushman",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "August 15, 2012 Patch",
-        "update": "Mann vs. Machine Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bolted_Bushman",
-        "src": "https://wiki.teamfortress.com/w/images/e/ef/Backpack_Bolted_Bushman.png"
-    },
-    {
-        "name": "Koala Compact",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "September 6, 2012 Patch",
-        "update": "First Workshop Content Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Koala_Compact",
-        "src": "https://wiki.teamfortress.com/w/images/7/72/Backpack_Koala_Compact.png"
-    },
-    {
-        "name": "Stovepipe Sniper Shako",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "September 27, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Stovepipe_Sniper_Shako",
-        "src": "https://wiki.teamfortress.com/w/images/f/f6/Backpack_Stovepipe_Sniper_Shako.png"
-    },
-    {
-        "name": "Sir Hootsalot",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 26, 2012 Patch",
-        "update": "Spectral Halloween Special",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Sir_Hootsalot",
-        "src": "https://wiki.teamfortress.com/w/images/f/f0/Backpack_Sir_Hootsalot.png"
-    },
-    {
-        "name": "Spooky Sleeves",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Heavy",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 26, 2012 Patch",
-        "update": "Spectral Halloween Special",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Spooky_Sleeves",
-        "src": "https://wiki.teamfortress.com/w/images/d/d5/Backpack_Spooky_Sleeves.png"
-    },
-    {
-        "name": "Voodoo-Cursed Sniper Soul",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 26, 2012 Patch",
-        "update": "Spectral Halloween Special",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Voodoo-Cursed_Sniper_Soul",
-        "src": "https://wiki.teamfortress.com/w/images/0/0e/Backpack_Voodoo-Cursed_Sniper_Soul.png"
-    },
-    {
-        "name": "Deadliest Duckling",
-        "class": [
-            "Soldier",
-            "Pyro",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "November 16, 2012 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Deadliest_Duckling",
-        "src": "https://wiki.teamfortress.com/w/images/3/3f/Backpack_Deadliest_Duckling.png"
-    },
-    {
-        "name": "Cold Killer",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2012 Patch",
-        "update": "Mecha Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Cold_Killer",
-        "src": "https://wiki.teamfortress.com/w/images/1/15/Backpack_Cold_Killer.png"
-    },
-    {
-        "name": "Mutton Mann",
-        "class": [
-            "Classes",
-            "Pyro",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2012 Patch",
-        "update": "Mecha Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Mutton_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/2/2d/Backpack_Mutton_Mann.png"
-    },
-    {
-        "name": "Steel Songbird",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "February 22, 2013 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Steel_Songbird",
-        "src": "https://wiki.teamfortress.com/w/images/c/c9/Backpack_Steel_Songbird.png"
-    },
-    {
-        "name": "Sydney Straw Boat",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "February 22, 2013 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Sydney_Straw_Boat",
-        "src": "https://wiki.teamfortress.com/w/images/9/96/Backpack_Sydney_Straw_Boat.png"
-    },
-    {
-        "name": "Bloodhound",
-        "class": [
-            "Sniper",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "March 12, 2013 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bloodhound",
-        "src": "https://wiki.teamfortress.com/w/images/d/d5/Backpack_Bloodhound.png"
-    },
-    {
-        "name": "Letch's LED",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "May 17, 2013 Patch",
-        "update": "Robotic Boogaloo",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Letch%27s_LED",
-        "src": "https://wiki.teamfortress.com/w/images/1/1a/Backpack_Letch%27s_LED.png"
-    },
-    {
-        "name": "Shooter's Tin Topi",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "May 17, 2013 Patch",
-        "update": "Robotic Boogaloo",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Shooter%27s_Tin_Topi",
-        "src": "https://wiki.teamfortress.com/w/images/8/88/Backpack_Shooter%27s_Tin_Topi.png"
-    },
-    {
-        "name": "Soldered Sensei",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "May 17, 2013 Patch",
-        "update": "Robotic Boogaloo",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Soldered_Sensei",
-        "src": "https://wiki.teamfortress.com/w/images/7/70/Backpack_Soldered_Sensei.png"
-    },
-    {
-        "name": "Dual-Core Devil Doll",
-        "class": [
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "May 17, 2013 Patch",
-        "update": "Robotic Boogaloo",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Dual-Core_Devil_Doll",
-        "src": "https://wiki.teamfortress.com/w/images/9/99/Backpack_Dual-Core_Devil_Doll.png"
-    },
-    {
-        "name": "Birdman of Australiacatraz",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "July 10, 2013 Patch",
-        "update": "Summer Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Birdman_of_Australiacatraz",
-        "src": "https://wiki.teamfortress.com/w/images/e/e7/Backpack_Birdman_of_Australiacatraz.png"
-    },
-    {
-        "name": "Cobber Chameleon",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "July 10, 2013 Patch",
-        "update": "Summer Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Cobber_Chameleon",
-        "src": "https://wiki.teamfortress.com/w/images/c/c9/Backpack_Cobber_Chameleon.png"
-    },
-    {
-        "name": "Falconer",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "July 10, 2013 Patch",
-        "update": "Summer Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Falconer",
-        "src": "https://wiki.teamfortress.com/w/images/7/75/Backpack_Falconer.png"
-    },
-    {
-        "name": "Wet Works",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "July 10, 2013 Patch",
-        "update": "Summer Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Wet_Works",
-        "src": "https://wiki.teamfortress.com/w/images/a/a2/Backpack_Wet_Works.png"
-    },
-    {
-        "name": "Macho Mann",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "July 10, 2013 Patch",
-        "update": "Summer Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Macho_Mann",
-        "src": "https://wiki.teamfortress.com/w/images/f/f9/Backpack_Macho_Mann.png"
-    },
-    {
-        "name": "Brim-Full of Bullets",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Brim-Full_Of_Bullets",
-        "src": "https://wiki.teamfortress.com/w/images/6/60/Backpack_Brim-Full_Of_Bullets.png"
-    },
-    {
-        "name": "Chronomancer",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Chronomancer",
-        "src": "https://wiki.teamfortress.com/w/images/a/a2/Backpack_Chronomancer.png"
-    },
-    {
-        "name": "Li'l Snaggletooth",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 10, 2013 Patch",
-        "update": "Fall Event 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Li%27l_Snaggletooth",
-        "src": "https://wiki.teamfortress.com/w/images/e/e0/Backpack_Li%27l_Snaggletooth.png"
-    },
-    {
-        "name": "Carious Chameleon",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2013 Patch",
-        "update": "Scream Fortress V",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Carious_Chameleon",
-        "src": "https://wiki.teamfortress.com/w/images/a/a5/Backpack_Carious_Chameleon.png"
-    },
-    {
-        "name": "Hallowed Headcase",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2013 Patch",
-        "update": "Scream Fortress V",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Hallowed_Headcase",
-        "src": "https://wiki.teamfortress.com/w/images/f/f9/Backpack_Hallowed_Headcase.png"
-    },
-    {
-        "name": "Sir Shootsalot",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2013 Patch",
-        "update": "Scream Fortress V",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Sir_Shootsalot",
-        "src": "https://wiki.teamfortress.com/w/images/a/ad/Backpack_Sir_Shootsalot.png"
-    },
-    {
-        "name": "Snaggletoothed Stetson",
-        "class": [
-            "Pyro",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2013 Patch",
-        "update": "Scream Fortress V",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Snaggletoothed_Stetson",
-        "src": "https://wiki.teamfortress.com/w/images/1/10/Backpack_Snaggletoothed_Stetson.png"
-    },
-    {
-        "name": "Randolph the Blood-Nosed Caribou",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 18, 2013 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Randolph_the_Blood-Nosed_Caribou",
-        "src": "https://wiki.teamfortress.com/w/images/c/c5/Backpack_Randolph_the_Blood-Nosed_Caribou.png"
-    },
-    {
-        "name": "Smissmas Caribou",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 18, 2013 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Smissmas_Caribou",
-        "src": "https://wiki.teamfortress.com/w/images/5/53/Backpack_Smissmas_Caribou.png"
-    },
-    {
-        "name": "Extra Layer",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2013 Patch",
-        "update": "Smissmas 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Extra_Layer",
-        "src": "https://wiki.teamfortress.com/w/images/7/75/Backpack_Extra_Layer.png"
-    },
-    {
-        "name": "Five-Month Shadow",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2013 Patch",
-        "update": "Smissmas 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Five-Month_Shadow",
-        "src": "https://wiki.teamfortress.com/w/images/7/7f/Backpack_Five-Month_Shadow.png"
-    },
-    {
-        "name": "Golden Garment",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2013 Patch",
-        "update": "Smissmas 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Golden_Garment",
-        "src": "https://wiki.teamfortress.com/w/images/3/32/Backpack_Golden_Garment.png"
-    },
-    {
-        "name": "Snow Scoper",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2013 Patch",
-        "update": "Smissmas 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Snow_Scoper",
-        "src": "https://wiki.teamfortress.com/w/images/0/01/Backpack_Snow_Scoper.png"
-    },
-    {
-        "name": "Toy Soldier",
-        "class": [
-            "Soldier",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 20, 2013 Patch",
-        "update": "Smissmas 2013",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Toy_Soldier",
-        "src": "https://wiki.teamfortress.com/w/images/d/da/Backpack_Toy_Soldier.png"
-    },
-    {
-        "name": "Archer's Groundings",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "February 7, 2014 Patch",
-        "update": "Strongbox Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Archer%27s_Groundings",
-        "src": "https://wiki.teamfortress.com/w/images/6/65/Backpack_Archers_Groundings.png"
-    },
-    {
-        "name": "Huntsman's Essentials",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "February 7, 2014 Patch",
-        "update": "Strongbox Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Huntsman%27s_Essentials",
-        "src": "https://wiki.teamfortress.com/w/images/d/dd/Backpack_Huntsman%27s_Essentials.png"
-    },
-    {
-        "name": "Toowoomba Tunic",
-        "class": [
-            "Demoman",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "February 7, 2014 Patch",
-        "update": "Strongbox Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Toowoomba_Tunic",
-        "src": "https://wiki.teamfortress.com/w/images/e/ef/Backpack_Toowoomba_Tunic.png"
-    },
-    {
-        "name": "Deep Cover Operator",
-        "class": [
-            "Sniper",
-            "Spy"
-        ],
-        "grade": "qua_unique",
-        "date": "February 7, 2014 Patch",
-        "update": "Strongbox Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Deep_Cover_Operator",
-        "src": "https://wiki.teamfortress.com/w/images/4/49/Backpack_Deep_Cover_Operator.png"
-    },
-    {
-        "name": "Criminal Cloak",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "February 19, 2014 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Criminal_Cloak",
-        "src": "https://wiki.teamfortress.com/w/images/a/a2/Backpack_Criminal_Cloak.png"
-    },
-    {
-        "name": "Dread Hiding Hood",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "February 19, 2014 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Dread_Hiding_Hood",
-        "src": "https://wiki.teamfortress.com/w/images/6/6f/Backpack_Dread_Hiding_Hood.png"
-    },
-    {
-        "name": "Scoper's Smoke",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "June 18, 2014 Patch",
-        "update": "Love & War Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Scoper%27s_Smoke",
-        "src": "https://wiki.teamfortress.com/w/images/6/67/Backpack_Scoper%27s_Smoke.png"
-    },
-    {
-        "name": "Triggerman's Tacticals",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "June 18, 2014 Patch",
-        "update": "Love & War Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Triggerman%27s_Tacticals",
-        "src": "https://wiki.teamfortress.com/w/images/9/9f/Backpack_Triggerman%27s_Tacticals.png"
-    },
-    {
-        "name": "Poacher's Safari Jacket",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "September 25, 2014 Patch",
-        "update": "Limited Late Summer Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Poacher%27s_Safari_Jacket",
-        "src": "https://wiki.teamfortress.com/w/images/b/b5/Backpack_Poacher%27s_Safari_Jacket.png"
-    },
-    {
-        "name": "Hillbilly Speed Bump",
-        "class": [
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "September 25, 2014 Patch",
-        "update": "Limited Late Summer Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Hillbilly_Speed-Bump",
-        "src": "https://wiki.teamfortress.com/w/images/b/bb/Backpack_Hillbilly_Speed_Bump.png"
-    },
-    {
-        "name": "Cranial Conspiracy",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2014 Patch",
-        "update": "Scream Fortress VI",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Cranial_Conspiracy",
-        "src": "https://wiki.teamfortress.com/w/images/c/c0/Backpack_Cranial_Conspiracy.png"
-    },
-    {
-        "name": "Kanga Kickers",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2014 Patch",
-        "update": "Scream Fortress VI",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Kanga_Kickers",
-        "src": "https://wiki.teamfortress.com/w/images/8/8c/Backpack_Kanga_Kickers.png"
-    },
-    {
-        "name": "Marsupial Man",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2014 Patch",
-        "update": "Scream Fortress VI",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Marsupial_Man",
-        "src": "https://wiki.teamfortress.com/w/images/b/bf/Backpack_Marsupial_Man.png"
-    },
-    {
-        "name": "Marsupial Muzzle",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2014 Patch",
-        "update": "Scream Fortress VI",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Marsupial_Muzzle",
-        "src": "https://wiki.teamfortress.com/w/images/6/6e/Backpack_Marsupial_Muzzle.png"
-    },
-    {
-        "name": "Mr. Mundee's Wild Ride",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2014 Patch",
-        "update": "Scream Fortress VI",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Mr._Mundee%27s_Wild_Ride",
-        "src": "https://wiki.teamfortress.com/w/images/4/43/Backpack_Mr._Mundee%27s_Wild_Ride.png"
-    },
-    {
-        "name": "Roo Rippers",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2014 Patch",
-        "update": "Scream Fortress VI",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Roo_Rippers",
-        "src": "https://wiki.teamfortress.com/w/images/1/1d/Backpack_Roo_Rippers.png"
-    },
-    {
-        "name": "Scaly Scrapers",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 29, 2014 Patch",
-        "update": "Scream Fortress VI",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Scaly_Scrapers",
-        "src": "https://wiki.teamfortress.com/w/images/7/74/Backpack_Scaly_Scrapers.png"
-    },
-    {
-        "name": "Snow Sleeves",
-        "class": [
-            "Demoman",
-            "Heavy",
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 8, 2014 Patch",
-        "update": "End of the Line Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Snow_Sleeves",
-        "src": "https://wiki.teamfortress.com/w/images/8/82/Backpack_Snow_Sleeves.png"
-    },
-    {
-        "name": "Bushman's Bristles",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 22, 2014 Patch",
-        "update": "Smissmas 2014",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bushman%27s_Bristles",
-        "src": "https://wiki.teamfortress.com/w/images/2/20/Backpack_Bushman%27s_Bristles.png"
-    },
-    {
-        "name": "Marksman's Mohair",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 22, 2014 Patch",
-        "update": "Smissmas 2014",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Marksman%27s_Mohair",
-        "src": "https://wiki.teamfortress.com/w/images/3/3e/Backpack_Marksman%27s_Mohair.png"
-    },
-    {
-        "name": "Professional's Ushanka",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 22, 2014 Patch",
-        "update": "Smissmas 2014",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Professional%27s_Ushanka",
-        "src": "https://wiki.teamfortress.com/w/images/4/48/Backpack_Professional%27s_Ushanka.png"
-    },
-    {
-        "name": "Wally Pocket",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "December 22, 2014 Patch",
-        "update": "Smissmas 2014",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Wally_Pocket",
-        "src": "https://wiki.teamfortress.com/w/images/b/bb/Backpack_Wally_Pocket.png"
-    },
-    {
-        "name": "Support Spurs",
-        "class": [
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "August 27, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Support_Spurs",
-        "src": "https://wiki.teamfortress.com/w/images/3/37/Backpack_Support_Spurs.png"
-    },
-    {
-        "name": "Corona Australis",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_elite",
-        "date": "October 6, 2015 Patch",
-        "update": "Invasion Community Update\u200e",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Corona_Australis",
-        "src": "https://wiki.teamfortress.com/w/images/e/ea/Backpack_Corona_Australis.png"
-    },
-    {
-        "name": "Final Frontiersman",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 6, 2015 Patch",
-        "update": "Invasion Community Update\u200e",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Final_Frontiersman",
-        "src": "https://wiki.teamfortress.com/w/images/0/0a/Backpack_Final_Frontiersman.png"
-    },
-    {
-        "name": "Starduster",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_assassin",
-        "date": "October 6, 2015 Patch",
-        "update": "Invasion Community Update\u200e",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Starduster",
-        "src": "https://wiki.teamfortress.com/w/images/a/a9/Backpack_Starduster.png"
-    },
-    {
-        "name": "Teufort Knight",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "qua_unique",
-        "date": "December 4, 2015 Patch",
-        "update": "Promotional",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Teufort_Knight",
-        "src": "https://wiki.teamfortress.com/w/images/0/07/Backpack_Teufort_Knight.png"
-    },
-    {
-        "name": "Scoped Spartan",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "May 11, 2016 Patch",
-        "update": "Mayflower Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Scoped_Spartan",
-        "src": "https://wiki.teamfortress.com/w/images/d/d8/Backpack_Scoped_Spartan.png"
-    },
-    {
-        "name": "Airborne Attire",
-        "class": [
-            "Scout",
-            "Heavy",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "May 15, 2017 Patch",
-        "update": "Rainy Day Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Airborne_Attire",
-        "src": "https://wiki.teamfortress.com/w/images/6/68/Backpack_Airborne_Attire.png"
-    },
-    {
-        "name": "Archer's Sterling",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "May 15, 2017 Patch",
-        "update": "Rainy Day Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Archer%27s_Sterling",
-        "src": "https://wiki.teamfortress.com/w/images/8/8c/Backpack_Archer%27s_Sterling.png"
-    },
-    {
-        "name": "Down Under Duster",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "May 15, 2017 Patch",
-        "update": "Rainy Day Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Down_Under_Duster",
-        "src": "https://wiki.teamfortress.com/w/images/6/6c/Backpack_Down_Under_Duster.png"
-    },
-    {
-        "name": "Guilden Guardian",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_assassin",
-        "date": "May 15, 2017 Patch",
-        "update": "Rainy Day Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Guilden_Guardian",
-        "src": "https://wiki.teamfortress.com/w/images/1/1e/Backpack_Guilden_Guardian.png"
-    },
-    {
-        "name": "Hawk-Eyed Hunter",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "May 15, 2017 Patch",
-        "update": "Rainy Day Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Hawk-Eyed_Hunter",
-        "src": "https://wiki.teamfortress.com/w/images/1/1a/Backpack_Hawk-Eyed_Hunter.png"
-    },
-    {
-        "name": "Bait and Bite",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bait_and_Bite",
-        "src": "https://wiki.teamfortress.com/w/images/d/d9/Backpack_Bait_and_Bite.png"
-    },
-    {
-        "name": "Cammy Jammies",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Cammy_Jammies",
-        "src": "https://wiki.teamfortress.com/w/images/e/e4/Backpack_Cammy_Jammies.png"
-    },
-    {
-        "name": "Classy Capper",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Classy_Capper",
-        "src": "https://wiki.teamfortress.com/w/images/f/f6/Backpack_Classy_Capper.png"
-    },
-    {
-        "name": "Conspicuous Camouflage",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Conspicuous_Camouflage",
-        "src": "https://wiki.teamfortress.com/w/images/8/8b/Backpack_Conspicuous_Camouflage.png"
-    },
-    {
-        "name": "Most Dangerous Mane",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Most_Dangerous_Mane",
-        "src": "https://wiki.teamfortress.com/w/images/c/ca/Backpack_Most_Dangerous_Mane.png"
-    },
-    {
-        "name": "Rifleman's Regalia",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "October 20, 2017 Patch",
-        "update": "Jungle Inferno Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Rifleman%27s_Regalia",
-        "src": "https://wiki.teamfortress.com/w/images/f/fe/Backpack_Rifleman%27s_Regalia.png"
-    },
-    {
-        "name": "Handsome Hitman",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_assassin",
-        "date": "December 21, 2017 Patch",
-        "update": "Smissmas 2017",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Handsome_Hitman",
-        "src": "https://wiki.teamfortress.com/w/images/7/71/Backpack_Handsome_Hitman.png"
-    },
-    {
-        "name": "Puffy Polar Cap",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 21, 2017 Patch",
-        "update": "Smissmas 2017",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Puffy_Polar_Cap",
-        "src": "https://wiki.teamfortress.com/w/images/9/96/Backpack_Puffy_Polar_Cap.png"
-    },
-    {
-        "name": "Down Tundra Coat",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 21, 2017 Patch",
-        "update": "Smissmas 2017",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Down_Tundra_Coat",
-        "src": "https://wiki.teamfortress.com/w/images/4/4e/Backpack_Down_Tundra_Coat.png"
-    },
-    {
-        "name": "Antarctic Eyewear",
-        "class": [
-            "Scout",
-            "Demoman",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "March 28, 2018 Patch",
-        "update": "Blue Moon Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Antarctic_Eyewear",
-        "src": "https://wiki.teamfortress.com/w/images/c/cc/Backpack_Antarctic_Eyewear.png"
-    },
-    {
-        "name": "Head Hedge",
-        "class": [
-            "Soldier",
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "March 28, 2018 Patch",
-        "update": "Blue Moon Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Head_Hedge",
-        "src": "https://wiki.teamfortress.com/w/images/2/2e/Backpack_Head_Hedge.png"
-    },
-    {
-        "name": "Crocodile Mun-Dee",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 19, 2018 Patch",
-        "update": "Scream Fortress X",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Crocodile_Mun-Dee",
-        "src": "https://wiki.teamfortress.com/w/images/a/a1/Backpack_Crocodile_Mun-Dee.png"
-    },
-    {
-        "name": "Highway Star",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 19, 2018 Patch",
-        "update": "Scream Fortress 2018",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Highway_Star",
-        "src": "https://wiki.teamfortress.com/w/images/d/d7/Backpack_Highway_Star.png"
-    },
-    {
-        "name": "Scoper's Scales",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 19, 2018 Patch",
-        "update": "Scream Fortress X",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Scoper%27s_Scales",
-        "src": "https://wiki.teamfortress.com/w/images/c/c8/Backpack_Scoper%27s_Scales.png"
-    },
-    {
-        "name": "Bare Necessities",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_assassin",
-        "date": "July 25, 2019 Patch",
-        "update": "Summer 2019 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bare_Necessities",
-        "src": "https://wiki.teamfortress.com/w/images/a/a4/Backpack_Bare_Necessities.png"
-    },
-    {
-        "name": "Wagga Wagga Wear",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "July 25, 2019 Patch",
-        "update": "Summer 2019 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Wagga_Wagga_Wear",
-        "src": "https://wiki.teamfortress.com/w/images/a/aa/Backpack_Wagga_Wagga_Wear.png"
-    },
-    {
-        "name": "Elizabeth the Third",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_assassin",
-        "date": "October 10, 2019 Patch",
-        "update": "Scream Fortress 2019",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Elizabeth_the_Third",
-        "src": "https://wiki.teamfortress.com/w/images/3/37/Backpack_Elizabeth_the_Third.png"
-    },
-    {
-        "name": "Mislaid Sweater",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "December 16, 2019 Patch",
-        "update": "Smissmas 2019",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Mislaid_Sweater",
-        "src": "https://wiki.teamfortress.com/w/images/b/b1/Backpack_Mislaid_Sweater.png"
-    },
-    {
-        "name": "Missing Piece",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 16, 2019 Patch",
-        "update": "Smissmas 2019",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Missing_Piece",
-        "src": "https://wiki.teamfortress.com/w/images/f/fa/Backpack_Missing_Piece.png"
-    },
-    {
-        "name": "Winter Wrap Up",
-        "class": [
-            "Pyro",
-            "Engineer",
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "December 16, 2019 Patch",
-        "update": "Smissmas 2019",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Winter_Wrap_Up",
-        "src": "https://wiki.teamfortress.com/w/images/5/56/Backpack_Winter_Wrap_Up.png"
-    },
-    {
-        "name": "Jarmaments",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "August 21, 2020 Patch",
-        "update": "Summer 2020 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Jarmaments",
-        "src": "https://wiki.teamfortress.com/w/images/2/20/Backpack_Jarmaments.png"
-    },
-    {
-        "name": "Glow from Below",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "October 1, 2020 Patch",
-        "update": "Scream Fortress XII",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Glow_from_Below",
-        "src": "https://wiki.teamfortress.com/w/images/d/df/Backpack_Glow_from_Below.png"
-    },
-    {
-        "name": "Killing Tree",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 3, 2020 Patch",
-        "update": "Smissmas 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Killing_Tree",
-        "src": "https://wiki.teamfortress.com/w/images/b/bc/Backpack_Killing_Tree.png"
-    },
-    {
-        "name": "Particulate Protector",
-        "class": [
-            "Classes",
-            "Pyro"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 3, 2020 Patch",
-        "update": "Smissmas 2020",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Particulate_Protector",
-        "src": "https://wiki.teamfortress.com/w/images/6/62/Backpack_Particulate_Protector.png"
-    },
-    {
-        "name": "Crocodile Dandy",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "June 22, 2021 Patch",
-        "update": "Summer 2021 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Crocodile_Dandy",
-        "src": "https://wiki.teamfortress.com/w/images/8/82/Backpack_Crocodile_Dandy.png"
-    },
-    {
-        "name": "Wild Brim Slouch",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "June 22, 2021 Patch",
-        "update": "Summer 2021 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Wild_Brim_Slouch",
-        "src": "https://wiki.teamfortress.com/w/images/8/85/Backpack_Wild_Brim_Slouch.png"
-    },
-    {
-        "name": "Hawaiian Hunter",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "July 29, 2022 Patch",
-        "update": "Summer 2022 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Hawaiian_Hunter",
-        "src": "https://wiki.teamfortress.com/w/images/5/59/Backpack_Hawaiian_Hunter.png"
-    },
-    {
-        "name": "Rocko",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_elite",
-        "date": "July 29, 2022 Patch",
-        "update": "Summer 2022 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Rocko",
-        "src": "https://wiki.teamfortress.com/w/images/5/56/Backpack_Rocko.png"
-    },
-    {
-        "name": "Tropical Camo",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "July 29, 2022 Patch",
-        "update": "Summer 2022 Pack",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Tropical_Camo",
-        "src": "https://wiki.teamfortress.com/w/images/0/02/Backpack_Tropical_Camo.png"
-    },
-    {
-        "name": "Headhunter's Brim",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "October 5, 2022 Patch",
-        "update": "Scream Fortress XIV",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Headhunter%27s_Brim",
-        "src": "https://wiki.teamfortress.com/w/images/4/42/Backpack_Headhunter%27s_Brim.png"
-    },
-    {
-        "name": "Hunting Cloak",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "October 5, 2022 Patch",
-        "update": "Scream Fortress XIV",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Hunting_Cloak",
-        "src": "https://wiki.teamfortress.com/w/images/7/78/Backpack_Hunting_Cloak.png"
-    },
-    {
-        "name": "Crosshair Cardigan",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "December 5, 2022 Patch",
-        "update": "Smissmas 2022",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Crosshair_Cardigan",
-        "src": "https://wiki.teamfortress.com/w/images/0/06/Backpack_Crosshair_Cardigan.png"
-    },
-    {
-        "name": "Bushman",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_mercenary",
-        "date": "July 12, 2023 Patch",
-        "update": "Summer 2023 Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Bushman",
-        "src": "https://wiki.teamfortress.com/w/images/5/56/Backpack_Bushman.png"
-    },
-    {
-        "name": "Preventative Measure",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "July 12, 2023 Patch",
-        "update": "Summer 2023 Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Preventative_Measure",
-        "src": "https://wiki.teamfortress.com/w/images/d/db/Backpack_Preventative_Measure.png"
-    },
-    {
-        "name": "Cranium Cover",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_assassin",
-        "date": "July 12, 2023 Patch",
-        "update": "Summer 2023 Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Cranium_Cover",
-        "src": "https://wiki.teamfortress.com/w/images/1/12/Backpack_Cranium_Cover.png"
-    },
-    {
-        "name": "Glorious Gambeson",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_assassin",
-        "date": "July 12, 2023 Patch",
-        "update": "Summer 2023 Update",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Glorious_Gambeson",
-        "src": "https://wiki.teamfortress.com/w/images/5/50/Backpack_Glorious_Gambeson.png"
-    },
-    {
-        "name": "Carry-Van",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "qua_unique",
-        "date": "October 9, 2023 Patch",
-        "update": "Scream Fortress XV",
-        "restriction": "Halloween",
-        "wiki": "https://wiki.teamfortress.com/wiki/Carry-Van",
-        "src": "https://wiki.teamfortress.com/w/images/a/af/Backpack_Carry-Van.png"
-    },
-    {
-        "name": "Sharpshooter's Shroud",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_commando",
-        "date": "October 9, 2023 Patch",
-        "update": "Scream Fortress XV",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Sharpshooter%27s_Shroud",
-        "src": "https://wiki.teamfortress.com/w/images/e/e3/Backpack_Sharpshooter%27s_Shroud.png"
-    },
-    {
-        "name": "Sightseer",
-        "class": [
-            "Sniper"
-        ],
-        "grade": "grade_assassin",
-        "date": "October 9, 2023 Patch",
-        "update": "Scream Fortress XV",
-        "restriction": "None",
-        "wiki": "https://wiki.teamfortress.com/wiki/Sightseer",
-        "src": "https://wiki.teamfortress.com/w/images/a/a3/Backpack_Sightseer.png"
     }
 ]
