@@ -1,21 +1,35 @@
 <script lang="ts">
     import cosmeticsJSON from "$lib/cosmetics.json";
     import gradeColors from "$lib/gradeColors.json";
+    import gradesJSON from "$lib/grades.json";
     import classes from "$lib/classes.json";
     import "$lib/tf2build.css";
 
     let searchQuery: string = "";
 
-    function sortCosmeticsChronologically(cosmeticsJSON: any) {
+    const grades = [];
+    for (const i in gradesJSON) {
+        grades.push(gradesJSON[i].name);
+    }
+
+    function sortCosmeticsChronologically(cosmeticsJSON: any, gradesJSON: any) {
         let cosmetics = cosmeticsJSON;
-        // convert date into epoch timestamp
+        let grades = gradesJSON;
+
         for (let i = 0; i < cosmetics.length; i++) {
+            // convert date into epoch timestamp
             let item = cosmetics[i];
             const d = new Date(item.date.toString().replace(" Patch", ""));
             item.date = d.getTime();
+
+            // convert grade from code to name
+            const c_grade = { ... grades[cosmetics[i].grade] };
+            item.grade = c_grade.name;
+            item.color = c_grade.color;
         }
         // get array of epoch timestamps sorted numerically
         const DATES = Array.from(new Set(cosmetics.map(i => i.date))).sort();
+
         // sort cosmetics in chronological order
         let cosmetics_sorted = [];
         for (let i = 0; i < DATES.length; i++) {
@@ -29,10 +43,11 @@
         }
         return cosmetics_sorted;
     }
-    let cosmetics = sortCosmeticsChronologically(cosmeticsJSON);
+    let cosmetics = sortCosmeticsChronologically(cosmeticsJSON, gradesJSON);
 
     let filters = {
-        class: []
+        class: [],
+        grade: []
     }
 
     let dateReleased: HTMLButtonElement;
@@ -61,16 +76,27 @@
             </div>
         {/each}
     </div>
+
+    <div class="class-filter-wrapper">
+        { #each grades as name }
+            <div class="checkbox-wrapper">
+                <label for={name}>{name}</label>
+                <input type="checkbox" id={name} name={name} value={name} bind:group={filters.grade}>
+            </div>
+        {/each}
+    </div>
 </div>
 
 <section id="table">
     {#each cosmetics as item}
         { #if searchQuery.trim() == "" || item.name.toLowerCase().includes(searchQuery.trim()) }
         { #if filters.class.length == 0 || filters.class.some(i => item.class.includes(i)) }
+        { #if filters.grade.length == 0 || filters.grade.some(i => item.grade.includes(i)) }
             <div class="item-wrapper" id="{item.name}">
                 <img alt="{item.name}" class="item-image" src="{item.src}">
-                <div class="underline" style="background-color:{gradeColors[item.grade]}"></div>
+                <div class="underline" style="background-color:{item.color}"></div>
             </div>
+        {/if}
         {/if}
         {/if}
     {/each}
