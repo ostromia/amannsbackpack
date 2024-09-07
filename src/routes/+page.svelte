@@ -1,6 +1,5 @@
 <script lang="ts">
     import cosmeticsJSON from "$lib/cosmetics.json";
-    import gradeColors from "$lib/gradeColors.json";
     import gradesJSON from "$lib/grades.json";
     import classes from "$lib/classes.json";
     import "$lib/tf2build.css";
@@ -57,7 +56,7 @@
     }
 </script>
 
-<div class="filters-wrapper">
+<div id="wrapper-filters">
     <input bind:value={searchQuery} type="text" id="searchbar" placeholder="Search for items..">
 
     <button bind:this={dateReleased} type="button" id="date-released-button" on:click={dR_B}>
@@ -104,24 +103,32 @@
     $background: #1A1411;
     $foreground: #342E29;
 
-    :global(html) {
-        background-color: $background;
-    }
     :global(body) {
         margin: 0;
+        background-color: $background;
+    }
+
+    * {
+        font-family: "tf2build", sans-serif;
+    }
+
+    #wrapper-filters {
+        max-width: 1000px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    #searchbar {
+        color: lightgray;
+        background-color: $foreground;
     }
 
     #date-released-button {
-        font-family: "tf2build";
         border-width: 3px;
-    }
-
-    .filters-wrapper {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        padding: 0.5rem;
-        box-sizing: border-box;
     }
 
     .class-filter-wrapper {
@@ -143,18 +150,17 @@
         color: white;
     }
 
-    #searchbar {
-        font-size: 1rem;
-        font-family: "tf2build";
-        color: lightgray;
-        background-color: $foreground;
-    }
+
+
 
 	#table {
-		display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100px);
+        grid-gap: 1rem;
         justify-content: center;
-		gap: 1rem;
+        padding: 1rem;
+        padding-bottom: 2rem;
+        box-sizing: border-box;
     }
 
     .item-wrapper {
@@ -163,7 +169,6 @@
     .item-image {
         height: 100px;
         display: block;
-        margin: auto;
     }
     .underline {
         height: 3px;
