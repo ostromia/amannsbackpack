@@ -56,6 +56,10 @@
     }
 </script>
 
+<div id="warning" style="text-align: center; font-family: sans-serif; color: black; background-color: darkgoldenrod">
+    this webpage is a work in progress and currently doesn't work as intended - please submit a <a href="https://github.com/berkay-yalin/tf2/pulls" target="_blank">pull request</a> if you would like to contribute to development
+</div>
+
 <div id="wrapper-filters">
     <input bind:value={searchQuery} type="text" id="searchbar" placeholder="Search for items..">
 
@@ -108,10 +112,6 @@
         background-color: $background;
     }
 
-    * {
-        font-family: "tf2build", sans-serif;
-    }
-
     #wrapper-filters {
         max-width: 1000px;
         margin: auto;
@@ -120,6 +120,10 @@
         gap: 1rem;
         padding: 1rem;
         box-sizing: border-box;
+    }
+
+    #wrapper-filters * {
+        font-family: "tf2build";
     }
 
     #searchbar {
