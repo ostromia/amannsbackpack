@@ -1,16 +1,31 @@
+import json
+
 import requests
 from bs4 import BeautifulSoup
 
 
 def get_cosmetic_urls():
-    """save offical wiki URLs of all cosmetics in TF2 in cosmetics_urls.txt"""
+    """
+    save offical wiki URLs of all cosmetics in TF2 in cosmetics.json with data template
+    e.g., for the Batter's Helmet the following object would be saved in cosmetics.json
+
+    {
+        "name": "",
+        "class": "",
+        "update": "",
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Batter%27s_Helmet",
+        "src": "",
+        "date": ""
+    }
+    """
 
     with open("list_of_x_cosmetics.txt") as file:
-        URLS = [i.strip("\n") for i in file.readlines()]
+        list_of_x_cosmetics = [i.strip("\n") for i in file.readlines()]
 
-    cosmetics = []
+    urls = []
 
-    for url in URLS:
+    for url in list_of_x_cosmetics:
         subdirectories = []
         html = requests.get(url)
         soup = BeautifulSoup(html.text, 'html.parser')
@@ -27,10 +42,25 @@ def get_cosmetic_urls():
                         "https://wiki.teamfortress.com" + td.a.get("href")
                     )
 
-        cosmetics.extend(subdirectories)
+        urls.extend(subdirectories)
 
-    with open("cosmetics_urls.txt", "w") as file:
-        for i in cosmetics:
-            file.write(i + "\n")
+    cosmetics = []
 
-get_cosmetic_urls()
+    for i in urls:
+        data = {
+            "name": "",
+            "class": "",
+            "update": "",
+            "restriction": "",
+            "url": i,
+            "src": "",
+            "date": ""
+        }
+
+        cosmetics.append(data)
+
+    with open("cosmetics.json", "w") as file:
+        json.dump(cosmetics, file, indent=4)
+
+if __name__ == "__main__":
+    get_cosmetic_urls()
