@@ -127,6 +127,29 @@ def get_cosmetics_data():
             with open("cosmetics.json", "w") as file:
                 json.dump(cosmetics, file, indent=4)
 
+
+def update_cosmetics_data():
+    with open("cosmetics.json", "r") as file:
+        cosmetics = json.load(file)
+
+    with open("grades.json", "r") as file:
+        grades = json.load(file)
+
+    for i in cosmetics:
+        parts = i["update"][0].split(" ")
+        i["date"] = f"{parts[1][:-1]} {parts[0]} {parts[2]}"
+
+        quality = grades[i["quality"][0]]["name"]
+        qualityColor = grades[i["quality"][0]]["color"]
+
+        i["quality"] = quality
+        i["qualityColor"] = qualityColor
+
+    with open("cosmetics.json", "w") as file:
+        json.dump(cosmetics, file, indent=4)
+
+
 if __name__ == "__main__":
     # get_cosmetics_urls()
     # get_cosmetics_data()
+    update_cosmetics_data()

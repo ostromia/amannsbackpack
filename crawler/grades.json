@@ -1,0 +1,34 @@
+{
+    "qua_unique": {
+        "name": "Unique",
+        "color": "#FFD700"
+    },
+    "qua_genuine": {
+        "name": "Genuine",
+        "color": "#4D7455"
+    },
+    "civilian": {
+        "name": "Civilian",
+        "color": "#B0C3D9"
+    },
+    "freelance": {
+        "name": "Freelance",
+        "color": "#5E98D9"
+    },
+    "grade_mercenary": {
+        "name": "Mercenary",
+        "color": "#4B69FF"
+    },
+    "grade_commando": {
+        "name": "Commando",
+        "color": "#8847FF"
+    },
+    "grade_assassin": {
+        "name": "Assassin",
+        "color": "#D32CE6"
+    },
+    "grade_elite": {
+        "name": "Elite",
+        "color": "#EB4B4B"
+    }
+}
