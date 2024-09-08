@@ -20,13 +20,14 @@ def get_cosmetic_urls():
     }
     """
 
+    with open("cosmetics.json", "r") as file:
+        cosmetics = json.load(file)
+        cosmeticsExistingURLs = [i["url"] for i in cosmetics]
+
     with open("list_of_x_cosmetics.txt") as file:
         list_of_x_cosmetics = [i.strip("\n") for i in file.readlines()]
 
-    urls = []
-
     for url in list_of_x_cosmetics:
-        subdirectories = []
         html = requests.get(url)
         soup = BeautifulSoup(html.text, 'html.parser')
 
@@ -38,26 +39,24 @@ def get_cosmetic_urls():
 
             for td in tr:
                 if td.a != None:
-                    subdirectories.append(
-                        "https://wiki.teamfortress.com" + td.a.get("href")
-                    )
+                    # get wiki url of cosmetic
+                    url = "https://wiki.teamfortress.com" + td.a.get("href")
 
-        urls.extend(subdirectories)
+                    # add url with data template to cosmetics if not already
+                    if url not in cosmeticsExistingURLs:
+                        print(url)
 
-    cosmetics = []
+                        data = {
+                            "name": "",
+                            "class": "",
+                            "update": "",
+                            "restriction": "",
+                            "url": url,
+                            "src": "",
+                            "date": ""
+                        }
 
-    for i in urls:
-        data = {
-            "name": "",
-            "class": "",
-            "update": "",
-            "restriction": "",
-            "url": i,
-            "src": "",
-            "date": ""
-        }
-
-        cosmetics.append(data)
+                        cosmetics.append(data)
 
     with open("cosmetics.json", "w") as file:
         json.dump(cosmetics, file, indent=4)
