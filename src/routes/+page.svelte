@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { onMount } from 'svelte';
+
     import cosmeticsJSON from "$lib/cosmetics.json";
     import classes from "$lib/classes.json";
     import "$lib/tf2build.css";
@@ -33,7 +35,35 @@
         return cosmetics_sorted;
     }
 
-    let cosmetics = sortCosmeticsChronologically(cosmeticsJSON)
+    let cosmetics = sortCosmeticsChronologically(cosmeticsJSON);
+
+    onMount(async () => {
+        const px = 1;
+        const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
+
+        function resizeSearchbar() {
+            const table: HTMLElement = document.getElementById("table")!;
+            let gridStyle = window.getComputedStyle(table);
+            const columnCount = gridStyle.getPropertyValue('grid-template-columns').split(' ').length;
+
+            let width = (100 * px * columnCount + 1) + (rem * (columnCount - 1));
+
+            let wrapper_searchbar: HTMLElement = document.getElementById("wrapper-searchbar")!;
+
+            console.log(wrapper_searchbar);
+
+            wrapper_searchbar.style.width = `${width}px`;
+
+
+            console.log(columnCount);
+        }
+
+        addEventListener("resize", (event) => {
+            resizeSearchbar();
+        });
+
+        resizeSearchbar();
+  })
 
     // let filters = {
     //     class: [],
@@ -47,18 +77,22 @@
     // }
 </script>
 
+
 <div id="warning" style="text-align: center; font-family: sans-serif; color: black; background-color: darkgoldenrod">
     this webpage is a work in progress and currently doesn't work as intended - please submit a <a href="https://github.com/berkay-yalin/tf2/pulls" target="_blank">pull request</a> if you would like to contribute to development
 </div>
 
-<div id="wrapper-filters">
+<div id="wrapper-searchbar">
     <input bind:value={searchQuery} type="text" id="searchbar" placeholder="Search for items..">
+</div>
 
-    <!-- <button bind:this={dateReleased} type="button" id="date-released-button" on:click={dR_B}>
+<!-- <div id="wrapper-filters">
+
+    <button bind:this={dateReleased} type="button" id="date-released-button" on:click={dR_B}>
         Date Released (Oldest)
-    </button> -->
+    </button>
 
-    <!-- <div class="class-filter-wrapper">
+    <div class="class-filter-wrapper">
         { #each classes as name }
             <div class="checkbox-wrapper">
                 <label for={name}>{name}</label>
@@ -74,8 +108,8 @@
                 <input type="checkbox" id={name} name={name} value={name} bind:group={filters.grade}>
             </div>
         {/each}
-    </div> -->
-</div>
+    </div>
+</div> -->
 
 <section id="table">
     {#each cosmetics as item}
@@ -98,13 +132,34 @@
     $background: #1A1411;
     $foreground: #342E29;
 
+    $max-width: calc(100px * 10 + 1rem * 10 + 1rem);
+
     :global(body) {
         margin: 0;
         background-color: $background;
     }
 
+    #wrapper-searchbar {
+        max-width: calc(100px * 10 + 1rem * 10);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+        box-sizing: border-box;
+
+        > * {
+            font-family: "tf2build";
+        }
+
+
+    }
+
+    input:focus {
+    outline: none;
+    }
+
+
     #wrapper-filters {
-        max-width: 1000px;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -145,10 +200,9 @@
         color: white;
     }
 
-
-
-
 	#table {
+        max-width: $max-width;
+        margin: auto;
         display: grid;
         grid-template-columns: repeat(auto-fill, 100px);
         grid-gap: 1rem;
