@@ -1,11 +1,23 @@
 <script lang="ts">
     import { onMount } from 'svelte';
 
+    import ButtonIcon from "$lib/components/ButtonIcon.svelte";
+
     import cosmeticsJSON from "$lib/cosmetics.json";
     import classes from "$lib/classes.json";
     import grades from "$lib/grades.json";
 
     import "$lib/tf2build.css";
+
+    import scout_icon from "$lib/class-icons/Leaderboard_class_scout.png";
+    import soldier_icon from "$lib/class-icons/Leaderboard_class_soldier.png";
+    import pyro_icon from "$lib/class-icons/Leaderboard_class_pyro.png";
+    import demoman_icon from "$lib/class-icons/Leaderboard_class_demoman.png";
+    import heavy_icon from "$lib/class-icons/Leaderboard_class_heavy.png";
+    import engineer_icon from "$lib/class-icons/Leaderboard_class_engineer.png";
+    import medic_icon from "$lib/class-icons/Leaderboard_class_medic.png";
+    import sniper_icon from "$lib/class-icons/Leaderboard_class_sniper.png";
+    import spy_icon from "$lib/class-icons/Leaderboard_class_spy.png";
 
     let searchQuery: string = "";
 
@@ -46,7 +58,9 @@
         function resizeFiltersWrapper() {
             const columnCount = window
                 .getComputedStyle(document.getElementById("table")!)
-                .getPropertyValue('grid-template-columns').split(' ').length;
+                .getPropertyValue('grid-template-columns')
+                .split(' ')
+                .length;
             const width = (100 * px * columnCount + 1) + (rem * (columnCount - 1));
 
             document.getElementById("wrapper-searchbar")!.style.width = `${width}px`;
@@ -80,21 +94,32 @@
 
 <div id="wrapper-filters">
     <div class="wrapper-filter">
-        <button on:click={() => {showClassFilter = !showClassFilter}}>
-            Class
-        </button>
+        <ButtonIcon><label for="Scout"><img alt="" src={scout_icon}/></label></ButtonIcon>
+        <ButtonIcon><label for="Soldier"><img alt="" src={soldier_icon}/></label></ButtonIcon>
+        <ButtonIcon><label for="Pyro"><img alt="" src={pyro_icon}/></label></ButtonIcon>
+        <ButtonIcon><label for="Demoman"><img alt="" src={demoman_icon}/></label></ButtonIcon>
+        <ButtonIcon><label for="Heavy"><img alt="" src={heavy_icon}/></label></ButtonIcon>
+        <ButtonIcon><label for="Engineer"><img alt="" src={engineer_icon}/></label></ButtonIcon>
+        <ButtonIcon><label for="Medic"><img alt="" src={medic_icon}/></label></ButtonIcon>
+        <ButtonIcon><label for="Sniper"><img alt="" src={sniper_icon}/></label></ButtonIcon>
+        <ButtonIcon><label for="Spy"><img alt="" src={spy_icon}/></label></ButtonIcon>
 
-        {#if showClassFilter}
-            <div class="wrapper-filter-checkboxes">
-                {#each classes as name}
-                        <label for={name}>{name}</label>
-                        <input type="checkbox" id={name} name={name} value={name} bind:group={filters.class}>
-                {/each}
-            </div>
-        {/if}
+        <div style="display: none">
+            <input type="checkbox" id="Scout" name="Scout" value="Scout" bind:group={filters.class}>
+            <input type="checkbox" id="Soldier" name="Soldier" value="Soldier" bind:group={filters.class}>
+            <input type="checkbox" id="Pyro" name="Pyro" value="Pyro" bind:group={filters.class}>
+            <input type="checkbox" id="Demoman" name="Demoman" value="Demoman" bind:group={filters.class}>
+            <input type="checkbox" id="Heavy" name="Heavy" value="Heavy" bind:group={filters.class}>
+            <input type="checkbox" id="Engineer" name="Engineer" value="Engineer" bind:group={filters.class}>
+            <input type="checkbox" id="Medic" name="Medic" value="Medic" bind:group={filters.class}>
+            <input type="checkbox" id="Sniper" name="Sniper" value="Sniper" bind:group={filters.class}>
+            <input type="checkbox" id="Spy" name="Spy" value="Spy" bind:group={filters.class}>
+        </div>
     </div>
+</div>
 
-    <div class="wrapper-filter">
+
+    <!-- <div class="wrapper-filter">
         <button on:click={() => {showGradeFilter = !showGradeFilter}}>
             Grade
         </button>
@@ -107,8 +132,7 @@
                 {/each}
             </div>
         {/if}
-    </div>
-</div>
+    </div> -->
 
 <section id="table">
     {#each cosmetics as item}
@@ -147,8 +171,13 @@
         padding: 1rem 0;
         box-sizing: border-box;
 
-        > * {
+        #searchbar {
+            height: 1.5rem;
+            color: lightgray;
             font-family: "tf2build";
+            background-color: $foreground;
+            padding: 0.25rem;
+            box-sizing: border-box;
         }
     }
 
@@ -163,43 +192,46 @@
         }
     }
 
-
     .wrapper-filter {
-        > button {
-            color: lightgray;
-            background-color: $foreground;
-            margin-bottom: 0.5rem;
+        display: flex;
+        gap: 0.5rem;
+        margin: auto;
+
+        > label {
+            height: 20px;
+            width: 20px;
         }
 
-        color: lightgray;
+        img {
+            height: 100%;
+            width: 100%;
+        }
 
         > * {
             font-family: "tf2build";
         }
     }
 
-    .wrapper-filter-checkboxes {
-        display: grid;
-        grid-template-columns: 100px min-content;
 
-        > label {
-            color: lightgrey;
-        }
 
-    }
+    // .wrapper-filter-checkboxes {
+    //     display: grid;
+    //     grid-template-columns: 100px min-content;
 
-    .wrapper-filter-checkboxes > * :nth-child(2n-1) {
-        grid-column: 1;
-    }
+    //     > label {
+    //         color: lightgrey;
+    //     }
 
-    .wrapper-filter-checkboxes > * :nth-child(2n) {
-        grid-column: 2;
-    }
+    // }
 
-    #searchbar {
-        color: lightgray;
-        background-color: $foreground;
-    }
+    // .wrapper-filter-checkboxes > * :nth-child(2n-1) {
+    //     grid-column: 1;
+    // }
+
+    // .wrapper-filter-checkboxes > * :nth-child(2n) {
+    //     grid-column: 2;
+    // }
+
 
 	#table {
         max-width: $max-width;
@@ -211,16 +243,17 @@
         padding: 1rem;
         padding-bottom: 2rem;
         box-sizing: border-box;
+
+        .item-wrapper {
+            background-color: $foreground;
+        }
+        .item-image {
+            height: 100px;
+            display: block;
+        }
+        .underline {
+            height: 3px;
+        }
     }
 
-    .item-wrapper {
-        background-color: $foreground;
-    }
-    .item-image {
-        height: 100px;
-        display: block;
-    }
-    .underline {
-        height: 3px;
-    }
 </style>
