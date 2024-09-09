@@ -3,6 +3,8 @@
 
     import cosmeticsJSON from "$lib/cosmetics.json";
     import classes from "$lib/classes.json";
+    import grades from "$lib/grades.json";
+
     import "$lib/tf2build.css";
 
     let searchQuery: string = "";
@@ -41,40 +43,30 @@
         const px = 1;
         const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
 
-        function resizeSearchbar() {
-            const table: HTMLElement = document.getElementById("table")!;
-            let gridStyle = window.getComputedStyle(table);
-            const columnCount = gridStyle.getPropertyValue('grid-template-columns').split(' ').length;
+        function resizeFiltersWrapper() {
+            const columnCount = window
+                .getComputedStyle(document.getElementById("table")!)
+                .getPropertyValue('grid-template-columns').split(' ').length;
+            const width = (100 * px * columnCount + 1) + (rem * (columnCount - 1));
 
-            let width = (100 * px * columnCount + 1) + (rem * (columnCount - 1));
-
-            let wrapper_searchbar: HTMLElement = document.getElementById("wrapper-searchbar")!;
-
-            console.log(wrapper_searchbar);
-
-            wrapper_searchbar.style.width = `${width}px`;
-
-
-            console.log(columnCount);
+            document.getElementById("wrapper-searchbar")!.style.width = `${width}px`;
+            document.getElementById("wrapper-filters")!.style.width = `${width}px`;
         }
 
         addEventListener("resize", (event) => {
-            resizeSearchbar();
+            resizeFiltersWrapper();
         });
 
-        resizeSearchbar();
+        resizeFiltersWrapper();
   })
 
-    // let filters = {
-    //     class: [],
-    //     grade: []
-    // }
+  let showClassFilter = false;
+  let showGradeFilter = false;
 
-    // let dateReleased: HTMLButtonElement;
-    // function dR_B() {
-    //     cosmetics = cosmetics.reverse();
-    //     dateReleased.innerHTML = "Date Released " + (dateReleased.innerHTML.includes("(Newest)") ? "(Oldest)" : "(Newest)");
-    // }
+    let filters = {
+        class: [],
+        grade: []
+    }
 </script>
 
 
@@ -86,45 +78,52 @@
     <input bind:value={searchQuery} type="text" id="searchbar" placeholder="Search for items..">
 </div>
 
-<!-- <div id="wrapper-filters">
+<div id="wrapper-filters">
+    <div class="wrapper-filter">
+        <button on:click={() => {showClassFilter = !showClassFilter}}>
+            Class
+        </button>
 
-    <button bind:this={dateReleased} type="button" id="date-released-button" on:click={dR_B}>
-        Date Released (Oldest)
-    </button>
-
-    <div class="class-filter-wrapper">
-        { #each classes as name }
-            <div class="checkbox-wrapper">
-                <label for={name}>{name}</label>
-                <input type="checkbox" id={name} name={name} value={name} bind:group={filters.class}>
+        {#if showClassFilter}
+            <div class="wrapper-filter-checkboxes">
+                {#each classes as name}
+                        <label for={name}>{name}</label>
+                        <input type="checkbox" id={name} name={name} value={name} bind:group={filters.class}>
+                {/each}
             </div>
-        {/each}
+        {/if}
     </div>
 
-    <div class="class-filter-wrapper">
-        { #each grades as name }
-            <div class="checkbox-wrapper">
-                <label for={name}>{name}</label>
-                <input type="checkbox" id={name} name={name} value={name} bind:group={filters.grade}>
+    <div class="wrapper-filter">
+        <button on:click={() => {showGradeFilter = !showGradeFilter}}>
+            Grade
+        </button>
+
+        {#if showGradeFilter}
+            <div class="wrapper-filter-checkboxes">
+                {#each grades as name}
+                        <label for={name}>{name}</label>
+                        <input type="checkbox" id={name} name={name} value={name} bind:group={filters.grade}>
+                {/each}
             </div>
-        {/each}
+        {/if}
     </div>
-</div> -->
+</div>
 
 <section id="table">
     {#each cosmetics as item}
         { #if searchQuery.trim() == "" || item.name.toLowerCase().includes(searchQuery.trim()) }
-        <!-- { #if filters.class.length == 0 || filters.class.some(i => item.class.includes(i)) }
-        { #if filters.grade.length == 0 || filters.grade.some(i => item.grade.includes(i)) } -->
+        { #if filters.class.length == 0 || filters.class.some(i => item.class.includes(i)) }
+        { #if filters.grade.length == 0 || filters.grade.includes(item.grade) }
             <div class="item-wrapper" id="{item.name}">
                 <a href={item.url}>
                     <img alt="{item.name}" class="item-image" src="{item.src}">
                 </a>
-                <div class="underline" style="background-color:{item.qualityColor}"></div>
+                <div class="underline" style="background-color:{item.gradeColor}"></div>
             </div>
         {/if}
-        <!-- {/if}
-        {/if} -->
+        {/if}
+        {/if}
     {/each}
 </section>
 
@@ -144,60 +143,62 @@
         margin: auto;
         display: flex;
         flex-direction: column;
+        gap: 1rem;
         padding: 1rem 0;
         box-sizing: border-box;
 
         > * {
             font-family: "tf2build";
         }
-
-
     }
-
-    input:focus {
-    outline: none;
-    }
-
 
     #wrapper-filters {
+        max-width: calc(100px * 10 + 1rem * 10);
         margin: auto;
         display: flex;
-        flex-direction: column;
         gap: 1rem;
-        padding: 1rem;
-        box-sizing: border-box;
+
+        > * {
+            font-family: "tf2build";
+        }
     }
 
-    #wrapper-filters * {
-        font-family: "tf2build";
+
+    .wrapper-filter {
+        > button {
+            color: lightgray;
+            background-color: $foreground;
+            margin-bottom: 0.5rem;
+        }
+
+        color: lightgray;
+
+        > * {
+            font-family: "tf2build";
+        }
+    }
+
+    .wrapper-filter-checkboxes {
+        display: grid;
+        grid-template-columns: 100px min-content;
+
+        > label {
+            color: lightgrey;
+        }
+
+    }
+
+    .wrapper-filter-checkboxes > * :nth-child(2n-1) {
+        grid-column: 1;
+    }
+
+    .wrapper-filter-checkboxes > * :nth-child(2n) {
+        grid-column: 2;
     }
 
     #searchbar {
         color: lightgray;
         background-color: $foreground;
-    }
-
-    #date-released-button {
-        border-width: 3px;
-    }
-
-    .class-filter-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .class-filter-wrapper .checkbox-wrapper {
-        padding-right: 1.5rem;
-    }
-
-    .class-filter-wrapper .checkbox-wrapper > * {
-        vertical-align: middle;
-    }
-
-    .class-filter-wrapper label {
-        font-family: "tf2build";
-        color: white;
     }
 
 	#table {
