@@ -1,31 +1,20 @@
 <script lang="ts">
     import cosmeticsJSON from "$lib/cosmetics.json";
-    import gradesJSON from "$lib/grades.json";
     import classes from "$lib/classes.json";
     import "$lib/tf2build.css";
 
     let searchQuery: string = "";
 
-    const grades = [];
-    for (const i in gradesJSON) {
-        grades.push(gradesJSON[i].name);
-    }
-
-    function sortCosmeticsChronologically(cosmeticsJSON: any, gradesJSON: any) {
+    function sortCosmeticsChronologically(cosmeticsJSON: any) {
         let cosmetics = cosmeticsJSON;
-        let grades = gradesJSON;
 
+        // convert date into epoch timestamp
         for (let i = 0; i < cosmetics.length; i++) {
-            // convert date into epoch timestamp
             let item = cosmetics[i];
             const d = new Date(item.date.toString().replace(" Patch", ""));
             item.date = d.getTime();
-
-            // convert grade from code to name
-            const c_grade = { ... grades[cosmetics[i].grade] };
-            item.grade = c_grade.name;
-            item.color = c_grade.color;
         }
+
         // get array of epoch timestamps sorted numerically
         const DATES = Array.from(new Set(cosmetics.map(i => i.date))).sort();
 
@@ -40,20 +29,22 @@
                 }
             }
         }
+
         return cosmetics_sorted;
     }
-    let cosmetics = sortCosmeticsChronologically(cosmeticsJSON, gradesJSON);
 
-    let filters = {
-        class: [],
-        grade: []
-    }
+    let cosmetics = sortCosmeticsChronologically(cosmeticsJSON)
 
-    let dateReleased: HTMLButtonElement;
-    function dR_B() {
-        cosmetics = cosmetics.reverse();
-        dateReleased.innerHTML = "Date Released " + (dateReleased.innerHTML.includes("(Newest)") ? "(Oldest)" : "(Newest)");
-    }
+    // let filters = {
+    //     class: [],
+    //     grade: []
+    // }
+
+    // let dateReleased: HTMLButtonElement;
+    // function dR_B() {
+    //     cosmetics = cosmetics.reverse();
+    //     dateReleased.innerHTML = "Date Released " + (dateReleased.innerHTML.includes("(Newest)") ? "(Oldest)" : "(Newest)");
+    // }
 </script>
 
 <div id="warning" style="text-align: center; font-family: sans-serif; color: black; background-color: darkgoldenrod">
@@ -63,11 +54,11 @@
 <div id="wrapper-filters">
     <input bind:value={searchQuery} type="text" id="searchbar" placeholder="Search for items..">
 
-    <button bind:this={dateReleased} type="button" id="date-released-button" on:click={dR_B}>
+    <!-- <button bind:this={dateReleased} type="button" id="date-released-button" on:click={dR_B}>
         Date Released (Oldest)
-    </button>
+    </button> -->
 
-    <div class="class-filter-wrapper">
+    <!-- <div class="class-filter-wrapper">
         { #each classes as name }
             <div class="checkbox-wrapper">
                 <label for={name}>{name}</label>
@@ -83,23 +74,23 @@
                 <input type="checkbox" id={name} name={name} value={name} bind:group={filters.grade}>
             </div>
         {/each}
-    </div>
+    </div> -->
 </div>
 
 <section id="table">
     {#each cosmetics as item}
         { #if searchQuery.trim() == "" || item.name.toLowerCase().includes(searchQuery.trim()) }
-        { #if filters.class.length == 0 || filters.class.some(i => item.class.includes(i)) }
-        { #if filters.grade.length == 0 || filters.grade.some(i => item.grade.includes(i)) }
+        <!-- { #if filters.class.length == 0 || filters.class.some(i => item.class.includes(i)) }
+        { #if filters.grade.length == 0 || filters.grade.some(i => item.grade.includes(i)) } -->
             <div class="item-wrapper" id="{item.name}">
-                <a href={item.wiki}>
+                <a href={item.url}>
                     <img alt="{item.name}" class="item-image" src="{item.src}">
                 </a>
-                <div class="underline" style="background-color:{item.color}"></div>
+                <div class="underline" style="background-color:{item.qualityColor}"></div>
             </div>
         {/if}
-        {/if}
-        {/if}
+        <!-- {/if}
+        {/if} -->
     {/each}
 </section>
 
