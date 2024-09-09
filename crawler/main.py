@@ -148,8 +148,25 @@ def update_cosmetics_data():
     with open("cosmetics.json", "w") as file:
         json.dump(cosmetics, file, indent=4)
 
+def download_cosmetics_images():
+    with open("cosmetics.json", "r") as file:
+        cosmetics = json.load(file)
+
+    for i in cosmetics:
+        path = f"cosmetics/{i['name']}.png"
+        src = i["src"]
+
+        print(path)
+        print(src)
+
+        response = requests.get(src)
+
+        with open(path, 'wb') as file:
+            file.write(response.content)
+
 
 if __name__ == "__main__":
     # get_cosmetics_urls()
     # get_cosmetics_data()
-    update_cosmetics_data()
+    # update_cosmetics_data()
+    # download_cosmetics_images()

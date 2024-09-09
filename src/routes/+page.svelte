@@ -141,7 +141,7 @@
         { #if filters.grade.length == 0 || filters.grade.includes(item.grade) }
             <div class="item-wrapper" id="{item.name}">
                 <a href={item.url}>
-                    <img alt="{item.name}" class="item-image" src="{item.src}">
+                    <img alt="{item.name}" class="item-image" src="cosmetics/{item.name.replace("?", "").replace("%", "")}.png">
                 </a>
                 <div class="underline" style="background-color:{item.gradeColor}"></div>
             </div>
