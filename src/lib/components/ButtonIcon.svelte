@@ -11,7 +11,11 @@
         height: 30px;
         width: 30px;
 
-        padding-block: 1px;
-        padding-inline: 1px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+
+        padding-block: 2px;
+        padding-inline: 2px;
     }
 </style>

@@ -4,8 +4,6 @@
     import ButtonIcon from "$lib/components/ButtonIcon.svelte";
 
     import cosmeticsJSON from "$lib/cosmetics.json";
-    import classes from "$lib/classes.json";
-    import grades from "$lib/grades.json";
 
     import "$lib/tf2build.css";
 
@@ -74,17 +72,13 @@
         resizeFiltersWrapper();
   })
 
-  let showClassFilter = false;
-  let showGradeFilter = false;
-
     let filters = {
         class: [],
         grade: []
     }
 </script>
 
-
-<div id="warning" style="text-align: center; font-family: sans-serif; color: black; background-color: darkgoldenrod">
+<div style="text-align: center; font-family: sans-serif; color: black; background-color: darkgoldenrod; padding: 0.25rem; box-sizing: border-box">
     this webpage is a work in progress and currently doesn't work as intended - please submit a <a href="https://github.com/berkay-yalin/tf2/pulls" target="_blank">pull request</a> if you would like to contribute to development
 </div>
 
@@ -104,35 +98,33 @@
         <ButtonIcon><label for="Sniper"><img alt="" src={sniper_icon}/></label></ButtonIcon>
         <ButtonIcon><label for="Spy"><img alt="" src={spy_icon}/></label></ButtonIcon>
 
-        <div style="display: none">
-            <input type="checkbox" id="Scout" name="Scout" value="Scout" bind:group={filters.class}>
-            <input type="checkbox" id="Soldier" name="Soldier" value="Soldier" bind:group={filters.class}>
-            <input type="checkbox" id="Pyro" name="Pyro" value="Pyro" bind:group={filters.class}>
-            <input type="checkbox" id="Demoman" name="Demoman" value="Demoman" bind:group={filters.class}>
-            <input type="checkbox" id="Heavy" name="Heavy" value="Heavy" bind:group={filters.class}>
-            <input type="checkbox" id="Engineer" name="Engineer" value="Engineer" bind:group={filters.class}>
-            <input type="checkbox" id="Medic" name="Medic" value="Medic" bind:group={filters.class}>
-            <input type="checkbox" id="Sniper" name="Sniper" value="Sniper" bind:group={filters.class}>
-            <input type="checkbox" id="Spy" name="Spy" value="Spy" bind:group={filters.class}>
-        </div>
+        <ButtonIcon><label for="Unique"><span class="dot" style="background-color:#FFD700"></span></label></ButtonIcon>
+        <ButtonIcon><label for="Genuine"><span class="dot" style="background-color:#4D7455"></span></ButtonIcon>
+        <ButtonIcon><label for="Mercenary"><span class="dot" style="background-color:#4B69FF"></ButtonIcon>
+        <ButtonIcon><label for="Commando"><span class="dot" style="background-color:#8847FF"></ButtonIcon>
+        <ButtonIcon><label for="Assassin"><span class="dot" style="background-color:#D32CE6"></ButtonIcon>
+        <ButtonIcon><label for="Elite"><span class="dot" style="background-color:#EB4B4B"></ButtonIcon>
     </div>
 </div>
 
+<div style="display: none">
+    <input type="checkbox" id="Scout" name="Scout" value="Scout" bind:group={filters.class}>
+    <input type="checkbox" id="Soldier" name="Soldier" value="Soldier" bind:group={filters.class}>
+    <input type="checkbox" id="Pyro" name="Pyro" value="Pyro" bind:group={filters.class}>
+    <input type="checkbox" id="Demoman" name="Demoman" value="Demoman" bind:group={filters.class}>
+    <input type="checkbox" id="Heavy" name="Heavy" value="Heavy" bind:group={filters.class}>
+    <input type="checkbox" id="Engineer" name="Engineer" value="Engineer" bind:group={filters.class}>
+    <input type="checkbox" id="Medic" name="Medic" value="Medic" bind:group={filters.class}>
+    <input type="checkbox" id="Sniper" name="Sniper" value="Sniper" bind:group={filters.class}>
+    <input type="checkbox" id="Spy" name="Spy" value="Spy" bind:group={filters.class}>
 
-    <!-- <div class="wrapper-filter">
-        <button on:click={() => {showGradeFilter = !showGradeFilter}}>
-            Grade
-        </button>
-
-        {#if showGradeFilter}
-            <div class="wrapper-filter-checkboxes">
-                {#each grades as name}
-                        <label for={name}>{name}</label>
-                        <input type="checkbox" id={name} name={name} value={name} bind:group={filters.grade}>
-                {/each}
-            </div>
-        {/if}
-    </div> -->
+    <input type="checkbox" id="Unique" name="Unique" value="Unique" bind:group={filters.grade}>
+    <input type="checkbox" id="Genuine" name="Genuine" value="Genuine" bind:group={filters.grade}>
+    <input type="checkbox" id="Mercenary" name="Mercenary" value="Mercenary" bind:group={filters.grade}>
+    <input type="checkbox" id="Commando" name="Commando" value="Commando" bind:group={filters.grade}>
+    <input type="checkbox" id="Assassin" name="Assassin" value="Assassin" bind:group={filters.grade}>
+    <input type="checkbox" id="Elite" name="Elite" value="Elite" bind:group={filters.grade}>
+</div>
 
 <section id="table">
     {#each cosmetics as item}
@@ -162,6 +154,14 @@
         background-color: $background;
     }
 
+    .dot {
+        height: calc(100% - 4px);
+        width: calc(100% - 4px);
+        border-radius: 50%;
+        display: inline-block;
+        margin: 2px;
+    }
+
     #wrapper-searchbar {
         max-width: calc(100px * 10 + 1rem * 10);
         margin: auto;
@@ -185,7 +185,6 @@
         max-width: calc(100px * 10 + 1rem * 10);
         margin: auto;
         display: flex;
-        gap: 1rem;
 
         > * {
             font-family: "tf2build";
@@ -193,7 +192,8 @@
     }
 
     .wrapper-filter {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(9, 25px);
         gap: 0.5rem;
         margin: auto;
 
@@ -211,27 +211,6 @@
             font-family: "tf2build";
         }
     }
-
-
-
-    // .wrapper-filter-checkboxes {
-    //     display: grid;
-    //     grid-template-columns: 100px min-content;
-
-    //     > label {
-    //         color: lightgrey;
-    //     }
-
-    // }
-
-    // .wrapper-filter-checkboxes > * :nth-child(2n-1) {
-    //     grid-column: 1;
-    // }
-
-    // .wrapper-filter-checkboxes > * :nth-child(2n) {
-    //     grid-column: 2;
-    // }
-
 
 	#table {
         max-width: $max-width;
@@ -255,5 +234,4 @@
             height: 3px;
         }
     }
-
 </style>
