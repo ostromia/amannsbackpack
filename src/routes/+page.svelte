@@ -78,15 +78,13 @@
     }
 </script>
 
-<div style="text-align: center; font-family: sans-serif; color: black; background-color: darkgoldenrod; padding: 0.25rem; box-sizing: border-box">
+<div style="text-align: center; font-family: sans-serif; color: black; background-color: darkgoldenrod; padding: 0.25rem; box-sizing: border-box; margin-bottom: 1rem;">
     this webpage is a work in progress and currently doesn't work as intended - please submit a <a href="https://github.com/berkay-yalin/tf2/pulls" target="_blank">pull request</a> if you would like to contribute to development
 </div>
 
-<div id="wrapper-searchbar">
-    <input bind:value={searchQuery} type="text" id="searchbar" placeholder="Search for items..">
-</div>
-
 <div id="wrapper-filters">
+    <input id="searchbar" bind:value={searchQuery} type="text" placeholder="Search for items..">
+
     <div class="wrapper-filter">
         <ButtonIcon><label for="Scout"><img alt="" src={scout_icon}/></label></ButtonIcon>
         <ButtonIcon><label for="Soldier"><img alt="" src={soldier_icon}/></label></ButtonIcon>
@@ -97,7 +95,9 @@
         <ButtonIcon><label for="Medic"><img alt="" src={medic_icon}/></label></ButtonIcon>
         <ButtonIcon><label for="Sniper"><img alt="" src={sniper_icon}/></label></ButtonIcon>
         <ButtonIcon><label for="Spy"><img alt="" src={spy_icon}/></label></ButtonIcon>
+    </div>
 
+    <div class="wrapper-filter">
         <ButtonIcon><label for="Unique"><span class="dot" style="background-color:#FFD700"></span></label></ButtonIcon>
         <ButtonIcon><label for="Genuine"><span class="dot" style="background-color:#4D7455"></span></ButtonIcon>
         <ButtonIcon><label for="Mercenary"><span class="dot" style="background-color:#4B69FF"></ButtonIcon>
@@ -147,11 +147,10 @@
     $background: #1A1411;
     $foreground: #342E29;
 
-    $max-width: calc(100px * 10 + 1rem * 10 + 1rem);
-
     :global(body) {
         margin: 0;
         background-color: $background;
+        font-family: system-ui, sans-serif;
     }
 
     .dot {
@@ -162,42 +161,34 @@
         margin: 2px;
     }
 
-    #wrapper-searchbar {
-        max-width: calc(100px * 10 + 1rem * 10);
-        margin: auto;
+    #wrapper-filters {
         display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        padding: 1rem 0;
-        box-sizing: border-box;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        margin: auto;
 
         #searchbar {
+            flex-basis: 100%;
+            text-align: center;
+
             height: 1.5rem;
             color: lightgray;
-            font-family: "tf2build";
+            font-family: "tf2build", system-ui, sans-serif;
             background-color: $foreground;
             padding: 0.25rem;
             box-sizing: border-box;
         }
-    }
 
-    #wrapper-filters {
-        max-width: calc(100px * 10 + 1rem * 10);
-        margin: auto;
-        display: flex;
+        .wrapper-filter {
+            flex: 0 1 auto;
 
-        > * {
-            font-family: "tf2build";
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
         }
-    }
 
-    .wrapper-filter {
-        display: grid;
-        grid-template-columns: repeat(9, 25px);
-        gap: 0.5rem;
-        margin: auto;
-
-        > label {
+        label {
             height: 20px;
             width: 20px;
         }
@@ -206,14 +197,24 @@
             height: 100%;
             width: 100%;
         }
+    }
 
-        > * {
-            font-family: "tf2build";
+    $max-width-filters: calc(590px + 2rem);
+
+    @media (max-width: $max-width-filters) {
+        #wrapper-filters {
+            width: 350px;
+        }
+    }
+
+    @media (min-width: $max-width-filters) {
+        #wrapper-filters {
+            width: calc(350px + 230px + 10px);
         }
     }
 
 	#table {
-        max-width: $max-width;
+        max-width: calc(100px * 10 + 1rem * 10 + 1rem);
         margin: auto;
         display: grid;
         grid-template-columns: repeat(auto-fill, 100px);
