@@ -1,6 +1,4 @@
 <script lang="ts">
-    import { onMount } from 'svelte';
-
     import ButtonIcon from "$lib/components/ButtonIcon.svelte";
 
     import cosmeticsJSON from "$lib/cosmetics.json";
@@ -49,29 +47,6 @@
 
     let cosmetics = sortCosmeticsChronologically(cosmeticsJSON);
 
-    onMount(async () => {
-        const px = 1;
-        const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
-
-        function resizeFiltersWrapper() {
-            const columnCount = window
-                .getComputedStyle(document.getElementById("table")!)
-                .getPropertyValue('grid-template-columns')
-                .split(' ')
-                .length;
-            const width = (100 * px * columnCount + 1) + (rem * (columnCount - 1));
-
-            document.getElementById("wrapper-searchbar")!.style.width = `${width}px`;
-            document.getElementById("wrapper-filters")!.style.width = `${width}px`;
-        }
-
-        addEventListener("resize", (event) => {
-            resizeFiltersWrapper();
-        });
-
-        resizeFiltersWrapper();
-  })
-
     let filters = {
         class: [],
         grade: []
@@ -85,25 +60,27 @@
 <div id="wrapper-filters">
     <input id="searchbar" bind:value={searchQuery} type="text" placeholder="Search for items..">
 
-    <div class="wrapper-filter">
-        <ButtonIcon><label for="Scout"><img alt="" src={scout_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Soldier"><img alt="" src={soldier_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Pyro"><img alt="" src={pyro_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Demoman"><img alt="" src={demoman_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Heavy"><img alt="" src={heavy_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Engineer"><img alt="" src={engineer_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Medic"><img alt="" src={medic_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Sniper"><img alt="" src={sniper_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Spy"><img alt="" src={spy_icon}/></label></ButtonIcon>
-    </div>
+    <div id="wrapper-filters-buttons">
+        <div class="wrapper-filter">
+            <ButtonIcon><label for="Scout"><img alt="" src={scout_icon}/></label></ButtonIcon>
+            <ButtonIcon><label for="Soldier"><img alt="" src={soldier_icon}/></label></ButtonIcon>
+            <ButtonIcon><label for="Pyro"><img alt="" src={pyro_icon}/></label></ButtonIcon>
+            <ButtonIcon><label for="Demoman"><img alt="" src={demoman_icon}/></label></ButtonIcon>
+            <ButtonIcon><label for="Heavy"><img alt="" src={heavy_icon}/></label></ButtonIcon>
+            <ButtonIcon><label for="Engineer"><img alt="" src={engineer_icon}/></label></ButtonIcon>
+            <ButtonIcon><label for="Medic"><img alt="" src={medic_icon}/></label></ButtonIcon>
+            <ButtonIcon><label for="Sniper"><img alt="" src={sniper_icon}/></label></ButtonIcon>
+            <ButtonIcon><label for="Spy"><img alt="" src={spy_icon}/></label></ButtonIcon>
+        </div>
 
-    <div class="wrapper-filter">
-        <ButtonIcon><label for="Unique"><span class="dot" style="background-color:#FFD700"></span></label></ButtonIcon>
-        <ButtonIcon><label for="Genuine"><span class="dot" style="background-color:#4D7455"></span></ButtonIcon>
-        <ButtonIcon><label for="Mercenary"><span class="dot" style="background-color:#4B69FF"></ButtonIcon>
-        <ButtonIcon><label for="Commando"><span class="dot" style="background-color:#8847FF"></ButtonIcon>
-        <ButtonIcon><label for="Assassin"><span class="dot" style="background-color:#D32CE6"></ButtonIcon>
-        <ButtonIcon><label for="Elite"><span class="dot" style="background-color:#EB4B4B"></ButtonIcon>
+        <div class="wrapper-filter">
+            <ButtonIcon><label for="Unique"><span class="dot" style="background-color:#FFD700"></span></label></ButtonIcon>
+            <ButtonIcon><label for="Genuine"><span class="dot" style="background-color:#4D7455"></span></ButtonIcon>
+            <ButtonIcon><label for="Mercenary"><span class="dot" style="background-color:#4B69FF"></ButtonIcon>
+            <ButtonIcon><label for="Commando"><span class="dot" style="background-color:#8847FF"></ButtonIcon>
+            <ButtonIcon><label for="Assassin"><span class="dot" style="background-color:#D32CE6"></ButtonIcon>
+            <ButtonIcon><label for="Elite"><span class="dot" style="background-color:#EB4B4B"></ButtonIcon>
+        </div>
     </div>
 </div>
 
@@ -153,39 +130,18 @@
         font-family: system-ui, sans-serif;
     }
 
-    .dot {
-        height: calc(100% - 4px);
-        width: calc(100% - 4px);
-        border-radius: 50%;
-        display: inline-block;
-        margin: 2px;
-    }
-
     #wrapper-filters {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-
         margin: auto;
+        width: max-content;
 
         #searchbar {
-            flex-basis: 100%;
-            text-align: center;
-
             height: 1.5rem;
             color: lightgray;
             font-family: "tf2build", system-ui, sans-serif;
             background-color: $foreground;
             padding: 0.25rem;
             box-sizing: border-box;
-        }
-
-        .wrapper-filter {
-            flex: 0 1 auto;
-
-            display: flex;
-            flex-direction: row;
-            gap: 10px;
+            text-align: center;
         }
 
         label {
@@ -197,19 +153,55 @@
             height: 100%;
             width: 100%;
         }
-    }
 
-    $max-width-filters: calc(590px + 2rem);
-
-    @media (max-width: $max-width-filters) {
-        #wrapper-filters {
-            width: 350px;
+        .dot {
+            height: calc(100% - 4px);
+            width: calc(100% - 4px);
+            border-radius: 50%;
+            display: inline-block;
+            margin: 2px;
         }
     }
 
-    @media (min-width: $max-width-filters) {
+    @media(max-width: 596px) {
         #wrapper-filters {
-            width: calc(350px + 230px + 10px);
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        #wrapper-filters-buttons {
+            display: contents !important;
+        }
+
+        #searchbar {
+            margin-bottom: 0px;
+        }
+
+        .wrapper-filter {
+            display: block !important;
+            grid-column: span 2;
+        }
+    }
+
+    @media(min-width: 596px) {
+        #wrapper-filters {
+            display: grid;
+        }
+
+        #wrapper-filters-buttons {
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+        }
+
+        #searchbar {
+            grid-column: span 2;
+            margin-bottom: 10px;
+        }
+
+        .wrapper-filter {
+            display: contents;
         }
     }
 
