@@ -1,9 +1,10 @@
 <script>
-    let isClicked = false;
+    let { children } = $props();
+    let isClicked = $state(false);
 </script>
 
-<button on:click={() => { isClicked = !isClicked; }} style:background-color={isClicked ? '#342E29' : 'lightgray'}>
-    <slot/>
+<button onclick={() => { isClicked = !isClicked; }} style:background-color={isClicked ? '#342E29' : 'lightgray'}>
+    {@render children?.()}
 </button>
 
 <style>

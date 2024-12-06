@@ -1,3 +1,4 @@
+<!-- @migration-task Error while migrating Svelte code: Expected a `#` character immediately following the opening bracket -->
 <script lang="ts">
     import ButtonIcon from "$lib/components/ButtonIcon.svelte";
 
@@ -15,7 +16,7 @@
     import sniper_icon from "$lib/class-icons/Leaderboard_class_sniper.png";
     import spy_icon from "$lib/class-icons/Leaderboard_class_spy.png";
 
-    let searchQuery: string = "";
+    let searchQuery: string = $state("");
 
     function sortCosmeticsChronologically(cosmeticsJSON: any) {
         let cosmetics = cosmeticsJSON;
@@ -47,10 +48,10 @@
 
     let cosmetics = sortCosmeticsChronologically(cosmeticsJSON);
 
-    let filters = {
+    let filters = $state({
         class: [],
         grade: []
-    }
+    })
 </script>
 
 <div style="text-align: center; font-family: sans-serif; color: black; background-color: darkgoldenrod; padding: 0.25rem; box-sizing: border-box; margin-bottom: 1rem;">
@@ -105,9 +106,9 @@
 
 <section id="table">
     {#each cosmetics as item}
-        { #if searchQuery.trim() == "" || item.name.toLowerCase().includes(searchQuery.trim()) }
-        { #if filters.class.length == 0 || filters.class.some(i => item.class.includes(i)) }
-        { #if filters.grade.length == 0 || filters.grade.includes(item.grade) }
+        {#if searchQuery.trim() == "" || item.name.toLowerCase().includes(searchQuery.trim()) }
+        {#if filters.class.length == 0 || filters.class.some(i => item.class.includes(i)) }
+        {#if filters.grade.length == 0 || filters.grade.includes(item.grade) }
             <div class="item-wrapper" id="{item.name}">
                 <a href={item.url}>
                     <img alt="{item.name}" class="item-image" src="cosmetics/{item.name.replace("?", "").replace("%", "")}.png">
@@ -228,3 +229,4 @@
         }
     }
 </style>
+
