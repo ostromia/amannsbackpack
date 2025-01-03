@@ -19,35 +19,11 @@
 
     let searchQuery: string = $state("");
 
-    function sortCosmeticsChronologically(cosmeticsJSON: any) {
-        let cosmetics = cosmeticsJSON;
-
-        // convert date into epoch timestamp
-        for (let i = 0; i < cosmetics.length; i++) {
-            let item = cosmetics[i];
-            const d = new Date(item.date.toString().replace(" Patch", ""));
-            item.date = d.getTime();
-        }
-
-        // get array of epoch timestamps sorted numerically
-        const DATES = Array.from(new Set(cosmetics.map(i => i.date))).sort();
-
-        // sort cosmetics in chronological order
-        let cosmetics_sorted = [];
-        for (let i = 0; i < DATES.length; i++) {
-            let date = DATES[i];
-            for (let j = 0; j < cosmetics.length; j++) {
-                let item = cosmetics[j];
-                if (item.date == date) {
-                    cosmetics_sorted.push(item);
-                }
-            }
-        }
-
-        return cosmetics_sorted;
-    }
-
-    let cosmetics = sortCosmeticsChronologically(cosmeticsJSON);
+    let cosmetics = cosmeticsJSON.sort((a, b) => {
+            const dateA = new Date(a.update[0].replace(" Patch", "")).getTime();
+            const dateB = new Date(b.update[0].replace(" Patch", "")).getTime();
+            return dateA - dateB;
+    });
 
     onMount(async () => {
         const px = 1;
