@@ -1,9 +1,14 @@
-<script>
-    let isClicked = false;
+<script lang="ts">
+    interface Props {
+        children?: import('svelte').Snippet;
+    }
+
+    let { children }: Props = $props();
+    let isClicked = $state(false);
 </script>
 
-<button on:click={() => { isClicked = !isClicked; }} style:background-color={isClicked ? '#342E29' : 'lightgray'}>
-    <slot/>
+<button onclick={() => { isClicked = !isClicked; }} style:background-color={isClicked ? '#342E29' : 'lightgray'}>
+    {@render children?.()}
 </button>
 
 <style>
