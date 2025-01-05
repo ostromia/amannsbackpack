@@ -1,6 +1,4 @@
 <script lang="ts">
-    import { onMount } from 'svelte';
-
     import ButtonIcon from "$lib/components/ButtonIcon.svelte";
 
     import cosmeticsJSON from "$lib/cosmetics.json";
@@ -24,29 +22,6 @@
             const dateB = new Date(b.update[0].replace(" Patch", "")).getTime();
             return dateA - dateB;
     });
-
-    onMount(async () => {
-        const px = 1;
-        const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
-
-        function resizeFiltersWrapper() {
-            const columnCount = window
-                .getComputedStyle(document.getElementById("table")!)
-                .getPropertyValue('grid-template-columns')
-                .split(' ')
-                .length;
-            const width = (100 * px * columnCount + 1) + (rem * (columnCount - 1));
-
-            document.getElementById("wrapper-searchbar")!.style.width = `${width}px`;
-            document.getElementById("wrapper-filters")!.style.width = `${width}px`;
-        }
-
-        addEventListener("resize", (event) => {
-            resizeFiltersWrapper();
-        });
-
-        resizeFiltersWrapper();
-  })
 
     let filters = $state({
         class: [],
