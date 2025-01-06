@@ -5,15 +5,7 @@
 
     import "$lib/tf2build.css";
 
-    import scout_icon from "$lib/class-icons/Leaderboard_class_scout.png";
-    import soldier_icon from "$lib/class-icons/Leaderboard_class_soldier.png";
-    import pyro_icon from "$lib/class-icons/Leaderboard_class_pyro.png";
-    import demoman_icon from "$lib/class-icons/Leaderboard_class_demoman.png";
-    import heavy_icon from "$lib/class-icons/Leaderboard_class_heavy.png";
-    import engineer_icon from "$lib/class-icons/Leaderboard_class_engineer.png";
-    import medic_icon from "$lib/class-icons/Leaderboard_class_medic.png";
-    import sniper_icon from "$lib/class-icons/Leaderboard_class_sniper.png";
-    import spy_icon from "$lib/class-icons/Leaderboard_class_spy.png";
+    import class_icons from "$lib/class-icons";
 
     let searchQuery: string = $state("");
 
@@ -37,15 +29,15 @@
     <input id="searchbar" bind:value={searchQuery} type="text" placeholder="Search for items..">
 
     <div class="wrapper-filter">
-        <ButtonIcon><label for="Scout"><img alt="" src={scout_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Soldier"><img alt="" src={soldier_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Pyro"><img alt="" src={pyro_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Demoman"><img alt="" src={demoman_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Heavy"><img alt="" src={heavy_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Engineer"><img alt="" src={engineer_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Medic"><img alt="" src={medic_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Sniper"><img alt="" src={sniper_icon}/></label></ButtonIcon>
-        <ButtonIcon><label for="Spy"><img alt="" src={spy_icon}/></label></ButtonIcon>
+        <ButtonIcon><label for="Scout"><img alt="" src={class_icons.scout}/></label></ButtonIcon>
+        <ButtonIcon><label for="Soldier"><img alt="" src={class_icons.soldier}/></label></ButtonIcon>
+        <ButtonIcon><label for="Pyro"><img alt="" src={class_icons.pyro}/></label></ButtonIcon>
+        <ButtonIcon><label for="Demoman"><img alt="" src={class_icons.demoman}/></label></ButtonIcon>
+        <ButtonIcon><label for="Heavy"><img alt="" src={class_icons.heavy}/></label></ButtonIcon>
+        <ButtonIcon><label for="Engineer"><img alt="" src={class_icons.engineer}/></label></ButtonIcon>
+        <ButtonIcon><label for="Medic"><img alt="" src={class_icons.medic}/></label></ButtonIcon>
+        <ButtonIcon><label for="Sniper"><img alt="" src={class_icons.sniper}/></label></ButtonIcon>
+        <ButtonIcon><label for="Spy"><img alt="" src={class_icons.spy}/></label></ButtonIcon>
     </div>
 
     <div class="wrapper-filter">
