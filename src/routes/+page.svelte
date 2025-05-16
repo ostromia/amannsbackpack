@@ -1,4 +1,3 @@
-<!-- @migration-task Error while migrating Svelte code: Expected a `#` character immediately following the opening bracket -->
 <script lang="ts">
     import class_icons from "$lib/class-icons";
     import ButtonIcon from "$lib/components/ButtonIcon.svelte";
@@ -93,6 +92,14 @@
         font-family: system-ui, sans-serif;
     }
 
+    .dot {
+        height: calc(100% - 4px);
+        width: calc(100% - 4px);
+        border-radius: 50%;
+        display: inline-block;
+        margin: 2px;
+    }
+
     #wrapper-filters {
         display: flex;
         flex-wrap: wrap;
@@ -101,16 +108,25 @@
         box-sizing: border-box;
 
         margin: auto;
-        width: max-content;
 
         #searchbar {
+            flex-basis: 100%;
+            text-align: center;
+
             height: 1.5rem;
             color: lightgray;
             font-family: "tf2build", system-ui, sans-serif;
             background-color: $foreground;
             padding: 0.25rem;
             box-sizing: border-box;
-            text-align: center;
+        }
+
+        .wrapper-filter {
+            flex: 0 1 auto;
+
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
         }
 
         label {
@@ -122,55 +138,19 @@
             height: 100%;
             width: 100%;
         }
+    }
 
-        .dot {
-            height: calc(100% - 4px);
-            width: calc(100% - 4px);
-            border-radius: 50%;
-            display: inline-block;
-            margin: 2px;
+    $max-width-filters: calc(590px + 2rem);
+
+    @media (max-width: $max-width-filters) {
+        #wrapper-filters {
+            width: 350px;
         }
     }
 
-    @media(max-width: 596px) {
+    @media (min-width: $max-width-filters) {
         #wrapper-filters {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
-
-        #wrapper-filters-buttons {
-            display: contents !important;
-        }
-
-        #searchbar {
-            margin-bottom: 0px;
-        }
-
-        .wrapper-filter {
-            display: block !important;
-            grid-column: span 2;
-        }
-    }
-
-    @media(min-width: 596px) {
-        #wrapper-filters {
-            display: grid;
-        }
-
-        #wrapper-filters-buttons {
-            display: flex;
-            justify-content: space-between;
-            gap: 5px;
-        }
-
-        #searchbar {
-            grid-column: span 2;
-            margin-bottom: 10px;
-        }
-
-        .wrapper-filter {
-            display: contents;
+            width: calc(350px + 230px + 10px);
         }
     }
 
@@ -197,4 +177,3 @@
         }
     }
 </style>
-
