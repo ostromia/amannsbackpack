@@ -10,9 +10,9 @@ npm run build
 
 git switch build
 
-rm -rf !(.git|.svelte-kit|build|node_modules|.gitignore)
+rm -rf !(.git|dist|node_modules|.gitignore)
 
-mv build/* .
+mv dist/* .
 
 git add --all
 
