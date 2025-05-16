@@ -1,4 +1,5 @@
 import json
+import os
 
 import requests
 from bs4 import BeautifulSoup
@@ -139,11 +140,12 @@ def update_cosmetics_data():
         parts = i["update"][0].split(" ")
         i["date"] = f"{parts[1][:-1]} {parts[0]} {parts[2]}"
 
-        quality = grades[i["quality"][0]]["name"]
-        qualityColor = grades[i["quality"][0]]["color"]
+        if isinstance(i["quality"], list):
+            quality = grades[i["quality"][0]]["name"]
+            qualityColor = grades[i["quality"][0]]["color"]
 
-        i["quality"] = quality
-        i["qualityColor"] = qualityColor
+            i["quality"] = quality
+            i["qualityColor"] = qualityColor
 
     with open("cosmetics.json", "w") as file:
         json.dump(cosmetics, file, indent=4)
@@ -153,20 +155,21 @@ def download_cosmetics_images():
         cosmetics = json.load(file)
 
     for i in cosmetics:
-        path = f"cosmetics/{i['name']}.png"
-        src = i["src"]
+        path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'public', 'cosmetics', i['name'] + '.png')
 
-        print(path)
-        print(src)
+        if not os.path.isfile(path):
+            print(path)
 
-        response = requests.get(src)
+            src = i["src"]
 
-        with open(path, 'wb') as file:
-            file.write(response.content)
+            response = requests.get(src)
+
+            with open(path, 'wb') as file:
+                file.write(response.content)
 
 
 if __name__ == "__main__":
     # get_cosmetics_urls()
     # get_cosmetics_data()
     # update_cosmetics_data()
-    # download_cosmetics_images()
+    download_cosmetics_images()
