@@ -21,10 +21,6 @@
     })
 </script>
 
-<div style="text-align: center; font-family: sans-serif; color: black; background-color: darkgoldenrod; padding: 0.25rem; box-sizing: border-box; margin-bottom: 1rem;">
-    this webpage is a work in progress and currently doesn't work as intended - please submit a <a href="https://github.com/berkay-yalin/tf2/pulls" target="_blank">pull request</a> if you would like to contribute to development
-</div>
-
 <div id="wrapper-filters">
     <input id="searchbar" bind:value={searchQuery} type="text" placeholder="Search for items..">
 
@@ -129,6 +125,8 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
+        padding: 2rem 0 1rem;
+        box-sizing: border-box;
 
         margin: auto;
 
