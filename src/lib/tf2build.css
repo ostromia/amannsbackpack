@@ -1,5 +1,7 @@
 @font-face {
-    font-family: 'tf2build';
+    font-family: "tf2build";
     font-style: normal;
-    src: local(''), url('/tf2build.ttf') format('truetype');
+    src:
+        local(""),
+        url("/tf2build.ttf") format("truetype");
 }

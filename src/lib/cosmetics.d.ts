@@ -1,4 +1,4 @@
-declare module './cosmetics.json' {
+declare module "./cosmetics.json" {
     interface Cosmetic {
         name: string;
         class: string[];
