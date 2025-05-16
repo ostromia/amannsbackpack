@@ -146,6 +146,13 @@ def update_cosmetics_data():
 
             i["quality"] = quality
             i["qualityColor"] = qualityColor
+        else:
+            for j in grades.values():
+                if j.get("name") == i["quality"]:
+                    i["qualityColor"] = j.get("color")
+
+        i["grade"] = i.pop("quality")
+        i["gradeColor"] = i.pop("qualityColor")
 
     with open("cosmetics.json", "w") as file:
         json.dump(cosmetics, file, indent=4)
@@ -172,4 +179,4 @@ if __name__ == "__main__":
     # get_cosmetics_urls()
     # get_cosmetics_data()
     # update_cosmetics_data()
-    download_cosmetics_images()
+    # download_cosmetics_images()
