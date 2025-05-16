@@ -4,6 +4,8 @@
     import cosmeticsJSON from "$lib/cosmetics.json";
     import "$lib/tf2build.css";
 
+    import "../app.scss";
+
     let searchQuery: string = $state("");
 
     let cosmetics = cosmeticsJSON.sort((a, b) => {
@@ -81,99 +83,3 @@
         </div>
     {/each}
 </section>
-
-<style lang="scss">
-    $background: #1a1411;
-    $foreground: #342e29;
-
-    :global(body) {
-        margin: 0;
-        background-color: $background;
-        font-family: system-ui, sans-serif;
-    }
-
-    .dot {
-        height: calc(100% - 4px);
-        width: calc(100% - 4px);
-        border-radius: 50%;
-        display: inline-block;
-        margin: 2px;
-    }
-
-    #wrapper-filters {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        padding: 2rem 0 1rem;
-        box-sizing: border-box;
-
-        margin: auto;
-
-        #searchbar {
-            flex-basis: 100%;
-            text-align: center;
-
-            height: 1.5rem;
-            color: lightgray;
-            font-family: "tf2build", system-ui, sans-serif;
-            background-color: $foreground;
-            padding: 0.25rem;
-            box-sizing: border-box;
-        }
-
-        .wrapper-filter {
-            flex: 0 1 auto;
-
-            display: flex;
-            flex-direction: row;
-            gap: 10px;
-        }
-
-        label {
-            height: 20px;
-            width: 20px;
-        }
-
-        img {
-            height: 100%;
-            width: 100%;
-        }
-    }
-
-    $max-width-filters: calc(590px + 2rem);
-
-    @media (max-width: $max-width-filters) {
-        #wrapper-filters {
-            width: 350px;
-        }
-    }
-
-    @media (min-width: $max-width-filters) {
-        #wrapper-filters {
-            width: calc(350px + 230px + 10px);
-        }
-    }
-
-    #table {
-        max-width: calc(100px * 10 + 1rem * 10 + 1rem);
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 100px);
-        grid-gap: 1rem;
-        justify-content: center;
-        padding: 1rem;
-        padding-bottom: 2rem;
-        box-sizing: border-box;
-
-        .item-wrapper {
-            background-color: $foreground;
-        }
-        .item-image {
-            height: 100px;
-            display: block;
-        }
-        .underline {
-            height: 3px;
-        }
-    }
-</style>
