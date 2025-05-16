@@ -37,26 +37,22 @@ function useToggleSet() {
 
 
 function App() {
+    const [search, setSearch] = useState('');
     const [classes, toggleClass] = useToggleSet();
     const [grades, toggleGrade] = useToggleSet();
 
     function shouldDisplay(item) {
         return (
             (classes.size === 0 || Array.from(classes).some((i) => item.class.includes(i))) &&
-            (grades.size === 0 || grades.has(item.grade))
+            (grades.size === 0 || grades.has(item.grade)) &&
+            (search.trim() === '' || item.name.toLowerCase().includes(search.trim()))
         );
     }
 
     return (
         <>
-            <div style={{color: "white"}}>
-                {[...grades].map((g) => (
-                    <span key={g}>{g}</span>
-                ))}
-            </div>
-
         <div id="wrapper-filters">
-            {/* <input id="searchbar" type="text" placeholder="Search for items.."/> */}
+            <input id="searchbar" type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search for items.."/>
 
             <div className="wrapper-filter">
                 <ButtonIcon><label htmlFor="Scout"><img alt="" src={class_icons.scout}/></label></ButtonIcon>
