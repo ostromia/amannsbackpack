@@ -10,6 +10,8 @@ import cosmeticsJSON from "./assets/cosmetics.json";
 import classesJSON from "./assets/classes.json";
 import gradesJSON from "./assets/grades.json";
 
+import CosmeticsTable from "./components/CosmeticsTable";
+
 const cosmetics = [...cosmeticsJSON].sort((a, b) => {
     const dateA = new Date(a.update[0].replace(" Patch", "")).getTime();
     const dateB = new Date(b.update[0].replace(" Patch", "")).getTime();
@@ -90,18 +92,7 @@ function App() {
             })}
         </div>
 
-            <div id="cosmetics-table">
-                {cosmetics.map((item) => {
-                    return (
-                        <div className="item-wrapper" id={item.name} key={item.name} style={{ display: shouldDisplay(item) ? 'block' : 'none' }}>
-                            <a href={item.url}>
-                                <img alt={item.name} className="item-image" src={`cosmetics/${item.name.replace("?", "").replace("%", "")}.png`} />
-                            </a>
-                            <div className="underline" style={{ backgroundColor: item.gradeColor }}></div>
-                        </div>
-                    );
-                })}
-            </div>
+        <CosmeticsTable cosmetics={cosmetics} classes={classes} grades={grades} search={search} />
         </>
     );
 }
