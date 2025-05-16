@@ -69,7 +69,7 @@
     <input type="checkbox" id="Elite" name="Elite" value="Elite" bind:group={filters.grade}>
 </div>
 
-<section id="table">
+<!-- <section id="table">
     {#each cosmetics as item}
         {#if searchQuery.trim() == "" || item.name.toLowerCase().includes(searchQuery.trim())}
         {#if filters.class.length == 0 || filters.class.some(i => item.class.includes(i))}
@@ -83,6 +83,27 @@
         {/if}
         {/if}
         {/if}
+    {/each}
+</section> -->
+
+<section id="table">
+    {#each cosmetics as item}
+        <div
+            class="item-wrapper"
+            id={item.name}
+            style="
+                display: {
+                    (searchQuery.trim() === '' || item.name.toLowerCase().includes(searchQuery.trim())) &&
+                    (filters.class.length === 0 || filters.class.some(i => item.class.includes(i))) &&
+                    (filters.grade.length === 0 || filters.grade.includes(item.grade))
+                    ? 'block' : 'none'
+                }"
+        >
+            <a href={item.url}>
+                <img alt={item.name} class="item-image" src={"cosmetics/" + item.name.replace("?", "").replace("%", "") + ".png"}>
+            </a>
+            <div class="underline" style={"background-color:" + item.gradeColor}></div>
+        </div>
     {/each}
 </section>
 
