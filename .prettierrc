@@ -6,7 +6,7 @@
     "printWidth": 200,
     "plugins": ["prettier-plugin-svelte", "@trivago/prettier-plugin-sort-imports"],
     "importOrder": ["^svelte", "<THIRD_PARTY_MODULES>", "^\\$lib/", "^[./]"],
-    "importOrderSeparation": true,
+    "importOrderSeparation": false,
     "importOrderSortSpecifiers": true,
     "overrides": [
         {

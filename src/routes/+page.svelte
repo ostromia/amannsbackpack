@@ -3,7 +3,6 @@
     import ButtonIcon from "$lib/components/ButtonIcon.svelte";
     import cosmeticsJSON from "$lib/cosmetics.json";
     import "$lib/tf2build.css";
-
     import "../app.scss";
 
     let searchQuery: string = $state("");
