@@ -1,14 +1,11 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import "./App.scss";
+import "./styles/App.scss";
 
-import class_icons from "./class-icons";
+import class_icons from "./assets/class-icons";
 
-import ButtonIcon from "./ButtonIcon";
+import ButtonIcon from "./components/ButtonIcon";
 
-import cosmeticsJSON from "./cosmetics.json";
+import cosmeticsJSON from "./assets/cosmetics.json";
 
 const cosmetics = [...cosmeticsJSON].sort((a, b) => {
     const dateA = new Date(a.update[0].replace(" Patch", "")).getTime();

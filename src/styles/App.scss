@@ -1,18 +1,18 @@
     $background: #1A1411;
     $foreground: #342E29;
 
-    body {
+    html, body {
         margin: 0;
         background-color: $background;
         font-family: system-ui, sans-serif;
     }
 
 
-    #root {
-        margin: 0;
-        background-color: $background;
-        font-family: system-ui, sans-serif;
-    }
+    // #root {
+    //     margin: 0;
+    //     background-color: $background;
+    //     font-family: system-ui, sans-serif;
+    // }
 
     .dot {
         height: calc(100% - 4px);
