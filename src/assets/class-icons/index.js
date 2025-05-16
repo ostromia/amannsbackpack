@@ -9,15 +9,15 @@ import soldier_icon from "./Leaderboard_class_soldier.png";
 import spy_icon from "./Leaderboard_class_spy.png";
 
 const class_icons = {
-    scout: scout_icon,
-    soldier: soldier_icon,
-    pyro: pyro_icon,
-    demoman: demoman_icon,
-    heavy: heavy_icon,
-    engineer: engineer_icon,
-    medic: medic_icon,
-    sniper: sniper_icon,
-    spy: spy_icon
+    Scout: scout_icon,
+    Soldier: soldier_icon,
+    Pyro: pyro_icon,
+    Demoman: demoman_icon,
+    Heavy: heavy_icon,
+    Engineer: engineer_icon,
+    Medic: medic_icon,
+    Sniper: sniper_icon,
+    Spy: spy_icon
 };
 
 export default class_icons;

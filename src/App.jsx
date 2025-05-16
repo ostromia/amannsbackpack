@@ -36,47 +36,38 @@ function useToggleSet() {
     return [values, toggle];
 }
 
-
-
 function App() {
     const [search, setSearch] = useState('');
     const [classes, toggleClass] = useToggleSet();
     const [grades, toggleGrade] = useToggleSet();
 
-    function shouldDisplay(item) {
-        return (
-            (classes.size === 0 || Array.from(classes).some((i) => item.class.includes(i))) &&
-            (grades.size === 0 || grades.has(item.grade)) &&
-            (search.trim() === '' || item.name.toLowerCase().includes(search.trim()))
-        );
-    }
-
     return (
         <>
-        <div id="wrapper-filters">
-            <input id="searchbar" type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search for items.."/>
+            <div id="wrapper-filters">
+                <input id="searchbar" type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search for items.."/>
 
-            <div className="wrapper-filter">
-                <ButtonIcon><label htmlFor="Scout"><img alt="" src={class_icons.scout}/></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Soldier"><img alt="" src={class_icons.soldier}/></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Pyro"><img alt="" src={class_icons.pyro}/></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Demoman"><img alt="" src={class_icons.demoman}/></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Heavy"><img alt="" src={class_icons.heavy}/></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Engineer"><img alt="" src={class_icons.engineer}/></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Medic"><img alt="" src={class_icons.medic}/></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Sniper"><img alt="" src={class_icons.sniper}/></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Spy"><img alt="" src={class_icons.spy}/></label></ButtonIcon>
-            </div>
+                <div className="wrapper-filter">
+                    {Object.entries(class_icons).map(([name, icon]) => (
+                        <ButtonIcon key={name}>
+                            <label htmlFor={name}>
+                                <img alt={name} src={icon} />
+                            </label>
+                        </ButtonIcon>
+                    ))}
+                </div>
 
-            <div className="wrapper-filter">
-                <ButtonIcon><label htmlFor="Unique"><span className="dot" style={{backgroundColor: "#FFD700"}}></span></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Genuine"><span className="dot" style={{backgroundColor: "#4D7455"}}></span></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Mercenary"><span className="dot" style={{backgroundColor: "#4B69FF"}}></span></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Commando"><span className="dot" style={{backgroundColor: "#8847FF"}}></span></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Assassin"><span className="dot" style={{backgroundColor: "#D32CE6"}}></span></label></ButtonIcon>
-                <ButtonIcon><label htmlFor="Elite"><span className="dot" style={{backgroundColor: "#EB4B4B"}}></span></label></ButtonIcon>
+                <div className="wrapper-filter">
+                    {Object.entries(gradesJSON).map(([key, value]) => {
+                        return (
+                            <ButtonIcon key={key}>
+                                <label htmlFor={key}>
+                                    <span className="dot" style={{backgroundColor: value}}></span>
+                                </label>
+                            </ButtonIcon>
+                        );
+                    })}
+                </div>
             </div>
-        </div>
 
         <div style={{display: "none"}}>
             {classesJSON.map((i) => {
@@ -85,14 +76,14 @@ function App() {
                 );
             })}
 
-            {gradesJSON.map((i) => {
+            {Object.keys(gradesJSON).map((i) => {
                 return (
                     <input key={i} type="checkbox" id={i} name={i} value={i} onChange={() => toggleGrade(i)} />
                 );
             })}
         </div>
 
-        <CosmeticsTable cosmetics={cosmetics} classes={classes} grades={grades} search={search} />
+            <CosmeticsTable cosmetics={cosmetics} classes={classes} grades={grades} search={search} />
         </>
     );
 }
