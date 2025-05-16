@@ -15,7 +15,7 @@ import CosmeticsTable from "./components/CosmeticsTable";
 const cosmetics = [...cosmeticsJSON].sort((a, b) => {
     const dateA = new Date(a.update[0].replace(" Patch", "")).getTime();
     const dateB = new Date(b.update[0].replace(" Patch", "")).getTime();
-    return dateA - dateB;
+    return dateB - dateA;
 });
 
 function useToggleSet() {
