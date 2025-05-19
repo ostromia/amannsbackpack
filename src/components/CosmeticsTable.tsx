@@ -1,6 +1,25 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
-export default function CosmeticsTable({ cosmetics, classes, grades, search }) {
+type Cosmetic = {
+    name: string;
+    class: string[];
+    update: string[];
+    restriction: string;
+    url: string;
+    src: string;
+    date: string;
+    grade: string;
+    gradeColor: string;
+};
+
+type Props = {
+    cosmetics: Cosmetic[],
+    classes: Set<string>,
+    grades: Set<string>,
+    search: string
+};
+
+function CosmeticsTable({ cosmetics, classes, grades, search }: Props) {
     const [loadedCount, setLoadedCount] = useState(50);
 
     useEffect(() => {
@@ -15,7 +34,7 @@ export default function CosmeticsTable({ cosmetics, classes, grades, search }) {
         return () => clearInterval(interval);
     }, [cosmetics.length, loadedCount]);
 
-    const shouldDisplay = (item) => {
+    const shouldDisplay = (item: Cosmetic) => {
         return (
             (classes.size === 0 || Array.from(classes).some((i) => item.class.includes(i))) &&
             (grades.size === 0 || grades.has(item.grade)) &&
@@ -38,3 +57,5 @@ export default function CosmeticsTable({ cosmetics, classes, grades, search }) {
         </div>
     );
 }
+
+export default CosmeticsTable;

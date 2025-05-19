@@ -18,10 +18,10 @@ const cosmetics = [...cosmeticsJSON].sort((a, b) => {
     return dateB - dateA;
 });
 
-function useToggleSet() {
-    const [values, setValues] = useState(new Set());
+function useToggleSet(): [Set<string>, (value: string) => void] {
+    const [values, setValues] = useState<Set<string>>(new Set());
 
-    const toggle = (value) => {
+    const toggle = (value: string) => {
         setValues(prev => {
             const newSet = new Set(prev);
             if (newSet.has(value)) {
@@ -37,7 +37,7 @@ function useToggleSet() {
 }
 
 function App() {
-    const [search, setSearch] = useState('');
+    const [search, setSearch] = useState<string>('');
     const [classes, toggleClass] = useToggleSet();
     const [grades, toggleGrade] = useToggleSet();
 

@@ -1,6 +1,11 @@
-import React, { useState, ReactNode } from "react";
+import { useState } from "react";
+import type { ReactNode } from "react";
 
-const ToggleButton = ({ children }) => {
+type Props = {
+    children: ReactNode;
+  };
+
+const ToggleButton = ({ children }: Props) => {
   const [isClicked, setIsClicked] = useState(false);
 
   return (
