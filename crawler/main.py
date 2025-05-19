@@ -1,5 +1,6 @@
 import json
 import os
+import time
 
 import requests
 from bs4 import BeautifulSoup
@@ -132,6 +133,7 @@ def get_cosmetics_data():
             with open("cosmetics.json", "w") as file:
                 json.dump(cosmetics, file, indent=4)
 
+            time.sleep(1)
 
 def update_cosmetics_data():
     with open("cosmetics.json", "r") as file:
@@ -157,6 +159,9 @@ def update_cosmetics_data():
 
         i["grade"] = i.pop("quality")
         i["gradeColor"] = i.pop("qualityColor")
+
+        if i["class"] = ["All classes"]:
+            i["class"] = ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"]
 
     with open("cosmetics.json", "w") as file:
         json.dump(cosmetics, file, indent=4)
