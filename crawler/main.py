@@ -103,9 +103,13 @@ def get_cosmetics_data():
             # get name
             i["name"] = soup.find(id="firstHeading").text
 
-            # get class
-            anchors = soup.find(class_="infobox-label", string="Worn by:").find_next_sibling().find_all("a")
-            i["class"] = [a.text.strip() for a in anchors]
+
+            if i["url"] == "https://wiki.teamfortress.com/wiki/Something_Special_For_Someone_Special":
+                i["class"] = ["All classes"]
+            else:
+                # get class
+                anchors = soup.find(class_="infobox-label", string="Worn by:").find_next_sibling().find_all("a")
+                i["class"] = [a.text.strip() for a in anchors]
 
             # get update
             anchors = soup.find(class_="infobox-label", string="Released:").find_next_sibling().find_all("a")
@@ -177,6 +181,6 @@ def download_cosmetics_images():
 
 if __name__ == "__main__":
     # get_cosmetics_urls()
-    # get_cosmetics_data()
+    get_cosmetics_data()
     # update_cosmetics_data()
     # download_cosmetics_images()
