@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 type Cosmetic = {
     name: string;
@@ -13,10 +13,10 @@ type Cosmetic = {
 };
 
 type Props = {
-    cosmetics: Cosmetic[],
-    classes: Set<string>,
-    grades: Set<string>,
-    search: string
+    cosmetics: Cosmetic[];
+    classes: Set<string>;
+    grades: Set<string>;
+    search: string;
 };
 
 function CosmeticsTable({ cosmetics, classes, grades, search }: Props) {
@@ -38,7 +38,7 @@ function CosmeticsTable({ cosmetics, classes, grades, search }: Props) {
         return (
             (classes.size === 0 || Array.from(classes).some((i) => item.class.includes(i))) &&
             (grades.size === 0 || grades.has(item.grade)) &&
-            (search.trim() === '' || item.name.toLowerCase().includes(search.trim()))
+            (search.trim() === "" || item.name.toLowerCase().includes(search.trim()))
         );
     };
 
@@ -46,11 +46,23 @@ function CosmeticsTable({ cosmetics, classes, grades, search }: Props) {
         <div id="cosmetics-table">
             {cosmetics.slice(0, loadedCount).map((item) => {
                 return (
-                    <div className="item-wrapper" id={item.name} key={item.name} style={{ display: shouldDisplay(item) ? 'block' : 'none' }}>
+                    <div
+                        className="item-wrapper"
+                        id={item.name}
+                        key={item.name}
+                        style={{ display: shouldDisplay(item) ? "block" : "none" }}
+                    >
                         <a href={item.url}>
-                            <img alt={item.name} className="item-image" src={`cosmetics/${item.name.replace("?", "").replace("%", "")}.png`} />
+                            <img
+                                alt={item.name}
+                                className="item-image"
+                                src={`cosmetics/${item.name.replace("?", "").replace("%", "")}.png`}
+                            />
                         </a>
-                        <div className="underline" style={{ backgroundColor: item.gradeColor }}></div>
+                        <div
+                            className="underline"
+                            style={{ backgroundColor: item.gradeColor }}
+                        ></div>
                     </div>
                 );
             })}

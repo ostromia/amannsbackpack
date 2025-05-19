@@ -1,8 +1,8 @@
 {
-  "Unique": "#FFD700",
-  "Genuine": "#4D7455",
-  "Mercenary": "#4B69FF",
-  "Commando": "#8847FF",
-  "Assassin": "#D32CE6",
-  "Elite": "#EB4B4B"
+    "Unique": "#FFD700",
+    "Genuine": "#4D7455",
+    "Mercenary": "#4B69FF",
+    "Commando": "#8847FF",
+    "Assassin": "#D32CE6",
+    "Elite": "#EB4B4B"
 }

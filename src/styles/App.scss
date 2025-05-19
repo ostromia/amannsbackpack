@@ -1,7 +1,8 @@
-$background: #1A1411;
-$foreground: #342E29;
+$background: #1a1411;
+$foreground: #342e29;
 
-html, body {
+html,
+body {
     margin: 0;
     background-color: $background;
     font-family: system-ui, sans-serif;
@@ -66,7 +67,6 @@ $max-width-filters: calc(590px + 2rem);
         width: calc(350px + 230px + 10px);
     }
 }
-
 
 #cosmetics-table {
     max-width: 1200px;
