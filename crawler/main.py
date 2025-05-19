@@ -146,21 +146,22 @@ def update_cosmetics_data():
         parts = i["update"][0].split(" ")
         i["date"] = f"{parts[1][:-1]} {parts[0]} {parts[2]}"
 
-        if isinstance(i["quality"], list):
-            quality = grades[i["quality"][0]]["name"]
-            qualityColor = grades[i["quality"][0]]["color"]
+        if "quality" in i:
+            if isinstance(i["quality"], list):
+                quality = grades[i["quality"][0]]["name"]
+                qualityColor = grades[i["quality"][0]]["color"]
 
-            i["quality"] = quality
-            i["qualityColor"] = qualityColor
-        else:
-            for j in grades.values():
-                if j.get("name") == i["quality"]:
-                    i["qualityColor"] = j.get("color")
+                i["quality"] = quality
+                i["qualityColor"] = qualityColor
+            else:
+                for j in grades.values():
+                    if j.get("name") == i["quality"]:
+                        i["qualityColor"] = j.get("color")
 
-        i["grade"] = i.pop("quality")
-        i["gradeColor"] = i.pop("qualityColor")
+            i["grade"] = i.pop("quality")
+            i["gradeColor"] = i.pop("qualityColor")
 
-        if i["class"] = ["All classes"]:
+        if i["class"] == ["All classes"]:
             i["class"] = ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"]
 
     with open("cosmetics.json", "w") as file:
@@ -186,6 +187,6 @@ def download_cosmetics_images():
 
 if __name__ == "__main__":
     # get_cosmetics_urls()
-    get_cosmetics_data()
+    # get_cosmetics_data()
     # update_cosmetics_data()
-    # download_cosmetics_images()
+    download_cosmetics_images()

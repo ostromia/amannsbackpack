@@ -30,5 +30,25 @@
     "grade_elite": {
         "name": "Elite",
         "color": "#EB4B4B"
+    },
+    "qua_community": {
+        "name": "Community",
+        "color": "#70B04A"
+    },
+    "qua_vintage": {
+        "name": "Vintage",
+        "color": "#476291"
+    },
+    "qua_strange": {
+        "name": "Strange",
+        "color": "#CF6A32"
+    },
+    "qua_unusual": {
+        "name": "Unusual",
+        "color": "#8650AC"
+    },
+    "qua_self-made": {
+        "name": "Self-Made",
+        "color": "#70B04A"
     }
 }

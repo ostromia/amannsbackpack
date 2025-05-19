@@ -54,7 +54,7 @@ body {
     }
 }
 
-$max-width-filters: calc(590px + 2rem);
+$max-width-filters: calc((30px * 20) + (10px * 19) + 2rem);
 
 @media (max-width: $max-width-filters) {
     #wrapper-filters {
@@ -64,7 +64,7 @@ $max-width-filters: calc(590px + 2rem);
 
 @media (min-width: $max-width-filters) {
     #wrapper-filters {
-        width: calc(350px + 230px + 10px);
+        width: calc((30px * 20) + (10px * 19));
     }
 }
 
