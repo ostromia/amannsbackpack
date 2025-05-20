@@ -8,12 +8,6 @@ import ButtonIcon from "./components/ButtonIcon";
 import CosmeticsTable from "./components/CosmeticsTable";
 import "./styles/App.scss";
 
-const cosmetics = [...cosmeticsJSON].sort((a, b) => {
-    const dateA = new Date(a.update[0].replace(" Patch", "")).getTime();
-    const dateB = new Date(b.update[0].replace(" Patch", "")).getTime();
-    return dateB - dateA;
-});
-
 function useToggleSet(): [Set<string>, (value: string) => void] {
     const [values, setValues] = useState<Set<string>>(new Set());
 
@@ -100,7 +94,7 @@ function App() {
             </div>
 
             <CosmeticsTable
-                cosmetics={cosmetics}
+                cosmetics={cosmeticsJSON}
                 classes={classes}
                 grades={grades}
                 search={search}

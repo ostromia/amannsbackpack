@@ -1,6 +1,7 @@
 import json
 import os
 import time
+from datetime import datetime
 
 import requests
 from bs4 import BeautifulSoup
@@ -164,8 +165,14 @@ def update_cosmetics_data():
         if i["class"] == ["All classes"]:
             i["class"] = ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"]
 
+    sorted_cosmetics = sorted(
+        cosmetics,
+        key=lambda x: datetime.strptime(x["date"], "%d %B %Y"),
+        reverse = True
+    )
+
     with open("cosmetics.json", "w") as file:
-        json.dump(cosmetics, file, indent=4)
+        json.dump(sorted_cosmetics, file, indent=4)
 
 def download_cosmetics_images():
     with open("cosmetics.json", "r") as file:
@@ -188,5 +195,5 @@ def download_cosmetics_images():
 if __name__ == "__main__":
     # get_cosmetics_urls()
     # get_cosmetics_data()
-    # update_cosmetics_data()
-    download_cosmetics_images()
+    update_cosmetics_data()
+    # download_cosmetics_images()
