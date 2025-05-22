@@ -1,10 +1,19 @@
 import json
-import os
+import pathlib
 import time
 from datetime import datetime
 
 import requests
 from bs4 import BeautifulSoup
+
+# absolute path to directory containing main.py python script
+CWD = pathlib.Path(__file__).resolve().parent
+
+# absolute path to directory containing images of comsetics
+COSMETICS_IMAGES_FOLDER = pathlib.Path(CWD).parent / "public" / "cosmetics"
+
+# absolute path to json file containing cosmetics data
+COSMETICS_JSON_FILE = pathlib.Path(CWD).parent / "src" / "assets" / "cosmetics.json"
 
 
 def get_cosmetics_urls():
@@ -24,11 +33,11 @@ def get_cosmetics_urls():
     }
     """
 
-    with open("cosmetics.json", "r") as file:
+    with open(COSMETICS_JSON_FILE, "r", encoding='utf-8') as file:
         cosmetics = json.load(file)
         cosmeticsExistingURLs = [i["url"] for i in cosmetics]
 
-    with open("list_of_x_cosmetics.txt") as file:
+    with open(CWD / "list_of_x_cosmetics.txt", "r", encoding='utf-8') as file:
         list_of_x_cosmetics = [i.strip("\n") for i in file.readlines()]
 
     for url in list_of_x_cosmetics:
@@ -64,7 +73,7 @@ def get_cosmetics_urls():
 
                         cosmetics.append(data)
 
-    with open("cosmetics.json", "w") as file:
+    with open(COSMETICS_JSON_FILE, "w", encoding='utf-8') as file:
         json.dump(cosmetics, file, indent=4)
 
 
@@ -92,7 +101,7 @@ def get_cosmetics_data():
     },
     """
 
-    with open("cosmetics.json", "r") as file:
+    with open(COSMETICS_JSON_FILE, "r", encoding='utf-8') as file:
         cosmetics = json.load(file)
 
     for i in cosmetics:
@@ -131,16 +140,16 @@ def get_cosmetics_data():
             # get quality
             i["quality"] = soup.find(class_="tfwiki-backpack-item").find_all(recursive=False)[1].find("p").find_all(recursive=False)[0].get("class")
 
-            with open("cosmetics.json", "w") as file:
+            with open(COSMETICS_JSON_FILE, "w", encoding='utf-8') as file:
                 json.dump(cosmetics, file, indent=4)
 
             time.sleep(1)
 
 def update_cosmetics_data():
-    with open("cosmetics.json", "r") as file:
+    with open(COSMETICS_JSON_FILE, "r", encoding='utf-8') as file:
         cosmetics = json.load(file)
 
-    with open("grades.json", "r") as file:
+    with open(CWD / "grades.json", "r", encoding='utf-8') as file:
         grades = json.load(file)
 
     for i in cosmetics:
@@ -171,17 +180,17 @@ def update_cosmetics_data():
         reverse = True
     )
 
-    with open("cosmetics.json", "w") as file:
+    with open(COSMETICS_JSON_FILE, "w", encoding='utf-8') as file:
         json.dump(sorted_cosmetics, file, indent=4)
 
 def download_cosmetics_images():
-    with open("cosmetics.json", "r") as file:
+    with open(COSMETICS_JSON_FILE, "r", encoding='utf-8') as file:
         cosmetics = json.load(file)
 
     for i in cosmetics:
-        path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'public', 'cosmetics', i['name'] + '.png')
+        path = COSMETICS_IMAGES_FOLDER / f"{i["name"]}.png"
 
-        if not os.path.isfile(path):
+        if not path.exists():
             print(path)
 
             src = i["src"]
@@ -195,5 +204,5 @@ def download_cosmetics_images():
 if __name__ == "__main__":
     # get_cosmetics_urls()
     # get_cosmetics_data()
-    update_cosmetics_data()
+    # update_cosmetics_data()
     # download_cosmetics_images()
