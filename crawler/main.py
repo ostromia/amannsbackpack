@@ -18,64 +18,35 @@ COSMETICS_JSON_FILE = pathlib.Path(CWD).parent / "src" / "assets" / "cosmetics.j
 
 def get_cosmetics_urls():
     """
-    save all cosmetics in TF2 as objects inside cosmetics.json
-    e.g., for the Batter's Helmet the following object would be saved
-
-    {
-        "name": "",
-        "class": "",
-        "update": "",
-        "restriction": "",
-        "url": "https://wiki.teamfortress.com/wiki/Batter%27s_Helmet",
-        "src": "",
-        "quality": "",
-        "date": ""
-    }
+    Place wiki URL for all cosmetics inside list_of_cosmetic_urls.txt
     """
 
-    with open(COSMETICS_JSON_FILE, "r", encoding='utf-8') as file:
-        cosmetics = json.load(file)
-        cosmeticsExistingURLs = [i["url"] for i in cosmetics]
+    with open(CWD / "list_of_x_cosmetics_urls.txt", "r", encoding='utf-8') as file:
+        list_of_x_cosmetics_urls = file.read().splitlines()
 
-    with open(CWD / "list_of_x_cosmetics.txt", "r", encoding='utf-8') as file:
-        list_of_x_cosmetics = [i.strip("\n") for i in file.readlines()]
+    with open(CWD / "list_of_cosmetic_urls.txt", "r", encoding='utf-8') as file:
+        list_of_cosmetic_urls = file.read().splitlines()
 
-    for url in list_of_x_cosmetics:
+    for url in list_of_x_cosmetics_urls:
         html = requests.get(url)
         soup = BeautifulSoup(html.text, 'html.parser')
 
         navbox_cosmetic_table = soup.find("table", class_="navbox cosmetic-table")
         navbox_list = navbox_cosmetic_table.tbody.tr.td.table.tbody.contents[-1].td
 
-        for table in navbox_list.findChildren("table", recursive=False):
+        for table in navbox_list.find_all("table", recursive=False):
             tr = table.tbody.tr.td.div.table.tbody.contents[-1].contents
 
             for td in tr:
-                if td.a != None:
-                    # get wiki url of cosmetic
-                    url = "https://wiki.teamfortress.com" + td.a.get("href")
-                    cosmeticsExistingURLs = [i["url"] for i in cosmetics]
+                if td.a is not None:
+                    cosmetic_url = "https://wiki.teamfortress.com" + td.a.get("href")
 
-                    # add url with data template to cosmetics if not already
-                    if url not in cosmeticsExistingURLs:
-                        print(url)
+                    if cosmetic_url not in list_of_cosmetic_urls:
+                        print(cosmetic_url)
+                        list_of_cosmetic_urls.append(cosmetic_url)
 
-                        data = {
-                            "name": "",
-                            "class": "",
-                            "update": "",
-                            "restriction": "",
-                            "url": url,
-                            "src": "",
-                            "quality": "",
-                            "date": ""
-                        }
-
-                        cosmetics.append(data)
-
-    with open(COSMETICS_JSON_FILE, "w", encoding='utf-8') as file:
-        json.dump(cosmetics, file, indent=4)
-
+    with open(CWD / "list_of_cosmetic_urls.txt", "w", encoding='utf-8') as file:
+        file.write("\n".join(list_of_cosmetic_urls))
 
 def get_cosmetics_data():
     """
@@ -202,7 +173,7 @@ def download_cosmetics_images():
 
 
 if __name__ == "__main__":
-    # get_cosmetics_urls()
+    get_cosmetics_urls()
     # get_cosmetics_data()
     # update_cosmetics_data()
     # download_cosmetics_images()
