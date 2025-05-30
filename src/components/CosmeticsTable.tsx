@@ -44,7 +44,12 @@ function CosmeticsTable({ cosmetics, classes, grades, search }: Props) {
 
     return (
         <div id="cosmetics-table">
-            {cosmetics.slice(0, loadedCount).map((item) => {
+            {cosmetics.map((item, index) => {
+                const imageSrc =
+                    index < loadedCount
+                        ? `cosmetics/${item.name.replace("?", "").replace("%", "")}.png`
+                        : undefined;
+
                 return (
                     <div
                         className="item-wrapper"
@@ -53,11 +58,7 @@ function CosmeticsTable({ cosmetics, classes, grades, search }: Props) {
                         style={{ display: shouldDisplay(item) ? "block" : "none" }}
                     >
                         <a href={item.url}>
-                            <img
-                                alt={item.name}
-                                className="item-image"
-                                src={`cosmetics/${item.name.replace("?", "").replace("%", "")}.png`}
-                            />
+                            {imageSrc ? <img className="item-image" src={imageSrc} /> : <></>}
                         </a>
                         <div
                             className="underline"

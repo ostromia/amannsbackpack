@@ -83,6 +83,8 @@ $max-width-filters: calc((30px * 20) + (10px * 19) + 2rem);
 
     .item-wrapper {
         background-color: $foreground;
+        height: 100px;
+        width: 100px;
     }
 
     .item-image {
