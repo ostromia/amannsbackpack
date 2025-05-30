@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import class_icons from "./assets/class-icons";
 import classesJSON from "./assets/classes.json";
 import cosmeticsJSON from "./assets/cosmetics.json";
