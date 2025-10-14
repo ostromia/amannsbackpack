@@ -10,7 +10,10 @@ const ToggleButton = ({ children }: Props) => {
 
     return (
         <button
-            onClick={() => setIsClicked(!isClicked)}
+            type="button"
+            onClick={() => {
+                setIsClicked(!isClicked);
+            }}
             style={{
                 backgroundColor: isClicked ? "#342E29" : "lightgray",
                 height: "30px",
