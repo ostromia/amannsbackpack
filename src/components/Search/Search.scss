@@ -1,0 +1,13 @@
+@use "~/styles/colors";
+
+#search {
+    text-align: center;
+
+    height: 1.5rem;
+    color: lightgray;
+    background-color: colors.$foreground;
+    border: 0;
+
+    padding: 0.25rem;
+    box-sizing: border-box;
+}

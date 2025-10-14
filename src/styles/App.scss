@@ -1,6 +1,10 @@
 @use "~/styles/colors";
 @use "~/styles/fonts";
 
+#results {
+    color: grey;
+}
+
 .dot {
     height: calc(100% - 4px);
     width: calc(100% - 4px);
@@ -15,18 +19,6 @@
     gap: 10px;
 
     margin: auto;
-
-    #searchbar {
-        flex-basis: 100%;
-        text-align: center;
-
-        height: 1.5rem;
-        color: lightgray;
-        @include fonts.tf2build;
-        background-color: colors.$foreground;
-        padding: 0.25rem;
-        box-sizing: border-box;
-    }
 
     .wrapper-filter {
         flex: 0 1 auto;
