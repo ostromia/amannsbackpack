@@ -70,10 +70,6 @@ $max-width-filters: calc((30px * 20) + (10px * 19) + 2rem);
     grid-gap: 1rem;
     justify-content: center;
 
-    padding: 1rem;
-    padding-bottom: 5rem;
-    box-sizing: border-box;
-
     .item-wrapper {
         background-color: colors.$foreground;
         height: 100px;
