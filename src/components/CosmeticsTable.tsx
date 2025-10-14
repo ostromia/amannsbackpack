@@ -31,7 +31,9 @@ function CosmeticsTable({ cosmetics, classes, grades, search }: Props) {
                 return next;
             });
         }, 200);
-        return () => clearInterval(interval);
+        return () => {
+            clearInterval(interval);
+        };
     }, [cosmetics.length, loadedCount]);
 
     const shouldDisplay = (item: Cosmetic) => {
@@ -58,7 +60,7 @@ function CosmeticsTable({ cosmetics, classes, grades, search }: Props) {
                         style={{ display: shouldDisplay(item) ? "block" : "none" }}
                     >
                         <a href={item.url}>
-                            {imageSrc ? <img className="item-image" src={imageSrc} /> : <></>}
+                            {imageSrc ? <img className="item-image" src={imageSrc} /> : null}
                         </a>
                         <div
                             className="underline"
