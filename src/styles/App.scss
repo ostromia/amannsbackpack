@@ -1,12 +1,5 @@
-$background: #1a1411;
-$foreground: #342e29;
-
-html,
-body {
-    margin: 0;
-    background-color: $background;
-    font-family: system-ui, sans-serif;
-}
+@use "~/styles/colors";
+@use "~/styles/fonts";
 
 .dot {
     height: calc(100% - 4px);
@@ -29,8 +22,8 @@ body {
 
         height: 1.5rem;
         color: lightgray;
-        font-family: "tf2build", system-ui, sans-serif;
-        background-color: $foreground;
+        @include fonts.tf2build;
+        background-color: colors.$foreground;
         padding: 0.25rem;
         box-sizing: border-box;
     }
@@ -82,7 +75,7 @@ $max-width-filters: calc((30px * 20) + (10px * 19) + 2rem);
     box-sizing: border-box;
 
     .item-wrapper {
-        background-color: $foreground;
+        background-color: colors.$foreground;
         height: 100px;
         width: 100px;
     }

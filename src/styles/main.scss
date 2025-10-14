@@ -1,0 +1,8 @@
+@use "~/styles/colors";
+
+html,
+body {
+    margin: 0;
+    background-color: colors.$background;
+    font-family: system-ui, sans-serif;
+}

@@ -5,3 +5,7 @@
         local(""),
         url("/tf2build.ttf") format("truetype");
 }
+
+@mixin tf2build {
+    font-family: "tf2build", sans-serif;
+}
