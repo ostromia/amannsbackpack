@@ -4,5 +4,18 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
     base: "/amannsbackpack/",
-    plugins: [react()]
+
+    resolve: {
+        alias: {
+            "~": "/src"
+        }
+    },
+
+    plugins: [
+        react({
+            babel: {
+                plugins: [["babel-plugin-react-compiler"]]
+            }
+        })
+    ]
 });
