@@ -1,6 +1,28 @@
 @use "~/styles/colors";
 @use "~/styles/fonts";
 
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin: auto;
+}
+
+$max-width-filters: calc((30px * 20) + (10px * 19) + 2rem);
+
+@media (max-width: $max-width-filters) {
+    .filters {
+        width: 350px;
+    }
+}
+
+@media (min-width: $max-width-filters) {
+    .filters {
+        width: calc((30px * 20) + (10px * 19));
+    }
+}
+
 #results {
     color: grey;
 }

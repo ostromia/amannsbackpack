@@ -8,16 +8,16 @@ import sniper_icon from "./Leaderboard_class_sniper.png";
 import soldier_icon from "./Leaderboard_class_soldier.png";
 import spy_icon from "./Leaderboard_class_spy.png";
 
-const class_icons = {
-    Scout: scout_icon,
-    Soldier: soldier_icon,
-    Pyro: pyro_icon,
-    Demoman: demoman_icon,
-    Heavy: heavy_icon,
-    Engineer: engineer_icon,
-    Medic: medic_icon,
-    Sniper: sniper_icon,
-    Spy: spy_icon
-};
+const classes = [
+    { name: "scout", image: scout_icon },
+    { name: "soldier", image: soldier_icon },
+    { name: "pyro", image: pyro_icon },
+    { name: "demoman", image: demoman_icon },
+    { name: "heavy", image: heavy_icon },
+    { name: "engineer", image: engineer_icon },
+    { name: "medic", image: medic_icon },
+    { name: "sniper", image: sniper_icon },
+    { name: "spy", image: spy_icon }
+];
 
-export default class_icons;
+export default classes;
