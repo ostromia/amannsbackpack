@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import Classes from "~/components/Classes";
+import Filters from "~/components/Filters";
 import Grades from "~/components/Grades";
 import Search from "~/components/Search";
 import "~/styles/App.scss";
@@ -30,12 +31,16 @@ function App() {
 
     return (
         <>
-            <div className="filters">
-                <Search search={search} setSearch={setSearch} />
+            <div className="filters-wrapper">
+                <div className="search-wrapper">
+                    <Search search={search} setSearch={setSearch} />
+                    <Filters />
+                </div>
 
-                <Classes toggleClasses={toggleClasses} />
-
-                <Grades toggleGrades={toggleGrades} />
+                <div className="filters">
+                    <Classes toggleClasses={toggleClasses} />
+                    <Grades toggleGrades={toggleGrades} />
+                </div>
             </div>
 
             <div id="results">

@@ -18,7 +18,7 @@ export default function IconButton({ onClick, children }: Props) {
             }}
             style={{
                 backgroundColor: clicked ? "#342E29" : "lightgray",
-                border: "none",
+                border: 0,
                 padding: 2,
                 height: 30,
                 width: 30,

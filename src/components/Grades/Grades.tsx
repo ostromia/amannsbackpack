@@ -7,7 +7,7 @@ type Props = {
 
 function Grades({ toggleGrades }: Props) {
     return (
-        <div className="classes">
+        <div className="grades classes">
             {data.map((i) => (
                 <FilterButton
                     key={i.name}

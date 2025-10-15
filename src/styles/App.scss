@@ -1,12 +1,47 @@
 @use "~/styles/colors";
 @use "~/styles/fonts";
 
-.filters {
+$max-width-filters: calc((30px * (9 + 5)) + (10px * (14 - 1)));
+
+@media (max-width: calc($max-width-filters - 1px + 2rem)) {
+    .filters-wrapper {
+        width: calc((30px * 9) + (10px * 8)) !important;
+    }
+
+    .grades {
+        display: none !important;
+    }
+}
+
+@media (min-width: $max-width-filters) {
+    .filters-wrapper {
+        width: $max-width-filters;
+    }
+}
+
+.filters-wrapper {
     display: flex;
     flex-direction: column;
     gap: 10px;
 
     margin: auto;
+}
+
+.search-wrapper {
+    width: 100%;
+
+    display: flex;
+    gap: 10px;
+
+    input {
+        flex: 1;
+    }
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .classes {
@@ -27,93 +62,10 @@
     }
 }
 
-$max-width-filters: calc((30px * 20) + (10px * 19) + 2rem);
-
-@media (max-width: $max-width-filters) {
-    .filters {
-        width: 350px;
-    }
-}
-
-@media (min-width: $max-width-filters) {
-    .filters {
-        width: calc((30px * 20) + (10px * 19));
-    }
-}
-
-#results {
-    color: grey;
-}
-
 .dot {
     height: calc(100% - 4px);
     width: calc(100% - 4px);
     border-radius: 50%;
     display: inline-block;
     margin: 2px;
-}
-
-#wrapper-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-
-    margin: auto;
-
-    .wrapper-filter {
-        flex: 0 1 auto;
-
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
-
-    label {
-        height: 20px;
-        width: 20px;
-    }
-
-    img {
-        height: 100%;
-        width: 100%;
-    }
-}
-
-$max-width-filters: calc((30px * 20) + (10px * 19) + 2rem);
-
-@media (max-width: $max-width-filters) {
-    #wrapper-filters {
-        width: 350px;
-    }
-}
-
-@media (min-width: $max-width-filters) {
-    #wrapper-filters {
-        width: calc((30px * 20) + (10px * 19));
-    }
-}
-
-#cosmetics-table {
-    max-width: 1200px;
-    margin: auto;
-
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 100px);
-    grid-gap: 1rem;
-    justify-content: center;
-
-    .item-wrapper {
-        background-color: colors.$foreground;
-        height: 100px;
-        width: 100px;
-    }
-
-    .item-image {
-        height: 100px;
-        display: block;
-    }
-
-    .underline {
-        height: 3px;
-    }
 }
