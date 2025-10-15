@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import Classes from "~/components/Classes";
+import Grades from "~/components/Grades";
 import Search from "~/components/Search";
 import "~/styles/App.scss";
 
@@ -25,6 +26,7 @@ function useToggleSet(): [Set<string>, (value: string) => void] {
 function App() {
     const [search, setSearch] = useState<string>("");
     const [classes, toggleClasses] = useToggleSet();
+    const [grades, toggleGrades] = useToggleSet();
 
     return (
         <>
@@ -32,11 +34,14 @@ function App() {
                 <Search search={search} setSearch={setSearch} />
 
                 <Classes toggleClasses={toggleClasses} />
+
+                <Grades toggleGrades={toggleGrades} />
             </div>
 
             <div id="results">
                 {search}
                 {classes}
+                {grades}
             </div>
         </>
     );

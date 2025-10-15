@@ -1,25 +1,25 @@
-import data from "~/assets/class-icons";
 import FilterButton from "~/components/FilterButton";
+import data from "~/components/Grades/data.ts";
 
 type Props = {
-    toggleClasses: (value: string) => void;
+    toggleGrades: (value: string) => void;
 };
 
-function Classes({ toggleClasses }: Props) {
+function Grades({ toggleGrades }: Props) {
     return (
         <div className="classes">
             {data.map((i) => (
                 <FilterButton
                     key={i.name}
                     onClick={() => {
-                        toggleClasses(i.name);
+                        toggleGrades(i.name);
                     }}
                 >
-                    <img alt={i.name} src={i.image} />
+                    <span className="dot" style={{ backgroundColor: i.color }}></span>
                 </FilterButton>
             ))}
         </div>
     );
 }
 
-export default Classes;
+export default Grades;
