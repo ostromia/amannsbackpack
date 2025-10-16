@@ -1,4 +1,4 @@
-import data from "~/assets/class-icons";
+import data from "~/components/Classes/icons";
 import FilterButton from "~/components/FilterButton";
 
 type Props = {

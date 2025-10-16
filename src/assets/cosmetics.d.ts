@@ -11,7 +11,6 @@ export interface Cosmetic {
 }
 
 declare module "./cosmetics.json" {
-    // import { Cosmetic } from "./cosmetics";
     const value: Cosmetic[];
     export default value;
 }
