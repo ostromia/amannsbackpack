@@ -9,15 +9,15 @@ import soldier_icon from "./Leaderboard_class_soldier.png";
 import spy_icon from "./Leaderboard_class_spy.png";
 
 const classes = [
-    { name: "scout", image: scout_icon },
-    { name: "soldier", image: soldier_icon },
-    { name: "pyro", image: pyro_icon },
-    { name: "demoman", image: demoman_icon },
-    { name: "heavy", image: heavy_icon },
-    { name: "engineer", image: engineer_icon },
-    { name: "medic", image: medic_icon },
-    { name: "sniper", image: sniper_icon },
-    { name: "spy", image: spy_icon }
+    { name: "Scout", image: scout_icon },
+    { name: "Soldier", image: soldier_icon },
+    { name: "Pyro", image: pyro_icon },
+    { name: "Demoman", image: demoman_icon },
+    { name: "Heavy", image: heavy_icon },
+    { name: "Engineer", image: engineer_icon },
+    { name: "Medic", image: medic_icon },
+    { name: "Sniper", image: sniper_icon },
+    { name: "Spy", image: spy_icon }
 ];
 
 export default classes;
