@@ -1,0 +1,28 @@
+@use "~/styles/colors";
+
+#cosmetics-table {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    grid-gap: 1rem;
+    justify-content: center;
+
+    padding: 1rem;
+    padding-bottom: 5rem;
+    box-sizing: border-box;
+
+    .item-wrapper {
+        background-color: colors.$foreground;
+    }
+
+    .item-image {
+        height: 100px;
+        display: block;
+    }
+
+    .underline {
+        height: 3px;
+    }
+}

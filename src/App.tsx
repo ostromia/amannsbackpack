@@ -1,10 +1,18 @@
 import { useState } from "react";
 
+import cosmeticsJSON from "~/assets/cosmetics.json";
 import Classes from "~/components/Classes";
 import Filters from "~/components/Filters";
 import Grades from "~/components/Grades";
 import Search from "~/components/Search";
+import Table from "~/components/Table";
 import "~/styles/App.scss";
+
+const cosmetics = [...cosmeticsJSON].sort((a, b) => {
+    const dateA = new Date(a.update[0].replace(" Patch", "")).getTime();
+    const dateB = new Date(b.update[0].replace(" Patch", "")).getTime();
+    return dateB - dateA;
+});
 
 function useToggleSet(): [Set<string>, (value: string) => void] {
     const [values, setValues] = useState<Set<string>>(() => new Set());
@@ -43,11 +51,7 @@ function App() {
                 </div>
             </div>
 
-            <div id="results">
-                {search}
-                {classes}
-                {grades}
-            </div>
+            <Table cosmetics={cosmetics} classes={classes} grades={grades} search={search} />
         </>
     );
 }
