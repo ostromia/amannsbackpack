@@ -28,9 +28,6 @@ export default function CosmeticsTable({ cosmetics, classes, grades, search }: P
     }, [cosmetics.length, loadedCount]);
 
     const shouldDisplay = (item: Cosmetic) => {
-        console.log(item.class);
-        console.log(classes);
-
         return (
             (classes.size === 0 || Array.from(classes).some((i) => item.class.includes(i))) &&
             (grades.size === 0 || grades.has(item.grade)) &&

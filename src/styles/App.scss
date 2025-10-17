@@ -25,6 +25,9 @@ $max-width-filters: calc((30px * (9 + 5)) + (10px * (14 - 1)));
     gap: 10px;
 
     margin: auto;
+
+    padding-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .search-wrapper {

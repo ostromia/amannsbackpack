@@ -6,12 +6,8 @@
 
     display: grid;
     grid-template-columns: repeat(auto-fill, 100px);
-    grid-gap: 1rem;
+    grid-gap: 10px;
     justify-content: center;
-
-    padding: 1rem;
-    padding-bottom: 5rem;
-    box-sizing: border-box;
 
     .item-wrapper {
         background-color: colors.$foreground;
