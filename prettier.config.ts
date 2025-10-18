@@ -10,6 +10,10 @@ const config: Config = {
         {
             files: "*.tsx",
             options: { printWidth: 100 }
+        },
+        {
+            files: "cosmetics.json",
+            options: { printWidth: 500 }
         }
     ],
 
