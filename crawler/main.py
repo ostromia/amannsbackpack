@@ -48,6 +48,34 @@ def get_cosmetics_urls():
     with open(CWD / "list_of_cosmetic_urls.txt", "w", encoding='utf-8') as file:
         file.write("\n".join(list_of_cosmetic_urls))
 
+def append_cosmetics_urls():
+    """
+    Ensure all cosmetics possess object inside cosmetics.json
+    """
+
+    with open(CWD / "list_of_cosmetic_urls.txt", "r", encoding='utf-8') as file:
+        list_of_cosmetic_urls = file.read().splitlines()
+
+    with open(COSMETICS_JSON_FILE, "r", encoding='utf-8') as file:
+        cosmetics = json.load(file)
+
+    for i in list_of_cosmetic_urls:
+        if i not in [i["url"] for i in cosmetics]:
+            cosmetics.append({
+                "name": "",
+                "class": [],
+                "update": [],
+                "restriction": "",
+                "url": i,
+                "src": "",
+                "date": "",
+                "grade": "",
+                "gradeColor": ""
+            })
+
+    with open(COSMETICS_JSON_FILE, "w", encoding='utf-8') as file:
+        json.dump(cosmetics, file, indent=4)
+
 def get_cosmetics_data():
     """
     update data for cosmetic objects in cosmetics.json
@@ -173,7 +201,8 @@ def download_cosmetics_images():
 
 
 if __name__ == "__main__":
-    get_cosmetics_urls()
+    # get_cosmetics_urls()
+    append_cosmetics_urls()
     # get_cosmetics_data()
     # update_cosmetics_data()
     # download_cosmetics_images()
