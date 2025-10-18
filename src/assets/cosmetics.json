@@ -1,5 +1,555 @@
 [
     {
+        "name": "Buzz Kill",
+        "class": ["Scout"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Buzz_Kill",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/8/8d/Backpack_Buzz_Kill.png/90px-Backpack_Buzz_Kill.png",
+        "date": "9 October 2025",
+        "grade": "Assassin",
+        "gradeColor": "#D32CE6"
+    },
+    {
+        "name": "Torn Terror",
+        "class": ["Scout"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Torn_Terror",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/7/76/Backpack_Torn_Terror.png/90px-Backpack_Torn_Terror.png",
+        "date": "9 October 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Ripped Runts",
+        "class": ["Scout"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Ripped_Runts",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/5/55/Backpack_Ripped_Runts.png/90px-Backpack_Ripped_Runts.png",
+        "date": "9 October 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Seamann's Stubble",
+        "class": ["Soldier"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Seamann%27s_Stubble",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/a/ab/Backpack_Seamann%27s_Stubble.png/90px-Backpack_Seamann%27s_Stubble.png",
+        "date": "9 October 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Air Exchanger",
+        "class": ["Pyro"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Air_Exchanger",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/b/b3/Backpack_Air_Exchanger.png/90px-Backpack_Air_Exchanger.png",
+        "date": "9 October 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Industrial Insurgent",
+        "class": ["Pyro"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Industrial_Insurgent",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/7/78/Backpack_Industrial_Insurgent.png/90px-Backpack_Industrial_Insurgent.png",
+        "date": "9 October 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Hellscape",
+        "class": ["Pyro"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Hellscape",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/b/bc/Backpack_Hellscape.png/90px-Backpack_Hellscape.png",
+        "date": "9 October 2025",
+        "grade": "Elite",
+        "gradeColor": "#EB4B4B"
+    },
+    {
+        "name": "Pyromantic Plumage",
+        "class": ["Pyro"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "Holiday Restriction: Halloween / Full Moon",
+        "url": "https://wiki.teamfortress.com/wiki/Pyromantic_Plumage",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/4/41/Backpack_Pyromantic_Plumage.png/90px-Backpack_Pyromantic_Plumage.png",
+        "date": "9 October 2025",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
+        "name": "Fused Plates",
+        "class": ["Demoman"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Fused_Plates",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/3/30/Backpack_Fused_Plates.png/90px-Backpack_Fused_Plates.png",
+        "date": "9 October 2025",
+        "grade": "Elite",
+        "gradeColor": "#EB4B4B"
+    },
+    {
+        "name": "Cigarillo Caballero",
+        "class": ["Heavy"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Cigarillo_Caballero",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/d/df/Backpack_Cigarillo_Caballero.png/90px-Backpack_Cigarillo_Caballero.png",
+        "date": "9 October 2025",
+        "grade": "Assassin",
+        "gradeColor": "#D32CE6"
+    },
+    {
+        "name": "El Gigante's Gunbelt",
+        "class": ["Heavy"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/El_Gigante%27s_Gunbelt",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/6/66/Backpack_El_Gigante%27s_Gunbelt.png/90px-Backpack_El_Gigante%27s_Gunbelt.png",
+        "date": "9 October 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Poncho del Pesado",
+        "class": ["Heavy"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Poncho_del_Pesado",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/5/5f/Backpack_Poncho_del_Pesado.png/90px-Backpack_Poncho_del_Pesado.png",
+        "date": "9 October 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Heat Shield",
+        "class": ["Engineer"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Heat_Shield",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/1/1e/Backpack_Heat_Shield.png/90px-Backpack_Heat_Shield.png",
+        "date": "9 October 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Technician's Tunic",
+        "class": ["Engineer"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Technician%27s_Tunic",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/8/8c/Backpack_Technician%27s_Tunic.png/90px-Backpack_Technician%27s_Tunic.png",
+        "date": "9 October 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Service Satchel",
+        "class": ["Engineer"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Service_Satchel",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/8/85/Backpack_Service_Satchel.png/90px-Backpack_Service_Satchel.png",
+        "date": "9 October 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "One-Man Convoy",
+        "class": ["Engineer"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "Holiday Restriction: Halloween / Full Moon",
+        "url": "https://wiki.teamfortress.com/wiki/One-Man_Convoy",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/9/91/Backpack_One-Man_Convoy.png/90px-Backpack_One-Man_Convoy.png",
+        "date": "9 October 2025",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
+        "name": "Professor Photon",
+        "class": ["Medic"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Professor_Photon",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/0/09/Backpack_Professor_Photon.png/90px-Backpack_Professor_Photon.png",
+        "date": "9 October 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Mad Drip",
+        "class": ["Medic"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Mad_Drip",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/7/71/Backpack_Mad_Drip.png/90px-Backpack_Mad_Drip.png",
+        "date": "9 October 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Viscera Visor",
+        "class": ["Medic"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Viscera_Visor",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/f/f3/Backpack_Viscera_Visor.png/90px-Backpack_Viscera_Visor.png",
+        "date": "9 October 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Feathered Foe",
+        "class": ["Sniper"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Feathered_Foe",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/9/99/Backpack_Feathered_Foe.png/90px-Backpack_Feathered_Foe.png",
+        "date": "9 October 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Velveteen Villain",
+        "class": ["Sniper"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Velveteen_Villain",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/2/21/Backpack_Velveteen_Villain.png/90px-Backpack_Velveteen_Villain.png",
+        "date": "9 October 2025",
+        "grade": "Assassin",
+        "gradeColor": "#D32CE6"
+    },
+    {
+        "name": "Pantaloons of Unabashed Villainy",
+        "class": ["Sniper"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Pantaloons_of_Unabashed_Villainy",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/1/10/Backpack_Pantaloons_of_Unabashed_Villainy.png/90px-Backpack_Pantaloons_of_Unabashed_Villainy.png",
+        "date": "9 October 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Misdirector",
+        "class": ["Spy"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Misdirector",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/8/89/Backpack_Misdirector.png/90px-Backpack_Misdirector.png",
+        "date": "9 October 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Sleight of Hand",
+        "class": ["Spy"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Sleight_of_Hand",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/2/28/Backpack_Sleight_of_Hand.png/90px-Backpack_Sleight_of_Hand.png",
+        "date": "9 October 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Vanishing Act",
+        "class": ["Spy"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Vanishing_Act",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/4/43/Backpack_Vanishing_Act.png/90px-Backpack_Vanishing_Act.png",
+        "date": "9 October 2025",
+        "grade": "Assassin",
+        "gradeColor": "#D32CE6"
+    },
+    {
+        "name": "Face Lift",
+        "class": ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "Holiday Restriction: Halloween / Full Moon",
+        "url": "https://wiki.teamfortress.com/wiki/Face_Lift",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/5/53/Backpack_Face_Lift.png/90px-Backpack_Face_Lift.png",
+        "date": "9 October 2025",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
+        "name": "Zepheniah's Shroud",
+        "class": ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"],
+        "update": ["October 9, 2025 Patch", "Scream Fortress XVII"],
+        "restriction": "Holiday Restriction: Halloween / Full Moon",
+        "url": "https://wiki.teamfortress.com/wiki/Zepheniah%27s_Shroud",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/0/0e/Backpack_Zepheniah%27s_Shroud.png/90px-Backpack_Zepheniah%27s_Shroud.png",
+        "date": "9 October 2025",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
+        "name": "Mann of the Hour",
+        "class": ["Scout"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Mann_of_the_Hour",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/a/a4/Backpack_Mann_of_the_Hour.png/90px-Backpack_Mann_of_the_Hour.png",
+        "date": "24 July 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Headliner",
+        "class": ["Scout"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Headliner",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/7/71/Backpack_Headliner.png/90px-Backpack_Headliner.png",
+        "date": "24 July 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Case of the Blues",
+        "class": ["Scout"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Case_of_the_Blues",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/4/4d/Backpack_Case_of_the_Blues.png/90px-Backpack_Case_of_the_Blues.png",
+        "date": "24 July 2025",
+        "grade": "Assassin",
+        "gradeColor": "#D32CE6"
+    },
+    {
+        "name": "Jarhead",
+        "class": ["Soldier"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Jarhead",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/c/cf/Backpack_Jarhead.png/90px-Backpack_Jarhead.png",
+        "date": "24 July 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Abyss Diver",
+        "class": ["Pyro"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Abyss_Diver",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/4/4d/Backpack_Abyss_Diver.png/90px-Backpack_Abyss_Diver.png",
+        "date": "24 July 2025",
+        "grade": "Assassin",
+        "gradeColor": "#D32CE6"
+    },
+    {
+        "name": "Frogmann's Fittings",
+        "class": ["Pyro"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Frogmann%27s_Fittings",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/b/b6/Backpack_Frogmann%27s_Fittings.png/90px-Backpack_Frogmann%27s_Fittings.png",
+        "date": "24 July 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Oxygen Provider",
+        "class": ["Pyro"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Oxygen_Provider",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/2/22/Backpack_Oxygen_Provider.png/90px-Backpack_Oxygen_Provider.png",
+        "date": "24 July 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Short Fuse",
+        "class": ["Demoman"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Short_Fuse",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/8/8e/Backpack_Short_Fuse.png/90px-Backpack_Short_Fuse.png",
+        "date": "24 July 2025",
+        "grade": "Assassin",
+        "gradeColor": "#D32CE6"
+    },
+    {
+        "name": "Hunk of Monk",
+        "class": ["Heavy"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Hunk_of_Monk",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/1/15/Backpack_Hunk_of_Monk.png/90px-Backpack_Hunk_of_Monk.png",
+        "date": "24 July 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Fat Friar",
+        "class": ["Heavy"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Fat_Friar",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/5/58/Backpack_Fat_Friar.png/90px-Backpack_Fat_Friar.png",
+        "date": "24 July 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Mr. Rostov",
+        "class": ["Heavy"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Mr._Rostov",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/7/7b/Backpack_Mr._Rostov.png/90px-Backpack_Mr._Rostov.png",
+        "date": "24 July 2025",
+        "grade": "Assassin",
+        "gradeColor": "#D32CE6"
+    },
+    {
+        "name": "Esprit de Corps",
+        "class": ["Heavy"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Esprit_de_Corps",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/1/1f/Backpack_Esprit_de_Corps.png/90px-Backpack_Esprit_de_Corps.png",
+        "date": "24 July 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Hardcore Pantalon",
+        "class": ["Heavy"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Hardcore_Pantalon",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/7/7a/Backpack_Hardcore_Pantalon.png/90px-Backpack_Hardcore_Pantalon.png",
+        "date": "24 July 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Cattleman's Kettle",
+        "class": ["Engineer"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Cattleman%27s_Kettle",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/b/bc/Backpack_Cattleman%27s_Kettle.png/90px-Backpack_Cattleman%27s_Kettle.png",
+        "date": "24 July 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Sir Buildsalot",
+        "class": ["Engineer"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Sir_Buildsalot",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/a/a3/Backpack_Sir_Buildsalot.png/90px-Backpack_Sir_Buildsalot.png",
+        "date": "24 July 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Shadow of Doubt",
+        "class": ["Medic"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Shadow_of_Doubt",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/e/ec/Backpack_Shadow_of_Doubt.png/90px-Backpack_Shadow_of_Doubt.png",
+        "date": "24 July 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Clinical Investigator",
+        "class": ["Medic"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Clinical_Investigator",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/a/a1/Backpack_Clinical_Investigator.png/90px-Backpack_Clinical_Investigator.png",
+        "date": "24 July 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Blindin' Bonnet",
+        "class": ["Sniper"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Blindin%27_Bonnet",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/b/b4/Backpack_Blindin%27_Bonnet.png/90px-Backpack_Blindin%27_Bonnet.png",
+        "date": "24 July 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Shady Shelby",
+        "class": ["Sniper"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Shady_Shelby",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/1/1f/Backpack_Shady_Shelby.png/90px-Backpack_Shady_Shelby.png",
+        "date": "24 July 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Le Sapeur",
+        "class": ["Spy"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Le_Sapeur",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/5/5a/Backpack_Le_Sapeur.png/90px-Backpack_Le_Sapeur.png",
+        "date": "24 July 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Le Morne Uniforme",
+        "class": ["Spy"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Le_Morne_Uniforme",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/e/e0/Backpack_Le_Morne_Uniforme.png/90px-Backpack_Le_Morne_Uniforme.png",
+        "date": "24 July 2025",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Spy Ties",
+        "class": ["Spy"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Spy_Ties",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/f/ff/Backpack_Spy_Ties.png/90px-Backpack_Spy_Ties.png",
+        "date": "24 July 2025",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Team Cap",
+        "class": ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"],
+        "update": ["July 24, 2025 Patch", "Summer 2025 Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Team_Cap",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/1/11/Backpack_Team_Cap.png/90px-Backpack_Team_Cap.png",
+        "date": "24 July 2025",
+        "grade": "Elite",
+        "gradeColor": "#EB4B4B"
+    },
+    {
         "name": "Crimbo Cap",
         "class": ["Scout"],
         "update": ["December 11, 2024 Patch", "Smissmas 2024"],
@@ -990,6 +1540,17 @@
         "gradeColor": "#D32CE6"
     },
     {
+        "name": "Balkans Brute",
+        "class": ["Heavy"],
+        "update": ["December 7, 2023 Patch", "Smissmas 2023"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Balkans_Brute",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/3/37/Backpack_Balkans_Brute.png/90px-Backpack_Balkans_Brute.png",
+        "date": "7 December 2023",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
         "name": "Jumping Jester",
         "class": ["Scout"],
         "update": ["October 9, 2023 Patch", "Scream Fortress XV"],
@@ -1304,6 +1865,17 @@
         "restriction": "",
         "url": "https://wiki.teamfortress.com/wiki/Mean_Captain",
         "src": "https://wiki.teamfortress.com//w/images/thumb/b/bd/Backpack_Mean_Captain.png/90px-Backpack_Mean_Captain.png",
+        "date": "9 October 2023",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
+    },
+    {
+        "name": "Shortness of Breath",
+        "class": ["Soldier"],
+        "update": ["October 9, 2023 Patch", "Scream Fortress XV"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Shortness_of_Breath",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/d/d3/Backpack_Shortness_of_Breath.png/90px-Backpack_Shortness_of_Breath.png",
         "date": "9 October 2023",
         "grade": "Mercenary",
         "gradeColor": "#4B69FF"
@@ -5071,6 +5643,17 @@
         "gradeColor": "#D32CE6"
     },
     {
+        "name": "Terror-Antula",
+        "class": ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"],
+        "update": ["October 19, 2018 Patch", "Scream Fortress X"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Terror-Antula",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/a/a7/Backpack_Terror-Antula.png/90px-Backpack_Terror-Antula.png",
+        "date": "19 October 2018",
+        "grade": "Assassin",
+        "gradeColor": "#D32CE6"
+    },
+    {
         "name": "Antarctic Eyewear",
         "class": ["Scout", "Demoman", "Engineer", "Sniper"],
         "update": ["March 28, 2018 Patch", "Blue Moon Pack"],
@@ -5993,6 +6576,28 @@
         "date": "20 October 2017",
         "grade": "Elite",
         "gradeColor": "#EB4B4B"
+    },
+    {
+        "name": "D-Eye-Monds",
+        "class": ["Pyro"],
+        "update": ["October 20, 2017 Patch", "Jungle Inferno Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/D-Eye-Monds",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/4/49/Backpack_D-Eye-Monds.png/90px-Backpack_D-Eye-Monds.png",
+        "date": "20 October 2017",
+        "grade": "Commando",
+        "gradeColor": "#8847FF"
+    },
+    {
+        "name": "Conagher's Utility Idol",
+        "class": ["Engineer"],
+        "update": ["October 20, 2017 Patch", "Jungle Inferno Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Conagher%27s_Utility_Idol",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/0/05/Backpack_Conagher%27s_Utility_Idol.png/90px-Backpack_Conagher%27s_Utility_Idol.png",
+        "date": "20 October 2017",
+        "grade": "Mercenary",
+        "gradeColor": "#4B69FF"
     },
     {
         "name": "Airborne Attire",
@@ -8129,6 +8734,17 @@
         "gradeColor": "#FFD700"
     },
     {
+        "name": "Clubsy the Seal",
+        "class": ["Engineer"],
+        "update": ["December 22, 2014 Patch", "Smissmas 2014"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Clubsy_the_Seal",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/4/4c/Backpack_Clubsy_the_Seal.png/90px-Backpack_Clubsy_the_Seal.png",
+        "date": "22 December 2014",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
         "name": "Cold Snap Coat",
         "class": ["Soldier"],
         "update": ["December 12, 2014 Patch"],
@@ -9642,6 +10258,17 @@
         "restriction": "",
         "url": "https://wiki.teamfortress.com/wiki/Vive_La_France",
         "src": "https://wiki.teamfortress.com//w/images/thumb/6/6c/Backpack_Vive_La_France.png/90px-Backpack_Vive_La_France.png",
+        "date": "18 June 2014",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
+        "name": "Vive la France",
+        "class": ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"],
+        "update": ["June 18, 2014 Patch", "Love & War Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Vive_la_France",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/1/14/Backpack_Vive_la_France.png/90px-Backpack_Vive_la_France.png",
         "date": "18 June 2014",
         "grade": "Unique",
         "gradeColor": "#FFD700"
@@ -12782,6 +13409,17 @@
         "gradeColor": "#FFD700"
     },
     {
+        "name": "Das \u00dcbersternmann",
+        "class": ["Medic"],
+        "update": ["July 10, 2013 Patch", "Summer Event 2013"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Das_%C3%9Cbersternmann",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/a/ab/Backpack_Das_%C3%9Cbersternmann.png/90px-Backpack_Das_%C3%9Cbersternmann.png",
+        "date": "10 July 2013",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
         "name": "Beastly Bonnet",
         "class": ["Scout"],
         "update": ["June 13, 2013 Patch", "Second Workshop Content Pack"],
@@ -15103,6 +15741,17 @@
         "gradeColor": "#FFD700"
     },
     {
+        "name": "U-Clank-A",
+        "class": ["Heavy"],
+        "update": ["August 15, 2012 Patch", "Mann vs. Machine Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/U-Clank-A",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/2/26/Backpack_U-Clank-A.png/90px-Backpack_U-Clank-A.png",
+        "date": "15 August 2012",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
         "name": "Void Monk Hair",
         "class": ["Scout"],
         "update": ["August 10, 2012 Patch"],
@@ -15406,6 +16055,17 @@
         "restriction": "",
         "url": "https://wiki.teamfortress.com/wiki/Robot_Chicken_Hat",
         "src": "https://wiki.teamfortress.com//w/images/thumb/7/7f/Backpack_Robot_Chicken_Hat.png/90px-Backpack_Robot_Chicken_Hat.png",
+        "date": "27 June 2012",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
+        "name": "Helmet without a Home",
+        "class": ["Soldier"],
+        "update": ["June 27, 2012 Patch", "Pyromania Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Helmet_without_a_Home",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/1/14/Backpack_Helmet_without_a_Home.png/90px-Backpack_Helmet_without_a_Home.png",
         "date": "27 June 2012",
         "grade": "Unique",
         "gradeColor": "#FFD700"
@@ -16533,6 +17193,17 @@
         "gradeColor": "#FFD700"
     },
     {
+        "name": "B-Ankh!",
+        "class": ["Scout"],
+        "update": ["October 27, 2011 Patch", "Very Scary Halloween Special"],
+        "restriction": "Holiday Restriction: Halloween / Full Moon",
+        "url": "https://wiki.teamfortress.com/wiki/B-Ankh!",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/4/44/Backpack_B-Ankh%21.png/90px-Backpack_B-Ankh%21.png",
+        "date": "27 October 2011",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
         "name": "Backwards Ballcap",
         "class": ["Scout"],
         "update": ["October 13, 2011 Patch", "Manniversary Update & Sale"],
@@ -16902,6 +17573,17 @@
         "restriction": "",
         "url": "https://wiki.teamfortress.com/wiki/Salty_Dog",
         "src": "https://wiki.teamfortress.com//w/images/thumb/f/fa/Backpack_Salty_Dog.png/90px-Backpack_Salty_Dog.png",
+        "date": "13 October 2011",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
+        "name": "Hat with No Name",
+        "class": ["Soldier", "Demoman", "Engineer", "Sniper"],
+        "update": ["October 13, 2011 Patch", "Manniversary Update & Sale"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Hat_with_No_Name",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/7/7c/Backpack_Hat_with_No_Name.png/90px-Backpack_Hat_with_No_Name.png",
         "date": "13 October 2011",
         "grade": "Unique",
         "gradeColor": "#FFD700"
@@ -17573,6 +18255,17 @@
         "restriction": "",
         "url": "https://wiki.teamfortress.com/wiki/Frontline_Field_Recorder",
         "src": "https://wiki.teamfortress.com//w/images/thumb/8/85/Backpack_Frontline_Field_Recorder.png/90px-Backpack_Frontline_Field_Recorder.png",
+        "date": "5 May 2011",
+        "grade": "Unique",
+        "gradeColor": "#FFD700"
+    },
+    {
+        "name": "Large Luchador",
+        "class": ["Heavy"],
+        "update": ["May 5, 2011 Patch", "Replay Update"],
+        "restriction": "",
+        "url": "https://wiki.teamfortress.com/wiki/Large_Luchador",
+        "src": "https://wiki.teamfortress.com//w/images/thumb/d/d2/Backpack_Large_Luchador.png/90px-Backpack_Large_Luchador.png",
         "date": "5 May 2011",
         "grade": "Unique",
         "gradeColor": "#FFD700"

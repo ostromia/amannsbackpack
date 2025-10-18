@@ -202,7 +202,7 @@ def download_cosmetics_images():
 
 if __name__ == "__main__":
     # get_cosmetics_urls()
-    append_cosmetics_urls()
+    # append_cosmetics_urls()
     # get_cosmetics_data()
     # update_cosmetics_data()
-    # download_cosmetics_images()
+    download_cosmetics_images()
