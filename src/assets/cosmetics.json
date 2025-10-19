@@ -1870,17 +1870,6 @@
         "gradeColor": "#4B69FF"
     },
     {
-        "name": "Shortness of Breath",
-        "class": ["Soldier"],
-        "update": ["October 9, 2023 Patch", "Scream Fortress XV"],
-        "restriction": "",
-        "url": "https://wiki.teamfortress.com/wiki/Shortness_of_Breath",
-        "src": "https://wiki.teamfortress.com//w/images/thumb/d/d3/Backpack_Shortness_of_Breath.png/90px-Backpack_Shortness_of_Breath.png",
-        "date": "9 October 2023",
-        "grade": "Mercenary",
-        "gradeColor": "#4B69FF"
-    },
-    {
         "name": "Brimmed Bootlegger",
         "class": ["Scout"],
         "update": ["July 12, 2023 Patch", "Summer 2023 Update"],
@@ -5632,17 +5621,6 @@
         "gradeColor": "#EB4B4B"
     },
     {
-        "name": "Terror-antula",
-        "class": ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"],
-        "update": ["October 19, 2018 Patch", "Scream Fortress 2018"],
-        "restriction": "",
-        "url": "https://wiki.teamfortress.com/wiki/Terror-antula",
-        "src": "https://wiki.teamfortress.com//w/images/thumb/e/ed/Backpack_Terror-antula.png/90px-Backpack_Terror-antula.png",
-        "date": "19 October 2018",
-        "grade": "Assassin",
-        "gradeColor": "#D32CE6"
-    },
-    {
         "name": "Terror-Antula",
         "class": ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"],
         "update": ["October 19, 2018 Patch", "Scream Fortress X"],
@@ -6202,17 +6180,6 @@
         "date": "20 October 2017",
         "grade": "Elite",
         "gradeColor": "#EB4B4B"
-    },
-    {
-        "name": "D-eye-monds",
-        "class": ["Pyro"],
-        "update": ["October 20, 2017 Patch", "Jungle Inferno Update"],
-        "restriction": "",
-        "url": "https://wiki.teamfortress.com/wiki/D-eye-monds",
-        "src": "https://wiki.teamfortress.com//w/images/thumb/9/93/Backpack_D-eye-monds.png/90px-Backpack_D-eye-monds.png",
-        "date": "20 October 2017",
-        "grade": "Commando",
-        "gradeColor": "#8847FF"
     },
     {
         "name": "Deity's Dress",
@@ -8569,17 +8536,6 @@
         "gradeColor": "#FFD700"
     },
     {
-        "name": "Clubsy The Seal",
-        "class": ["Engineer"],
-        "update": ["December 22, 2014 Patch", "Smissmas 2014"],
-        "restriction": "",
-        "url": "https://wiki.teamfortress.com/wiki/Clubsy_The_Seal",
-        "src": "https://wiki.teamfortress.com//w/images/thumb/5/58/Backpack_Clubsy_The_Seal.png/90px-Backpack_Clubsy_The_Seal.png",
-        "date": "22 December 2014",
-        "grade": "Unique",
-        "gradeColor": "#FFD700"
-    },
-    {
         "name": "Conagher's Combover",
         "class": ["Engineer"],
         "update": ["December 22, 2014 Patch", "Smissmas 2014"],
@@ -10247,17 +10203,6 @@
         "restriction": "",
         "url": "https://wiki.teamfortress.com/wiki/Towering_Pillar_of_Summer_Shades",
         "src": "https://wiki.teamfortress.com//w/images/thumb/d/d1/Backpack_Towering_Pillar_of_Summer_Shades.png/90px-Backpack_Towering_Pillar_of_Summer_Shades.png",
-        "date": "18 June 2014",
-        "grade": "Unique",
-        "gradeColor": "#FFD700"
-    },
-    {
-        "name": "Vive La France",
-        "class": ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"],
-        "update": ["June 18, 2014 Patch", "Love & War Update"],
-        "restriction": "",
-        "url": "https://wiki.teamfortress.com/wiki/Vive_La_France",
-        "src": "https://wiki.teamfortress.com//w/images/thumb/6/6c/Backpack_Vive_La_France.png/90px-Backpack_Vive_La_France.png",
         "date": "18 June 2014",
         "grade": "Unique",
         "gradeColor": "#FFD700"
@@ -15653,17 +15598,6 @@
         "gradeColor": "#FFD700"
     },
     {
-        "name": "U-clank-a",
-        "class": ["Heavy"],
-        "update": ["August 15, 2012 Patch", "Mann vs. Machine Update"],
-        "restriction": "",
-        "url": "https://wiki.teamfortress.com/wiki/U-clank-a",
-        "src": "https://wiki.teamfortress.com//w/images/thumb/d/d5/Backpack_U-clank-a.png/90px-Backpack_U-clank-a.png",
-        "date": "15 August 2012",
-        "grade": "Unique",
-        "gradeColor": "#FFD700"
-    },
-    {
         "name": "Tin-1000",
         "class": ["Engineer"],
         "update": ["August 15, 2012 Patch", "Mann vs. Machine Update"],
@@ -15901,17 +15835,6 @@
         "restriction": "",
         "url": "https://wiki.teamfortress.com/wiki/Captain%27s_Cocktails",
         "src": "https://wiki.teamfortress.com//w/images/thumb/d/d8/Backpack_Captain%27s_Cocktails.png/90px-Backpack_Captain%27s_Cocktails.png",
-        "date": "27 June 2012",
-        "grade": "Unique",
-        "gradeColor": "#FFD700"
-    },
-    {
-        "name": "Helmet Without a Home",
-        "class": ["Soldier"],
-        "update": ["June 27, 2012 Patch", "Pyromania Update"],
-        "restriction": "",
-        "url": "https://wiki.teamfortress.com/wiki/Helmet_Without_a_Home",
-        "src": "https://wiki.teamfortress.com//w/images/thumb/7/78/Backpack_Helmet_Without_a_Home.png/90px-Backpack_Helmet_Without_a_Home.png",
         "date": "27 June 2012",
         "grade": "Unique",
         "gradeColor": "#FFD700"
@@ -16808,17 +16731,6 @@
         "gradeColor": "#FFD700"
     },
     {
-        "name": "B-ankh!",
-        "class": ["Scout"],
-        "update": ["October 27, 2011 Patch", "Very Scary Halloween Special"],
-        "restriction": "Holiday Restriction: Halloween / Full Moon",
-        "url": "https://wiki.teamfortress.com/wiki/B-ankh!",
-        "src": "https://wiki.teamfortress.com//w/images/thumb/8/89/Backpack_B-ankh%21.png/90px-Backpack_B-ankh%21.png",
-        "date": "27 October 2011",
-        "grade": "Unique",
-        "gradeColor": "#FFD700"
-    },
-    {
         "name": "Futankhamun",
         "class": ["Scout"],
         "update": ["October 27, 2011 Patch", "Very Scary Halloween Special"],
@@ -17243,17 +17155,6 @@
         "restriction": "",
         "url": "https://wiki.teamfortress.com/wiki/Stereoscopic_Shades",
         "src": "https://wiki.teamfortress.com//w/images/thumb/8/82/Backpack_Stereoscopic_Shades.png/90px-Backpack_Stereoscopic_Shades.png",
-        "date": "13 October 2011",
-        "grade": "Unique",
-        "gradeColor": "#FFD700"
-    },
-    {
-        "name": "Hat With No Name",
-        "class": ["Soldier", "Demoman", "Engineer", "Sniper"],
-        "update": ["October 13, 2011 Patch", "Manniversary Update & Sale"],
-        "restriction": "",
-        "url": "https://wiki.teamfortress.com/wiki/Hat_With_No_Name",
-        "src": "https://wiki.teamfortress.com//w/images/thumb/0/05/Backpack_Hat_With_No_Name.png/90px-Backpack_Hat_With_No_Name.png",
         "date": "13 October 2011",
         "grade": "Unique",
         "gradeColor": "#FFD700"
